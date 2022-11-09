@@ -21,7 +21,10 @@ font-weight: 800;
 border-bottom: 1px solid var(--primary-low) !important;
 }
 .topic-list .views {
- order: 3;
+ order: 2;
+display: flex;
+justify-content: center;
+align-items: center;
 }
  .d-header-icons .icon {
  height: 2em;
