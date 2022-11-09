@@ -1,3 +1,9 @@
+.wrap {
+ width:inherit !important;
+}
+.btn, a {
+ transition: none !important;
+}
 // custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
