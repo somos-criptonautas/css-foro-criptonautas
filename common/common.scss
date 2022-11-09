@@ -12,7 +12,7 @@
  margin: 0;
  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-font-family: 'Inter Tight';
+font-family: var(--heading-font-family);
 font-size: 1.63rem;
 line-height: 1;
 font-weight: 800;
@@ -312,12 +312,12 @@ align-items: center;
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
-   @media screen and (max-width: 991px) {
+   @media screen and (max-width: 1199px) {
  html {
  font-size: 18px;
  }
 }
-   @media screen and (min-width: 992px) {
+   @media screen and (min-width: 1200px) {
  html {
  font-size: 22px;
  }
