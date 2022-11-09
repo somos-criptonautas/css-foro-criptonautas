@@ -353,14 +353,22 @@ align-items: center;
 .extra-info-wrapper .header-title {
  font-size: var(--font-1);
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 .tc-right-sidebar + #list-area {
  width: calc(75% - 1em);
 }
-  .d-header .title {
+}
+  @media screen and (max-width: 767px) {
+.d-header .title {
    display: none;
   }
 }
+  @media screen and (max-width: 992px {
+.tc-right-sidebar {
+display: none;
+}
+}
+.tc-right-sidebar
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
  width: 5%;
 }
