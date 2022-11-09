@@ -335,17 +335,7 @@ border-bottom: 1px solid var(--primary-low) !important;
      padding: 1.5em;
      margin-top: 0;
    }
-   padding-bottom: 5% !important; //overriding inline style
-   @media screen and (max-width: 1120px) {
-     width: 80%;
-    margin: auto;
-   }
-   @media screen and (max-width: 1075px) {
-     width: 85%;
-    margin: auto;
-   }
- }
- 
+}
  .nav-pills > li > a {
  border-radius: 0.5em;
  padding: 0.55rem 0.75rem;
