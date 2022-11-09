@@ -20,6 +20,9 @@
   .btn {
     height: 100%;
   }
+ .btn-primary {
+ padding: 0.55rem 1rem !important;
+ }
   .search-menu input[type="text"] {
     border: 1px solid transparent;
     border-radius: 0.25em;
@@ -30,7 +33,7 @@
   }
   .widget-link.show-help {
     color: rgba(var(--primary-rgb), 0.75);
-    border-radius: 0.5em;
+    border-radius: 0.25em;
     padding: 0.5em;
     background-color: rgba(var(--secondary-rgb), 0.25);
     &:hover {
@@ -259,7 +262,9 @@ font-size: var(--font-0) !important;
 }
 .discourse-tag {
 padding: 0.25em 0.63rem;
-
+}
+html body {
+background: none !important;
 }
  html body #main-outlet {
   margin-top: 30px;
