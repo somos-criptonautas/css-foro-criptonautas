@@ -6,6 +6,11 @@
 --secondary-very-high: #fa8047;
 --font-down-1: --font-0;
  }
+topic-list-data {
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+}
  .topic-list td {
  font-size: var(--font-up-3);
  }
