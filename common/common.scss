@@ -157,7 +157,7 @@ div.ac-wrap {
   border-radius: 4px;
 }
 .d-header {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: none;
 }
 
 .d-header-icons .d-icon {
@@ -262,16 +262,16 @@ font-size: var(--font-0) !important;
 }
 .discourse-tag {
 padding: 0.25em 0.63rem;
+margin: 0.25rem 0.5rem;
 }
 html body {
 background: none !important;
 }
  html body #main-outlet {
-  margin-top: 30px;
   margin-bottom: 50px;
   background: var(--secondary);
   border-radius: 1em;
-  padding: 3em 3em 5%;
+  padding: 2em 3em 5%;
   .archetype-regular & {
     min-height: 500px;
   }
@@ -282,15 +282,24 @@ background: none !important;
   padding-bottom: 5% !important; //overriding inline style
   @media screen and (max-width: 1120px) {
     width: 80%;
+   margin: auto;
   }
   @media screen and (max-width: 1075px) {
     width: 85%;
+   margin: auto;
   }
 }
 
 .nav-pills > li > a {
 border-radius: 0.5em;
 padding: 0.55rem 0.75rem;
+}
+
+.d-header #site-logo {
+height: 3rem;
+}
+.d-header {
+font-size:1.15rem;
 }
 
 // Topic List
@@ -484,10 +493,6 @@ padding: 0.55rem 0.75rem;
       }
     }
   }
-}
-
-.navigation-container {
-  margin-top: 2em;
 }
 
 // published page additions
