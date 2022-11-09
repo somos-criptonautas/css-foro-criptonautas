@@ -316,9 +316,16 @@ align-items: center;
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
+   @media screen and (max-width: 991px) {
+ html {
+ font-size: 18px;
+ }
+}
+   @media screen and (min-width: 992px) {
  html {
  font-size: 22px;
  }
+}
  .list-tags,
  .discourse-tag {
  font-size: var(--font-0) !important;
