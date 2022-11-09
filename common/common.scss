@@ -31,9 +31,14 @@ font-size: 1.75em !important;
 .switch.light .slider {
 
 .full-width .contents .topic-list .topic-list-body .topic-list-item {
-border-radius: 0.5rem;
-background-color: none;
+border-radius: 0.5rem !important;
+background-color: none !important;
+border: 0 !important;
 }
+ .full-width .contents .topic-list .topic-list-body .topic-list-item,
+ .full-width .contents .topic-list .topic-list-body .topic-list-item:hover {
+ box-shadow: none !important;
+ }
 .switch {
 width: 3.5rem;
 height: 2rem;
