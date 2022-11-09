@@ -15,9 +15,9 @@
     "air-light": {
       "primary": "1c1c1c",
       "secondary": "f9fcff",
-      "tertiary": "3877e5",
+      "tertiary": "ed5107",
       "quaternary": "7e8b93",
-      "header_background": "ed5107",
+      "header_background": "f9fcff",
       "header_primary": "122b43",
       "highlight": "e6cb37",
       "danger": "d05454",
