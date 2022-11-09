@@ -3,7 +3,7 @@
  --line-height-medium: 1.5;
  --line-height-large: 1.7;
  --secondary-high: #f85e15;
- --secondary-low: #fa8047;
+--secondary-very-high: #fa8047;
  }
  .topic-list td {
  font-size: var(--font-up-3);
@@ -11,17 +11,25 @@
  .switch span.toggle-icon {
  margin: 0;
  }
+.full-width .contents .topic-list .topic-list-item .main-link .title {
+font-family: 'Inter Tight';
+font-size: 1.63rem;
+line-height: 1;
+font-weight: 800;
+}
+.topic-list-item {
+border-bottom: 1px solid var(--primary-low) !important;
+}
  .d-header-icons .icon {
  height: 2em;
  width: 2em;
  }
  .switch span.toggle-icon .d-icon {
  width: 1.23rem;
- font-size: 1.23rem;
  }
  .slider {
- height: 1rem;
- weight: 1rem;
+ height: 1rem !important;
+ weight: 1rem !important;
  left: 0.5rem;
  top: calc(50% - 0.63rem);
  }
@@ -42,7 +50,7 @@
  height: 2rem;
  border-radius: 3.33rem;
  border: 2px solid var(--primary-low-mid);
- padding: 0 0.25rem;
+ padding: 0 0.5rem;
  }
  .wrap {
   max-width:inherit !important;
@@ -458,8 +466,9 @@
    }
  }
  
- .topic-list-data.num.age  {
-   display: none;
+ .topic-list-data.num.age,
+.topic-list-data.activity {
+   display: none !important;
  }
  
  .full-width .contents .topic-list .topic-list-item .posters a.latest {
