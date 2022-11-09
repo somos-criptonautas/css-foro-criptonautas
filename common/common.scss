@@ -2,6 +2,8 @@
  --line-height-small: 1.3;
 --line-height-medium: 1.5;
 --line-height-large: 1.7;
+--secondary-high: #f85e15;
+--secondary-low: #fa8047;
 }
 .topic-list td {
 font-size: var(--font-up-3);
@@ -17,9 +19,17 @@ width: 2em;
 width: 1.23rem;
 font-size: 1.23rem;
 }
-.d-header-icons .icon svg {
-font-size: 1.75em;
+.slider {
+height: 1rem;
+weight: 1rem;
+left: 0.5rem;
+top: calc(50% - 0.63rem);
 }
+.d-header-icons .icon svg {
+font-size: 1.75em !important;
+}
+.switch.light .slider {
+
 .full-width .contents .topic-list .topic-list-body .topic-list-item {
 border-radius: 0.5rem;
 background-color: none;
