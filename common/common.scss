@@ -210,6 +210,8 @@ border-bottom: 1px solid var(--primary-low) !important;
  }
  .d-header {
    box-shadow: none;
+   width: inherit !important;
+   
  }
  
  .d-header-icons .d-icon {
@@ -326,7 +328,6 @@ border-bottom: 1px solid var(--primary-low) !important;
    margin-bottom: 50px;
    background: var(--secondary);
    border-radius: 1em;
-   padding: 0 3em 5%;
    .archetype-regular & {
      min-height: 500px;
    }
