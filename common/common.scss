@@ -15,7 +15,7 @@
 font-family: var(--heading-font-family);
 font-size: 1.63rem;
 line-height: 1;
-font-weight: 800;
+font-weight: 900;
 }
 .topic-list-item {
 border-bottom: 1px solid var(--primary-low) !important;
@@ -345,6 +345,20 @@ align-items: center;
      padding: 1.5em;
      margin-top: 0;
    }
+}
+@media screen and (min-width: 767px) {
+.tc-right-sidebar + #list-area {
+ width: calc(75% - 1em);
+}
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
+ width: 5%;
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
+   width: 85%;
+}
+#main-outlet {
+padding: 0;
 }
  .nav-pills > li > a {
  border-radius: 0.5em;
