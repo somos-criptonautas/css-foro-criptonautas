@@ -3,14 +3,33 @@
 --line-height-medium: 1.5;
 --line-height-large: 1.7;
 }
-
+.topic-list td {
+font-size: var(--font-up-3);
+}
 .switch span.toggle-icon {
 margin: 0;
 }
+.d-header-icons .icon {
+height: 2em;
+width: 2em;
+}
+.switch span.toggle-icon .d-icon {
+width: 1.23rem;
+font-size: 1.23rem;
+}
+.d-header-icons .icon svg {
+font-size: 1.75em;
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item {
+border-radius: 0.5rem;
+background-color: none;
+}
 .switch {
 width: 3.5rem;
- height: 2.25rem;
- border-radius: 3.33rem;
+height: 2rem;
+border-radius: 3.33rem;
+border: 2px solid var(--primary-low-mid);
+padding: 0 0.25rem;
 }
 .wrap {
  max-width:inherit !important;
