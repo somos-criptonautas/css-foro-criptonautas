@@ -19,11 +19,11 @@ width: 3.5rem;
 .btn, a {
  transition: none !important;
 }
-// custom search banner customizations
 .custom-search-banner-wrap {
   margin: 0 auto !important;
   max-width: unset;
   color: var(--secondary);
+}
   h1 {
     font-size: 4em;
   }
@@ -67,12 +67,9 @@ width: 3.5rem;
     top: 3.25em;
     right: 1em;
   }
-}
-
 .search-input {
   border-radius: 0.25em;
 }
-
 .display-search-banner {
   #main-outlet {
     padding-top: 2em;
