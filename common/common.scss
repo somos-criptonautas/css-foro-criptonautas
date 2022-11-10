@@ -371,8 +371,18 @@ display: none;
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
  width: 5%;
 }
+.sidebar-more-section-links-details .sidebar-more-section-links-details-summary {
+ padding: 1rem 0;
+}
+.sidebar-section-wrapper .sidebar-section-header-wrapper {
+height: 2rem;
+}
+#main-outlet-wrapper .sidebar-wrapper {
+box-shadow: none;
+padding: 1rem 0 1rem 1rem;
+}
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
-   width: 85%;
+   width: 85% !important;
 }
 #main-outlet {
 padding: 0;
