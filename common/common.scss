@@ -6,6 +6,9 @@
 --secondary-very-high: #fa8047;
 --font-down-1: --font-0;
  }
+.admin-main-nav .nav-pills > li {
+margin: 0 0.25rem;
+}
 topic-list-data {
   display: inherit;
   justify-content: center;
