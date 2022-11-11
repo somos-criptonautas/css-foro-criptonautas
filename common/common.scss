@@ -380,12 +380,12 @@ display: none;
 onboarding-popup-content {
 font-size: inherit !important;
 }
-.sidebar-section-wrapper .sidebar-section-header-wrapper {
+.sidebar-section-link-wrapper .sidebar-section-link {
 height: 2rem !important;
 }
 #main-outlet-wrapper .sidebar-wrapper {
-box-shadow: none;
-padding: 1rem 0 1rem 1rem;
+box-shadow: none !important;
+padding: 1rem 0 1rem 1rem !important;
 }
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
    width: 85% !important;
