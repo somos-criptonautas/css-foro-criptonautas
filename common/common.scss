@@ -363,7 +363,7 @@ align-items: center;
 }
   @media screen and (max-width: 767px) {
 .d-header .title {
-   display: none;
+   display: none !important;
   }
 }
   @media screen and (max-width: 992px) {
@@ -377,8 +377,11 @@ display: none;
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary {
  padding: 1rem 0;
 }
+onboarding-popup-content {
+font-size: inherit !important;
+}
 .sidebar-section-wrapper .sidebar-section-header-wrapper {
-height: 2rem;
+height: 2rem !important;
 }
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none;
