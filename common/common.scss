@@ -399,6 +399,10 @@ font-size: var(--font-0);
  height: 3rem;
  }
  
+ .topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
+  font-size: var(--font-up);
+ }
+
  // Topic List
  
  @keyframes background-fade-highlight {
