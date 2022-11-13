@@ -14,9 +14,6 @@ topic-list-data {
   justify-content: center;
   align-items: center;
 }
- .topic-list td {
- font-size: var(--font-up-3);
- }
  .switch span.toggle-icon {
  margin: 0;
  }
@@ -370,9 +367,6 @@ align-items: center;
 display: none;
 }
 }
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts {
- width: 5%;
-}
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary {
  padding: 1rem 0;
 }
@@ -396,8 +390,11 @@ padding: 0;
  .nav-pills > li > a {
  border-radius: 0.5em;
  padding: 0.55rem 0.75rem;
+ font-size: var(--font-0);
  }
- 
+ .nav-pills > li > a, .nav-pills > li button {
+font-size: var(--font-0);
+ }
  .d-header #site-logo {
  height: 3rem;
  }
@@ -430,10 +427,10 @@ padding: 0;
        width: 7%;
      }
      .topic-list-data.posts {
-       width: 15%;
+       width: 11%;
      }
      .topic-list-data.activity {
-       width: 15%;
+       width: 11%;
      }
    }
    .topic-list-body {
@@ -480,7 +477,7 @@ padding: 0;
        }
        .topic-list-data.main-link {
          width: 63%;
-         order: 2;
+         order: 3;
        }
        .topic-list-data.posters {
          width: 7%;
@@ -494,8 +491,8 @@ padding: 0;
          }
        }
        .topic-list-data.posts {
-         width: 15%;
-         order: 3;
+         width: 11%;
+         order: 2;
          display: flex;
          justify-content: center;
          align-items: center;
