@@ -1,6 +1,6 @@
 :root {
 --line-height-small: 1.23;
---line-height-medium: 1.33;
+--line-height-medium: 1.11;
 --line-height-large: 1.57;
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
@@ -348,6 +348,7 @@ align-items: center;
    }
 }.extra-info-wrapper {
  height: inherit;
+ overflow: inherit;
 }
 .extra-info-wrapper .header-title {
  font-size: var(--font-1);
@@ -643,4 +644,3 @@ font-size: var(--font-0);
  .topic-list .main-link.focused {
    box-shadow: none;
  }
- 
