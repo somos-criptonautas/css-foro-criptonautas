@@ -41,7 +41,7 @@ align-items: center;
  }
  .slider {
  height: 1rem !important;
- weight: 1rem !important;
+ width: 1rem !important;
  left: 0.5rem;
  top: calc(50% - 0.63rem);
  }
@@ -380,7 +380,7 @@ height: 2rem !important;
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
 padding: 1rem 0 1rem 1rem !important;
-background-color: none;
+background: none;
 }
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
    width: 85% !important;
