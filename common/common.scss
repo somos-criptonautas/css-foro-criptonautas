@@ -5,6 +5,7 @@
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
 --font-down-1: --font-0;
+--primary-high: #ccc;
  }
 .admin-main-nav .nav-pills > li {
 margin: 0 0.25rem;
@@ -68,7 +69,8 @@ align-items: center;
   max-width:inherit !important;
   padding: 2rem;
  }
- .btn, a {
+ .btn, a,
+ .sidebar-section-wrapper {
   transition: none !important;
  }
  .custom-search-banner-wrap {
@@ -338,8 +340,12 @@ align-items: center;
  html body {
  background: none !important;
  }
+ .d-header,
+  {
+  background-color: var(--secondary);
+ }
   html body #main-outlet {
-   background: var(--secondary);
+    background: var(--secondary);
    border-radius: 1em;
    .archetype-regular & {
      min-height: 500px;
@@ -374,13 +380,14 @@ display: none;
 onboarding-popup-content {
 font-size: inherit !important;
 }
-.sidebar-section-link-wrapper .sidebar-section-link {
+.sidebar-section-link-wrapper .sidebar-section-link,
+.sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2rem !important;
 }
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
 padding: 1rem 0 1rem 1rem !important;
-background: none;
+background-color: transparent;
 }
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
    width: 85% !important;
