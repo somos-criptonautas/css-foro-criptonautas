@@ -19,6 +19,10 @@
 --d-sidebar-section-link-prefix-width: 1.7rem;
 --d-sidebar-row-font-size: --font-up-2 !important;
 }
+.btn,
+.select-kit .select-kit-header {
+ font-size: var(--font-up-1);
+}
 .groups-boxes .group-box .group-box-inner .group-description {
 color: var(--primary-900);
 }
