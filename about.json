@@ -3,10 +3,8 @@
   "about_url": null,
   "license_url": null,
   "components": [
-    "https://github.com/jordanvidrine/discourse-category-group-boxes.git",
     "https://github.com/discourse/discourse-loading-slider.git",
-    "https://github.com/discourse/discourse-clickable-topic.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-clickable-topic.git"
   ],
   "modifiers": {
     "serialize_topic_excerpts": true
@@ -25,11 +23,11 @@
       "love": "c16ad7"
     },
     "air-dark": {
-      "primary": "e0e0e0",
-      "secondary": "2d2d2d",
+      "primary": "f1f1f1",
+      "secondary": "1c2128",
       "tertiary": "9a5cfd",
-      "quaternary": "71bd9f",
-      "header_background": "202020",
+      "quaternary": "5107ed",
+      "header_background": "1C2128",
       "header_primary": "e0e0e0",
       "highlight": "9a5cfd",
       "danger": "51ed07",

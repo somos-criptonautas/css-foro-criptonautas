@@ -1,11 +1,40 @@
+@import "./fonts.css";
+
+.sidebar-section-link-wrapper .sidebar-section-link,
+.sidebar-more-section-links-details .sidebar-more-section-links-details-summary,
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
+  color: inherit !important;
+}
+
 :root {
 --line-height-small: 1.23;
 --line-height-medium: 1.11;
 --line-height-large: 1.57;
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
---font-down-1: --font-0;
+--font-down-1: --font-up-1;
+--font-0: 24px;
 --primary-high: #ccc;
+ --d-sidebar-section-link-prefix-margin-right: 0.53rem;
+--d-sidebar-section-link-prefix-width: 1.7rem;
+--d-sidebar-row-font-size: --font-up-2 !important;
+}
+.btn,
+.select-kit .select-kit-header,
+.nav-pills > li > a,
+.nav-pills > li button,
+{
+ font-size: var(--font-up-1);
+}
+.groups-boxes .group-box .group-box-inner .group-description {
+color: var(--primary-900);
+}
+.sidebar-row {
+  font-size: var(--d-sidebar-row-font-size);
+}
+ .cooked p,
+.topic-excerpt {
+ font-family: "Lora",Georgia,Times,serif;
  }
 .admin-main-nav .nav-pills > li {
 margin: 0 0.25rem;
@@ -19,7 +48,7 @@ topic-list-data {
  margin: 0;
  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-font-family: var(--heading-font-family);
+font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
 font-size: 1.63rem;
 line-height: 1;
 font-weight: 900;
@@ -368,6 +397,9 @@ align-items: center;
 .d-header .title {
    display: none !important;
   }
+  .d-header-wrap {
+font-size: 77%;
+}
 }
   @media screen and (max-width: 992px) {
 .tc-right-sidebar {
@@ -382,7 +414,7 @@ font-size: inherit !important;
 }
 .sidebar-section-link-wrapper .sidebar-section-link,
 .sidebar-section-wrapper .sidebar-section-header-wrapper {
-height: 2rem !important;
+height: 2.23rem !important;
 }
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
