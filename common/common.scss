@@ -1,3 +1,127 @@
+/* lora-regular - latin */
+@font-face {
+     font-family: 'Lora';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/lora-v26-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lora-v26-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+   /* lora-italic - latin */
+   @font-face {
+     font-family: 'Lora';
+     font-style: italic;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/lora-v26-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/lora-v26-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+
+  /* inter-tight-regular - latin */
+@font-face {
+     font-family: 'Inter Tight';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+   /* inter-tight-italic - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: italic;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+
+   /* inter-tight-500 - latin */
+@font-face {
+     font-family: 'Inter Tight';
+     font-style: normal;
+     font-weight: 500;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+   /* inter-tight-500italic - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: italic;
+     font-weight: 500;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }   
+
+   /* inter-tight-600 - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: normal;
+     font-weight: 600;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+   /* inter-tight-600italic - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: italic;
+     font-weight: 600;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+
+   /* inter-tight-800 - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: normal;
+     font-weight: 800;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+
+   /* inter-tight-800italic - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: italic;
+     font-weight: 800;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   /* inter-tight-900 - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: normal;
+     font-weight: 900;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+
+
+   
+   /* inter-tight-900italic - latin */
+   @font-face {
+     font-family: 'Inter Tight';
+     font-style: italic;
+     font-weight: 900;
+     src: local(''),
+          url('../fonts/inter-tight-v1-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/inter-tight-v1-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+   
+
 :root {
 --line-height-small: 1.23;
 --line-height-medium: 1.11;
@@ -6,6 +130,7 @@
 --secondary-very-high: #fa8047;
 --font-down-1: --font-0;
 --primary-high: #ccc;
+ font-family:
  }
 .admin-main-nav .nav-pills > li {
 margin: 0 0.25rem;
