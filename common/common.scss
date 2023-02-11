@@ -1,6 +1,14 @@
 @import "fonts.css";
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    html {
+        font-size: 62.5% !important;
+      }
+}
 
+html {
+    font-size: 70% !important;
+  }
 
 .sidebar-section-link-wrapper .sidebar-section-link,
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary,
