@@ -20,7 +20,10 @@
 --d-sidebar-row-font-size: --font-up-2 !important;
 }
 .btn,
-.select-kit .select-kit-header {
+.select-kit .select-kit-header,
+.nav-pills > li > a,
+.nav-pills > li button,
+{
  font-size: var(--font-up-1);
 }
 .groups-boxes .group-box .group-box-inner .group-description {
