@@ -5,9 +5,10 @@
 window.parent.postMessage("","*");
 },
 false);
+
 window.addEventListener("message", (event)=>{
 var origin = event.origin;
-if(origin === "https://criptonautas.co";
+if(origin === "https://criptonautas.co"){
 switch(event.data){
 case "light":
 document.body.classList = ['light'];
