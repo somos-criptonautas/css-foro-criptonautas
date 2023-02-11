@@ -369,8 +369,7 @@ align-items: center;
  html body {
  background: none !important;
  }
- .d-header
-  {
+ .d-header {
   background-color: var(--secondary);
  }
   html body #main-outlet {
@@ -706,4 +705,61 @@ display: none !important;
 .topic-list .topic-excerpt:visited {
   color: var(--primary) !important;
 }
+}
+
+/* Footer */
+
+/* Site footer */
+
+.footer-criptonauta {
+  margin: 2rem 1rem;
+}
+
+.gh-foot {
+background-color: var(--color-bg-alt);
+color: var(--color-text);
+white-space: inherit;
+padding: 11rem 0;
+}
+
+@media screen and (min-width: 1200px) {
+.gh-foot {
+width: 87%;
+margin: auto;
+border: 2px solid var(--color-border);
+border-radius: 1.11rem;
+}
+}
+.gh-foot-inner {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: inherit;
+text-align: center;
+padding: 0 4rem;
+}
+
+.gh-foot-menu {
+width: 100%;
+padding: 1.11rem 0;
+text-align: center;
+}
+
+.gh-foot-menu .nav {
+gap: 2.3rem;
+font-weight: 400;
+}
+
+.gh-foot-menu .nav li + li::before {
+display: none;
+}
+
+.gh-copyright {
+letter-spacing: .011rem;
+text-align: center;
+font-size: 1.7rem;
+}
+
+.gh-copyright p {
+padding-top: 1.23rem;
 }
