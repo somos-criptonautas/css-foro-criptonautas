@@ -6,9 +6,6 @@
     "https://github.com/discourse/discourse-loading-slider.git",
     "https://github.com/discourse/discourse-clickable-topic.git"
   ],
-  "assets": {
-    "fonts": "assets/fonts.css"
-},
   "modifiers": {
     "serialize_topic_excerpts": true
   },
