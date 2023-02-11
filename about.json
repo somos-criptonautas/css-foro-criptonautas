@@ -8,7 +8,7 @@
   ],
   "assets": {
     "fonts": "assets/fonts.css"
-}
+},
   "modifiers": {
     "serialize_topic_excerpts": true
   },
