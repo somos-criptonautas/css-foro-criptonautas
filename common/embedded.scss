@@ -3,7 +3,13 @@
 @import "./common/foundation/base";
 @import "./color_definitions";
 @import "./common/components/buttons";
+@import "fonts.css";
 
+:root {
+--font-down-1: --font-up-1;
+--font-0: 24px;
+}
+  
 article.post {
   border-bottom: 1px solid var(--primary-low);
   padding: 1rem;
