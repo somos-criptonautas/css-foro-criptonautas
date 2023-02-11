@@ -1,6 +1,10 @@
 @import "fonts.css";
 
-.sidebar-section-link-wrapper .sidebar-section-link {
+
+
+.sidebar-section-link-wrapper .sidebar-section-link,
+.sidebar-more-section-links-details .sidebar-more-section-links-details-summary,
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
 
