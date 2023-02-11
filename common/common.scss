@@ -654,6 +654,12 @@ font-size: var(--font-0);
 
 /* Matenauta stuff */
 
+.extra-info-wrapper .topic-link {
+font-family: initial;
+font-weight: 700;
+font-size: 1.11rem;
+}
+
 .topic-list .topic-excerpt {
   color: var(--primary);
 }
