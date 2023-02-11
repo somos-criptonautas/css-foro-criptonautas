@@ -60,6 +60,11 @@ article.post {
       max-width: 45px;
       border-radius: 50%;
     }
+    a {
+      pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+    }
   }
 
   .cooked {
@@ -86,7 +91,9 @@ article.post {
   margin: 0 0 10px 0;
 
   a {
-    color: var(--primary-high);
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
   }
   a.staff {
     background-color: var(--highlight-low);
@@ -154,6 +161,8 @@ footer {
     padding: 6px 8px;
     background-color: var(--tertiary);
     display: inline-block;
+    padding: 0.75rem 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -169,9 +178,8 @@ span.replies {
 display: none;
 }
 footer.clearfix {
-padding: 1rem 2rem;
 display:flex;
-
+margin-top: 3rem;
 }
 
 // load onebox CSS at the end
