@@ -23,11 +23,11 @@
       "love": "c16ad7"
     },
     "air-dark": {
-      "primary": "e0e0e0",
-      "secondary": "2d2d2d",
+      "primary": "f1f1f1",
+      "secondary": "1c2128",
       "tertiary": "9a5cfd",
-      "quaternary": "71bd9f",
-      "header_background": "202020",
+      "quaternary": "5107ed",
+      "header_background": "1C2128",
       "header_primary": "e0e0e0",
       "highlight": "9a5cfd",
       "danger": "51ed07",
