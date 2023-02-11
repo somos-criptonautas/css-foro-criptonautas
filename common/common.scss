@@ -1,5 +1,9 @@
 @import "fonts.css";
 
+.sidebar-section-link-wrapper .sidebar-section-link {
+  color: inherit !important;
+}
+
 :root {
 --line-height-small: 1.23;
 --line-height-medium: 1.11;
