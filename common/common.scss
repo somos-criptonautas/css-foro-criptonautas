@@ -470,8 +470,9 @@ font-size: var(--font-0);
  height: 3rem;
  }
  
- .topic-list-main-link, .topic-list .main-link, .latest-topic-list-item .main-link {
-  font-size: var(--font-up);
+ .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts,
+ .topic-list .views {
+width: 7%;
  }
 
  // Topic List
