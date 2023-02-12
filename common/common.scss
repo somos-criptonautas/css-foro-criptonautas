@@ -34,6 +34,18 @@
 --d-sidebar-section-link-prefix-width: 1.7rem;
 --d-sidebar-row-font-size: --font-up-2 !important;
 }
+.nav-stacked a {
+font-size: var(--font-0);
+}
+.admin-nav {
+width: 23%;
+}
+.admin-detail {
+width: 77%;
+}
+.nav-stacked a.active {
+color: var(--primary);
+}
 .extra-info-wrapper .extra-info {
 animation: none;
 }
