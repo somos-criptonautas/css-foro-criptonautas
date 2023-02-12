@@ -64,9 +64,6 @@ color: var(--primary-900);
 .sidebar-row {
   font-size: var(--d-sidebar-row-font-size);
 }
-.nav-pills > li a.active, .nav-pills > li button.active {
-  color: var(--primary);
-}
 .admin-main-nav .nav-pills > li {
 margin: 0 0.25rem;
 }
@@ -85,7 +82,7 @@ font-weight: 700 !important;
 }
 @media screen and (max-width: 991px) {
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-  font-size: 1.51rem !important;
+  font-size: 1.37rem !important;
 }
 }
 @media screen and (min-width: 992px) {
@@ -158,7 +155,8 @@ justify-self: center;
 #create-topic,
 #create-topic:hover,
 #create-topic:active {
-background: var(--google);
+background-color: var(--tertiary);
+color: var(--google);
 }
 #create-topic svg {
 color: unset;
@@ -463,7 +461,10 @@ padding-bottom: 0;
    display: none !important;
   }
   .d-header-wrap {
-font-size: 77%;
+font-size: 83%;
+}
+.sidebar-section-link-wrapper .sidebar-section-link, .sidebar-section-wrapper .sidebar-section-header-wrapper {
+height: 2.11rem !important;
 }
 }
   @media screen and (max-width: 992px) {
@@ -768,10 +769,12 @@ font-size: 1.11rem;
 .topic-list .topic-excerpt:visited {
   color: var(---high);
 }
-
 @media screen and (max-width: 768px) {
  .topic-list .num {
 display: none !important;
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
+width: 100% !important;
 }
 .topic-list .topic-excerpt:visited {
   color: var(--primary) !important;
