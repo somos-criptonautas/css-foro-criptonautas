@@ -12,12 +12,21 @@
 --line-height-large: 1.57;
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
---font-down-1: --font-up-1;
+--font-down-1: --font-0;
 --font-0: --font-up-1;
 --primary-high: #ccc;
  --d-sidebar-section-link-prefix-margin-right: 0.53rem;
 --d-sidebar-section-link-prefix-width: 1.7rem;
 --d-sidebar-row-font-size: --font-up-2 !important;
+}
+.btn {
+transition: none !important;
+}
+.extra-info-wrapper .extra-info {
+animation: none;
+}
+.extra-info-wrapper {
+  line-height: var(--line-height-large);
 }
 .btn,
 .select-kit .select-kit-header,
