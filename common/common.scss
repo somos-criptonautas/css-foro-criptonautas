@@ -5,25 +5,28 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 :root {
-  --font-up-5: 1.5em;
-  --font-up-4: 1.25em;
-  --font-up-3: 1.15em;
-  --font-up-2: 1.1em;
-  --font-up-1: 1.035em;
+  --font-up-5: 1.75em;
+  --font-up-4: 1.5em;
+  --font-up-3: 1.25em;
+  --font-up-2: 1.13em;
+  --font-up-1: 1.07em;
   --font-0: 0.93em;
 }
 }
+@media screen and (min-width: 992px) {
+  --font-up-5: 2.2em;
+  --font-up-4: 2em;
+  --font-up-3: 1.7557em;
+  --font-up-2: 1.5195em;
+  --font-up-1: 1.2487em;
+  --font-0: 1em;
+  --font-down-1: 0.95em;
+  --font-down-2: 0.87em;
+}
+}
 :root {
---font-up-5: 2.2em;
---font-up-4: 2em;
---font-up-3: 1.7557em;
---font-up-2: 1.5195em;
---font-up-1: 1.2487em;
---font-0: 1em;
---font-down-1: 0.95em;
---font-down-2: 0.87em;
 --line-height-small: 1.23;
 --line-height-medium: 1.11;
 --line-height-large: 1.57;
