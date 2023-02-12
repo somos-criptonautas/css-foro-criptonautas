@@ -152,7 +152,7 @@ align-items: center;
  .sidebar-section-wrapper .sidebar-section-header-wrapper .btn.dropdown-select-box-header, .sidebar-section-wrapper .sidebar-section-header-wrapper .sidebar-section-header-button {
   font-size: var(--font-0);
  }
-::not:has-sidebar-page #main-outlet-wrapper #main-outlet {
+::not(.has-sidebar-page) #main-outlet-wrapper #main-outlet {
 justify-self: center;
 }
 #create-topic,
