@@ -707,6 +707,8 @@ display: none !important;
 
 /* Site footer */
 
+
+
 .footer-criptonauta {
   margin: 2rem 1rem;
 }
@@ -763,4 +765,42 @@ padding-top: 1.23rem;
 .nav-pills > li > a:hover, .nav-pills > li button:hover,
 .admin-customize .themes-list-header .tab.active {
 color: var(--white);
+}
+
+
+.it-foot-social {
+padding-top: 7rem;
+text-align: center;
+}
+.it-foot-social a,
+gh-copyright {
+opacity: 0.74;
+}
+.it-foot-social a {
+margin-left: .8rem;
+display: inline-block;
+padding: .5rem;
+}
+.it-foot-social a svg {
+    height: 3.23rem;
+    height: 3.23rem;
+}
+    .it-foot-social a {
+    color: var(--color-base);
+}
+.it-foot-social a svg:hover,
+.it-foot-social a svg:active,
+.it-foot-social a:hover,
+.it-foot-social a:active {
+fill: var(--color-base);
+}
+.it-foot-social a.rss svg {
+width: 3.77rem;
+height: 3.77rem;
+}
+@media screen and (max-width: 767px) {
+    .it-foot-menu {width: 2.3rem;
+display: inline-flex;
+        text-align: center;
+    }
 }
