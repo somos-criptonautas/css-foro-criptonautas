@@ -80,9 +80,18 @@ topic-list-data {
  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
 font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
-font-size: 1.63rem;
-line-height: 1;
-font-weight: 900;
+line-height: 1 !important;
+font-weight: 700 !important;
+}
+@media screen and (max-width: 991px) {
+.full-width .contents .topic-list .topic-list-item .main-link .title {
+  font-size: 1.51rem !important;
+}
+}
+@media screen and (min-width: 992px) {
+.full-width .contents .topic-list .topic-list-item .main-link .title {
+font-size: 1.63rem !important;
+}
 }
 .topic-list-item {
 border-bottom: 1px solid var(--primary-low) !important;
@@ -136,8 +145,20 @@ align-items: center;
  .btn, a,
  .sidebar-section-wrapper,
  .btn,
-.btn-flat, .json-editor-btn-collapse {
+.btn-flat, .json-editor-btn-collapse,
+.discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .btn.dropdown-select-box-header, .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .sidebar-section-header-button {
   transition: none !important;
+ }
+#create-topic,
+#create-topic:hover,
+#create-topic:active {
+background: var(--google);
+}
+#create-topic svg {
+color: unset;
+}
+ .archetype-regular .main-outlet .regular.ember-view {
+
  }
 
  .btn:active, .btn.btn-active {

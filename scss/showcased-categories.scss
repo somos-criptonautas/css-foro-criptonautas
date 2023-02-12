@@ -11,7 +11,9 @@
     height: unset;
   }
 }
-
+.full-width .contents .topic-list {
+  border-spacing: 0 .125em;
+}
 .showcased-categories-sidebar {
   .full-width .contents .topic-list {
     display: unset;
