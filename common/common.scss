@@ -149,6 +149,10 @@ align-items: center;
 .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .btn.dropdown-select-box-header, .discourse-no-touch .sidebar-section-wrapper .sidebar-section-header-wrapper .sidebar-section-header-button {
   transition: none !important;
  }
+
+::not:has-sidebar-page #main-outlet-wrapper #main-outlet {
+justify-self: center;
+}
 #create-topic,
 #create-topic:hover,
 #create-topic:active {
