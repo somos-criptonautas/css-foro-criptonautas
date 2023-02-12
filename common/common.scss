@@ -893,3 +893,7 @@ nav-pills > li a:active {
   color: var(--primary);
   background-color: var(--tertiary-900);
 }
+
+.topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title {
+font-weight: 700 !important;
+}
