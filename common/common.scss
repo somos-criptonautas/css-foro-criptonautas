@@ -795,7 +795,7 @@ display: none;
 .gh-copyright {
 letter-spacing: .011rem;
 text-align: center;
-font-size: 1.7rem;
+font-size: 1.11rem;
 }
 
 .gh-copyright p {
@@ -827,11 +827,12 @@ padding: .5rem;
     .it-foot-social a {
     color: var(--color-base);
 }
+
 .it-foot-social a svg:hover,
 .it-foot-social a svg:active,
 .it-foot-social a:hover,
 .it-foot-social a:active {
-fill: var(--color-base);
+color: var(--white);
 }
 .it-foot-social a.rss svg {
 width: 2.77rem;
