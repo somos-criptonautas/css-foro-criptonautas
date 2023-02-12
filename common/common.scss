@@ -49,7 +49,8 @@ width: 23%;
 width: 77%;
 }
 .nav-stacked a.active {
-color: var(--primary);
+  color: var(--secondary);
+  background-color: var(--primary-900);
 }
 .extra-info-wrapper .extra-info {
 animation: none;
@@ -137,6 +138,12 @@ align-items: center;
  .btn,
 .btn-flat, .json-editor-btn-collapse {
   transition: none !important;
+ }
+
+ .btn:active, .btn.btn-active {
+background-image: none;
+border: 0;
+background-color: none;
  }
  .custom-search-banner-wrap {
    margin: 0 auto !important;
@@ -851,4 +858,8 @@ display: inline-flex;
 }
 .topic-list .topic-list-item-separator .topic-list-data span {
 color: var(--secondary-very-high);
+}
+
+.category-list .topics {
+display: none;
 }
