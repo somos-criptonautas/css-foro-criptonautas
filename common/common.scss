@@ -400,6 +400,9 @@ align-items: center;
  width: calc(75% - 1em);
 }
 }
+#list-area {
+padding-bottom: 0;
+}
   @media screen and (max-width: 767px) {
 .d-header .title {
    display: none !important;
@@ -781,7 +784,6 @@ color: var(--white);
 
 
 .it-foot-social {
-padding-top: 7rem;
 text-align: center;
 }
 .it-foot-social a,
@@ -794,8 +796,8 @@ display: inline-block;
 padding: .5rem;
 }
 .it-foot-social a svg {
-    height: 3.23rem;
-    height: 3.23rem;
+    height: 2.23rem;
+    height: 2.23rem;
 }
     .it-foot-social a {
     color: var(--color-base);
@@ -807,8 +809,8 @@ padding: .5rem;
 fill: var(--color-base);
 }
 .it-foot-social a.rss svg {
-width: 3.77rem;
-height: 3.77rem;
+width: 2.77rem;
+height: 2.77rem;
 }
 @media screen and (max-width: 767px) {
     .it-foot-menu {width: 2.3rem;
