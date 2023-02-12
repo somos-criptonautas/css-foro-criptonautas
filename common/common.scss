@@ -101,9 +101,13 @@ align-items: center;
  border: 2px solid var(--primary-low-mid);
  padding: 0 0.5rem;
  }
+    @media screen and (min-width: 992px) {
+ .wrap {
+  padding: 2rem;
+ }
+    }
  .wrap {
   max-width:inherit !important;
-  padding: 2rem;
  }
  .btn, a,
  .sidebar-section-wrapper {
