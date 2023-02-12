@@ -32,10 +32,9 @@ color: var(--primary-900);
 .sidebar-row {
   font-size: var(--d-sidebar-row-font-size);
 }
- .cooked p,
-.topic-excerpt {
- font-family: "Lora",Georgia,Times,serif;
- }
+.nav-pills > li a.active, .nav-pills > li button.active {
+  color: var(--primary);
+}
 .admin-main-nav .nav-pills > li {
 margin: 0 0.25rem;
 }
@@ -109,9 +108,6 @@ align-items: center;
  }
    p {
      margin-bottom: 1em;
-   }
-   .btn {
-     height: 100%;
    }
   .btn-primary {
   padding: 0.55rem 1rem !important;
