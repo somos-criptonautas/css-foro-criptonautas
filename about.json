@@ -15,7 +15,7 @@
       "secondary": "f1f1f1",
       "tertiary": "ed5107",
       "quaternary": "7e8b93",
-      "header_background": "f9fcff",
+      "header_background": "f1f1f1",
       "header_primary": "122b43",
       "highlight": "e6cb37",
       "danger": "d05454",
@@ -24,7 +24,7 @@
     },
     "air-dark": {
       "primary": "f1f1f1",
-      "secondary": "1c2128",
+      "secondary": "dfd4f0",
       "tertiary": "9a5cfd",
       "quaternary": "5107ed",
       "header_background": "1C2128",

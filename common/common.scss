@@ -759,3 +759,7 @@ font-size: 1.7rem;
 .gh-copyright p {
 padding-top: 1.23rem;
 }
+
+.nav-pills > li > a:hover, .nav-pills > li button:hover {
+color: var(--white);
+}
