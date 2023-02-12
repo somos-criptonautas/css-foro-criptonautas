@@ -13,7 +13,7 @@
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
 --font-down-1: --font-up-1;
---font-0: 24px;
+--font-0: --font-up-1;
 --primary-high: #ccc;
  --d-sidebar-section-link-prefix-margin-right: 0.53rem;
 --d-sidebar-section-link-prefix-width: 1.7rem;
@@ -760,6 +760,7 @@ font-size: 1.7rem;
 padding-top: 1.23rem;
 }
 
-.nav-pills > li > a:hover, .nav-pills > li button:hover {
+.nav-pills > li > a:hover, .nav-pills > li button:hover,
+.admin-customize .themes-list-header .tab.active {
 color: var(--white);
 }
