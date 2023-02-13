@@ -100,7 +100,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
- .d-header-icons .icon {
+ .d-header-icons .icon,
+  {
  height: 2em;
  width: 2em;
  }
@@ -506,13 +507,11 @@ background-color: transparent !important;
 #main-outlet {
 padding: 0;
 }
- .nav-pills > li > a {
+ .nav-pills > li > a,
+ .nav-pills > li button {
  border-radius: 0.5em;
  padding: 0.55rem 0.75rem;
  font-size: var(--font-0);
- }
- .nav-pills > li > a, .nav-pills > li button {
-font-size: var(--font-0);
  }
  .d-header #site-logo {
  height: 3rem;
@@ -851,11 +850,14 @@ font-size: 1.11rem;
 .gh-copyright p {
 padding-top: 1.23rem;
 }
-
+.nav-pills > li > a,
+.nav-pills > li button {
+color: var(--secondary);
+}
 .nav-pills > li > a:hover, .nav-pills > li button:hover,
 .nav-pills > li > a:active, .nav-pills > li button:active,
 .admin-customize .themes-list-header .tab.active {
-color: var(--white);
+color: var(--primary-500);
 }
 
 
