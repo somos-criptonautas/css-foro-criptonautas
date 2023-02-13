@@ -28,6 +28,7 @@
 }
 }
 :root {
+--white: #f1f1f1;
 --line-height-small: 1.23;
 --line-height-medium: 1.11;
 --line-height-large: 1.57;
@@ -60,7 +61,8 @@ animation: none;
 .groups-boxes .group-box .group-box-inner .group-description {
 color: var(--primary-900);
 }
-.sidebar-row {
+.sidebar-row,
+.sidebar-section-wrapper .sidebar-section-header-text {
   font-size: var(--d-sidebar-row-font-size);
 }
 .admin-main-nav .nav-pills > li {
@@ -155,7 +157,7 @@ justify-self: center;
 #create-topic:hover,
 #create-topic:active {
 background-color: var(--tertiary);
-color: var(--google);
+color: var(--white);
 }
 #create-topic svg {
 color: unset;
@@ -471,6 +473,11 @@ height: 2.11rem !important;
 display: none;
 }
 }
+.sidebar-more-section-links-details-summary {
+  padding: var(--d-sidebar-row-vertical-padding) var(--d-sidebar-row-horizontal-padding);
+  height: 2.23rem !important;
+  background-color: var(--tertiary-50);
+}
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary {
  padding: 1rem 0;
 }
@@ -757,7 +764,6 @@ display: none;
 /* Matenauta stuff */
 
 .extra-info-wrapper .topic-link {
-font-family: initial;
 font-weight: 700;
 font-size: 1.11rem;
 }
@@ -880,6 +886,12 @@ height: 2.77rem;
 display: inline-flex;
         text-align: center;
     }
+    .gh-copyright {
+    font-size: 1rem;
+    }
+    .it-foot-social a {
+      padding: .25rem;
+    }
 }
 .topic-list .topic-list-item-separator .topic-list-data span {
 color: var(--secondary-very-high);
@@ -888,7 +900,9 @@ color: var(--secondary-very-high);
 .category-list .topics {
 display: none;
 }
-
+.nav-pills > li {
+margin-right: 0.25rem;
+}
 nav-pills > li a:active {
   color: var(--primary);
   background-color: var(--tertiary-900);
