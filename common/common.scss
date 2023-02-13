@@ -853,6 +853,7 @@ padding-top: 1.23rem;
 }
 
 .nav-pills > li > a:hover, .nav-pills > li button:hover,
+.nav-pills > li > a:active, .nav-pills > li button:active,
 .admin-customize .themes-list-header .tab.active {
 color: var(--white);
 }
