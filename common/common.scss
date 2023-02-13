@@ -472,14 +472,14 @@ height: 2.11rem !important;
 .tc-right-sidebar {
 display: none;
 }
+.topic-body {
+width: inherit;
+}
 }
 .sidebar-more-section-links-details-summary {
   padding: var(--d-sidebar-row-vertical-padding) var(--d-sidebar-row-horizontal-padding);
   height: 2.23rem !important;
   background-color: var(--tertiary-50);
-}
-.sidebar-more-section-links-details .sidebar-more-section-links-details-summary {
- padding: 1rem 0;
 }
 onboarding-popup-content {
 font-size: inherit !important;
