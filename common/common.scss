@@ -433,6 +433,7 @@ background-color: none;
  }
  .d-header {
   background-color: var(--secondary);
+  height: 4.33rem;
  }
   html body #main-outlet {
     background: var(--secondary);
@@ -488,6 +489,12 @@ font-size: inherit !important;
 .sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2.23rem !important;
 }
+@media screen and (max-width: 768px) {
+#main {
+padding: 0.5rem;
+}
+}
+
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
 padding: 1rem 0 1rem 1rem !important;
