@@ -851,16 +851,14 @@ font-size: 1.11rem;
 padding-top: 1.23rem;
 }
 .nav-pills > li > a,
-.nav-pills > li button {
-color: var(--secondary);
-}
-.nav-pills > li > a:hover, .nav-pills > li button:hover,
-.nav-pills > li > a:active, .nav-pills > li button:active,
+.nav-pills > li button
+.nav-pills > li > a:hover,
+.nav-pills > li button:hover,
+.nav-pills > li > a:active,
+.nav-pills > li button:active,
 .admin-customize .themes-list-header .tab.active {
-color: var(--primary-500);
+color: var(--primary);
 }
-
-
 .it-foot-social {
 text-align: center;
 }
