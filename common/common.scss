@@ -100,7 +100,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
- .d-header-icons .icon,
+ .d-header-icons .icon
   {
  height: 2em;
  width: 2em;
@@ -811,21 +811,22 @@ padding: 11rem 0;
 
 @media screen and (min-width: 1200px) {
 .gh-foot {
-width: 87%;
+width: 63%;
 margin: auto;
 border: 2px solid var(--color-border);
 border-radius: 1.11rem;
+}
+.gh-foot-inner {
+  font-size: 2rem;
 }
 }
 .gh-foot-inner {
 display: flex;
 flex-direction: column;
 align-items: center;
-font-size: inherit;
 text-align: center;
 padding: 0 4rem;
 }
-
 .gh-foot-menu {
 width: 100%;
 padding: 1.11rem 0;
@@ -882,7 +883,8 @@ padding: .5rem;
 .it-foot-social a svg:hover,
 .it-foot-social a svg:active,
 .it-foot-social a:hover,
-.it-foot-social a:active {
+.it-foot-social a:active,
+.admin-customize .themes-list-container .themes-list-item .components-list {
 color: var(--white);
 }
 .it-foot-social a.rss svg {
@@ -890,6 +892,9 @@ width: 2.77rem;
 height: 2.77rem;
 }
 @media screen and (max-width: 767px) {
+  .gh-foot-inner {
+    font-size: 2rem;
+  }
     .it-foot-menu {width: 2.3rem;
 display: inline-flex;
         text-align: center;
