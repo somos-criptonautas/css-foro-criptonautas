@@ -919,3 +919,7 @@ nav-pills > li a:active {
 .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title {
 font-weight: 700 !important;
 }
+
+.topic-list .main-link {
+  font-size: var(--font-0);
+}
