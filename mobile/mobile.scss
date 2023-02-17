@@ -107,8 +107,8 @@ font-size: var(--font-down-2);
       height: 2.13rem;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     .topic-list-data {
-        display: none;
+        width: 100% !important;
     }
     }
