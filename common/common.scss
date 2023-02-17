@@ -399,16 +399,6 @@ background-color: none;
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
-   @media screen and (max-width: 1199px) {
- html {
- font-size: 20px;
- }
-}
-   @media screen and (min-width: 1200px) {
- html {
- font-size: 24px;
- }
-}
  .list-tags,
  .discourse-tag {
  font-size: var(--font-0) !important;
@@ -458,9 +448,6 @@ height: 2.11rem !important;
   @media screen and (max-width: 992px) {
 .tc-right-sidebar {
 display: none;
-}
-.topic-body {
-width: inherit;
 }
 }
 .sidebar-more-section-links-details-summary {
