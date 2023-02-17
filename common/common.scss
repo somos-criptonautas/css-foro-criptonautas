@@ -3,6 +3,11 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
+@media screen and (max-width: 768px) {
+  .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+display: none;
+}
+}
 @media screen and (max-width: 991px) {
 :root {
   --font-up-5: 1.95em;
