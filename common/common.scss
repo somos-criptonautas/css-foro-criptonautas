@@ -808,9 +808,6 @@ text-align: center;
 font-size: 1.11rem;
 }
 
-.gh-copyright p {
-padding-top: 1.23rem;
-}
 .nav-pills > li button
 .nav-pills > li button:hover,
 .nav-pills > li button:active,
@@ -842,11 +839,12 @@ padding: .5rem;
 .it-foot-social a:hover,
 .it-foot-social a:active,
 .admin-customize .themes-list-container .themes-list-item .components-list {
-color: var(--white);
+color: var(--color-white);
+opacity: 1;
 }
 .it-foot-social a.rss svg {
-width: 2.77rem;
-height: 2.77rem;
+width: 2.53rem;
+height: 2.53rem;
 }
 @media screen and (max-width: 767px) {
   .gh-foot-inner {
