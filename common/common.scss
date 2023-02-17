@@ -507,6 +507,9 @@ background-color: transparent !important;
 #main-outlet {
 padding: 0;
 }
+.new-user-wrapper .user-navigation .nav-pills li a.active {
+border-bottom: 0;
+}
  .nav-pills > li > a,
  .nav-pills > li button {
  border-radius: 0.5em;
@@ -924,4 +927,8 @@ font-weight: 700 !important;
 
 .topic-list .main-link {
   font-size: var(--font-0);
+}
+
+.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
+  font-size: 0.83rem;
 }
