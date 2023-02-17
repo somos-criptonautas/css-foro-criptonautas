@@ -100,9 +100,15 @@ font-size: var(--font-down-2);
 
 .it-foot-social a svg {
   height: 1.73rem;
-  weihght: 1.73rem;
+  width: 1.73rem;
   }
   .it-foot-social a.rss svg {
       width: 2.13rem;
       height: 2.13rem;
   }
+
+  @media screen and (min-width: 768px) {
+    .topic-list-data.default {
+        width: 100% !important;
+    }
+    }

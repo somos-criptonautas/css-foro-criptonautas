@@ -462,7 +462,7 @@ font-size: inherit !important;
 .sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2.23rem !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 #main {
 padding: 0.5rem;
 }
@@ -749,7 +749,7 @@ font-size: 1.11rem;
 .topic-list .topic-excerpt:visited {
   color: var(---high);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
  .topic-list .num {
 display: none !important;
 }
