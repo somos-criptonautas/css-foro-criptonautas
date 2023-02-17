@@ -95,9 +95,6 @@ ol.category-breadcrumb {
   border-radius: 0.25em;
   margin-top: 1em;
 }
-
-@media screen and (max-width: 768px) {
-  .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+ .topic-list-data.posters {
   display: none !important;
-  }
   }
