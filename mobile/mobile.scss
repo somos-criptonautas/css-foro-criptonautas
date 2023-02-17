@@ -1,7 +1,10 @@
 @import "chat-mobile";
 
-root {
---font-0: 18px;
+html {
+  font-size: 18px;
+  }
+
+:root {
 --font-up-5: 1.95em;
 --font-up-4: 1.83em;
 --font-up-3: 1.4em;
