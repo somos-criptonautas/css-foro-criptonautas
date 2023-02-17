@@ -1,10 +1,14 @@
 @import "chat-mobile";
 
 root {
---font-down-1: --font-0;
 --font-0: 20px;
+--font-up-5: 1.95em;
+--font-up-4: 1.83em;
+--font-up-3: 1.4em;
+--font-up-2: 1.23em;
+--font-up-1: 1.15em;
+--font-0: 1em;
 }
-
 .custom-search-banner-wrap {
   h1 {
     font-size: 2.5em !important;
