@@ -463,9 +463,6 @@ padding-bottom: 0;
 .d-header .title {
    display: none !important;
   }
-  .d-header-wrap {
-font-size: 83%;
-}
 .sidebar-section-link-wrapper .sidebar-section-link, .sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2.11rem !important;
 }
@@ -931,4 +928,8 @@ font-weight: 700 !important;
 
 .category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
   font-size: 0.83rem;
+}
+
+.sidebar-row, .sidebar-section-wrapper .sidebar-section-header-text {
+font-size: inherit;
 }
