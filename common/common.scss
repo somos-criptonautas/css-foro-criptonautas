@@ -476,6 +476,8 @@ background-color: transparent !important;
 #main-outlet {
 padding: 0;
 }
+.new-user-wrapper .user-navigation .nav-pills li a:hover,
+.new-user-wrapper .user-navigation .nav-pills li a:active,
 .new-user-wrapper .user-navigation .nav-pills li a.active {
 border-bottom: 0 !important;
 }
@@ -891,4 +893,14 @@ font-weight: 700 !important;
 
 .sidebar-row, .sidebar-section-wrapper .sidebar-section-header-text {
 font-size: inherit;
+}
+
+@media screen and (max-width: 991px) {
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
+  width: 100%;
+    }
+  
+    .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+  display: none;
+}
 }
