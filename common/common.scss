@@ -753,8 +753,12 @@ font-size: 1.11rem;
   color: var(---high);
 }
 @media screen and (max-width: 767px) {
- .topic-list .num {
+ .topic-list .num,
+ posters .topic-list-data {
 display: none !important;
+}
+.main-link .topic-list-data {
+width: 100%;
 }
 .topic-list .topic-excerpt:visited {
   color: var(--primary) !important;
