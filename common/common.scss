@@ -79,9 +79,6 @@ font-weight: 700 !important;
 font-size: 1.63rem !important;
 }
 }
-.topic-list-item {
-border-bottom: 1px solid var(--primary-low) !important;
-}
 .topic-list .views {
  order: 2;
 display: flex;
@@ -909,10 +906,9 @@ font-size: inherit;
 
 @media screen and (max-width: 991px) {
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
-  width: 100%;
-    }
-  
-    .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+width: 100% !important;
+}
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
   display: none;
 }
 }
