@@ -734,6 +734,14 @@ display: none;
 
 /* Matenauta stuff */
 
+.container.posts > .row {
+max-width: 100% !important;
+}
+
+.suggested-topics-message {
+margin: 1rem 0 2rem;
+}
+
 .reply-control {
 padding: 0.33rem !important;
 }
