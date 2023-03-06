@@ -723,8 +723,17 @@ display: none;
    box-shadow: none;
  }
 
-/* Matenauta stuff */
+ /* Matenauta stuff */
 
+ .login-modal #login-buttons:not(.hidden) {
+font-size: 0;
+ }
+ .login-modal #login-buttons:not(.hidden) svg {
+  font-size: 2rem;
+  }
+  .login-modal #login-buttons:not(.hidden) svg:not(:first-of-type) {
+  margin-top: 1rem;
+  }
 .post-replies .button {
 display: none !important;
 }
