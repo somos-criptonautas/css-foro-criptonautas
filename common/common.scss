@@ -725,11 +725,19 @@ display: none;
 
  /* Matenauta stuff */
 
+ .d-modal.create-account .login-welcome-header .login-title,
+ .d-modal.create-account .login-welcome-header .waving-hand {
+display: none;
+}
+
  .login-modal #login-buttons:not(.hidden) {
 font-size: 0;
  }
  .login-modal #login-buttons:not(.hidden) svg {
   font-size: 2rem;
+  padding: 1rem; 
+  margin: auto;
+
   }
   .login-modal #login-buttons:not(.hidden) svg:not(:first-of-type) {
   margin-top: 1rem;
