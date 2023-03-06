@@ -725,6 +725,9 @@ display: none;
 
 /* Matenauta stuff */
 
+.post-replies .button {
+display: none !important;
+}
 
 @media screen and (min-width:768px) {
 body::not(.has-sidebar-page).topic-body {
