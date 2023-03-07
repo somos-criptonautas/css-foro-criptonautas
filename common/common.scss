@@ -725,6 +725,13 @@ display: none;
 
  /* Matenauta stuff */
 
+ .chat-channel-unread-indicator.urgent {
+background: coral;
+}
+.chat-channel-unread-indicator {
+width: 0.75rem;
+height: 0.75rem;
+}
  .d-modal.create-account .login-welcome-header .login-title,
  .d-modal.create-account .login-welcome-header .waving-hand {
 display: none;
