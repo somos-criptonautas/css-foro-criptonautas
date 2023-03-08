@@ -422,7 +422,11 @@ background-color: none;
 .extra-info-wrapper .header-title {
  font-size: var(--font-1);
 }
-
+@media screen and (min-width: 768px) {
+.tc-right-sidebar + #list-area {
+ width: calc(75% - 1em);
+}
+}
 #list-area {
 padding-bottom: 0;
 }
@@ -499,19 +503,6 @@ border-bottom: 0 !important;
      tr {
        display: flex;
        border-bottom: none;
-     }
-     display: contents;
-     .topic-list-data.default {
-       width: 63%;
-     }
-     .topic-list-data.posters {
-       width: 13%;
-     }
-     .topic-list-data.posts {
-       width: 11%;
-     }
-     .topic-list-data.activity {
-       width: 11%;
      }
    }
    .topic-list-body {
