@@ -174,8 +174,8 @@ margin-top: 3rem;
 // we apparently use bottom margins on paras in the embed CSS, leading to weirdness
 // which we will now clean up
 aside.onebox {
-  font-size: var(--font-down-2);
-  margin-bottom: 20px;
+  font-size: var(--font-down-1) !important;
+  margin-bottom: 1rem;
   p {
     margin-bottom: 0 !important;
   }
