@@ -396,10 +396,6 @@ background-color: none;
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
- .list-tags,
- .discourse-tag {
- font-size: var(--font-0) !important;
- }
  .discourse-tag {
  padding: 0.25em 0.63rem;
  margin: 0.25rem 0.5rem;
@@ -725,12 +721,17 @@ display: none;
 
  /* Matenauta stuff */
 
+html.text-size-larger,
+nav.post-controls,
+.menu-panel {
+font-size: var(--base-font-size);
+}
  .chat-channel-unread-indicator.urgent {
 background: coral;
 }
 .chat-channel-unread-indicator {
-width: 0.75rem;
-height: 0.75rem;
+width: 0.91rem;
+height: 0.91rem;
 }
  .d-modal.create-account .login-welcome-header .login-title,
  .d-modal.create-account .login-welcome-header .waving-hand {
