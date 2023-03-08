@@ -478,7 +478,7 @@ border-bottom: 0 !important;
  .nav-pills > li button {
  border-radius: 0.5em;
  padding: 0.55rem 0.75rem;
- font-size: var(--font-0);
+ font-size: var(--font-down-1);
  }
  .d-header #site-logo {
  height: 3rem;
@@ -721,6 +721,13 @@ display: none;
 
  /* Matenauta stuff */
 
+ .sidebar-wrapper .sidebar-sections {
+padding-top: 0
+ }
+ #main-outlet-wrapper .sidebar-wrapper {
+padding: 0;
+margin: 0;
+ }
 nav.post-controls,
 .menu-panel {
 font-size: var(--base-font-size);
@@ -937,7 +944,7 @@ font-weight: 700 !important;
 font-size: inherit;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
 width: 100% !important;
 }
