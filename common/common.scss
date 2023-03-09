@@ -53,9 +53,6 @@ color: var(--primary-900);
 .sidebar-section-wrapper .sidebar-section-header-text {
   font-size: var(--d-sidebar-row-font-size);
 }
-.admin-main-nav .nav-pills > li {
-margin: 0 0.25rem;
-}
 topic-list-data {
   display: inherit;
   justify-content: center;
@@ -476,7 +473,7 @@ border-bottom: 0 !important;
 }
  .nav-pills > li > a,
  .nav-pills > li button {
- border-radius: 0.5em;
+ border-radius: 0.11rem;
  padding: 0.55rem 0.75rem;
  font-size: var(--font-down-1);
  }
@@ -708,6 +705,13 @@ display: none;
 
  /* Matenauta stuff */
 
+.admin-customize .themes-list {
+width: 40%;
+}
+
+.admin-customize .show-current-style {
+width: 60%;
+}
  .sidebar-wrapper .sidebar-sections {
 padding-top: 0
  }
