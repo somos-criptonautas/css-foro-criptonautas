@@ -409,10 +409,14 @@ div.lightbox-wrapper {
    }
 
    .article.post .cooked {
-    font-family: "Lora",Georgia,Times,serif;
-    line-height: 1.66;
+    font-family: "Lora",Georgia,Times,serif !important;
+    line-height: 1.66 !important;
    }
    .username {
-    font-size: var(--font-up-1);
-    margin-bottom: 1.11rem;
+    font-size: var(--font-up-1) !important;
+    margin-bottom: 1.11rem !important;
    }
+
+   a.post-replies.button {
+    display: none !important;
+    }

@@ -747,9 +747,6 @@ font-size: 0;
   .login-modal #login-buttons:not(.hidden) svg:not(:first-of-type) {
   margin-top: 1rem;
   }
-.post-replies button {
-display: none !important;
-}
 
 @media screen and (min-width:768px) {
 body::not(.has-sidebar-page).topic-body {
