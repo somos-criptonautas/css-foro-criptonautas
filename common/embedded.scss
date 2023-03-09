@@ -165,7 +165,6 @@ display: none;
 }
 footer.clearfix {
 display:flex;
-margin-top: 3rem;
 }
 
 // load onebox CSS at the end
@@ -403,4 +402,17 @@ div.lightbox-wrapper {
      src: local(''),
           url('assets/fonts/inter-tight-v1-latin-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
           url('assets/fonts/inter-tight-v1-latin-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
+
+   html {
+    background-color: unset;
+   }
+
+   .article.post .cooked {
+    font-family: "Lora",Georgia,Times,serif;
+    line-height: 1.66;
+   }
+   .username {
+    font-size: var(--font-up-1);
+    margin-bottom: 1.11rem;
    }
