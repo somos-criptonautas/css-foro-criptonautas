@@ -1,4 +1,4 @@
-  window.addEvelentListener("load", (event)=>{
+  window.addEventListener("load", (event)=> {
 window.parent.postMessage("","*");
 }, false);
 
@@ -14,4 +14,5 @@ document.body.classList = ['dark'];
 break;
 }
 }
-},false);
+},
+false);
