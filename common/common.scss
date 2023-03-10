@@ -204,16 +204,12 @@ background-color: none;
  
  .topic-list .topic-list-header .topic-list-data,
  .topic-list .topic-list-item .topic-list-data {
-   padding: 15px 5px;
+  padding: 0.5rem 1rem;
  }
  
  .navigation-topics .topic-list .topic-list-data {
   justify-content: center;
   align-items: center;
- }
-
- .custom-homepage-columns .navigation-topics .topic-list .topic-list-data {
-display: none !important;
  }
  
  .badge-wrapper.box {
@@ -237,6 +233,10 @@ display: none !important;
    }
  }
  
+ .custom-homepage-columns .navigation-topics .topic-list .topic-list-data {
+  display: none !important;
+   }
+
  .discourse-tag {
    font-size: $font-down-1;
    border-radius: 0.25em;
@@ -696,6 +696,17 @@ display: none;
 
  /* Matenauta stuff */
 
+ #list-area .show-more {
+position: relative;
+ }
+
+ #list-area .show-more .alert {
+  color: var(--white);
+  font-size: var(--font-0);
+  padding : 0 !important;
+  margin: 1rem 0 !important;
+ }
+
  #create-topic {
  position: fixed;
  bottom: 5vh;
@@ -779,10 +790,16 @@ font-size: 0;
   margin: auto;
 
   }
+  .login-modal #login-buttons {
+  margin: 1rem;
+  opacity: 0.77;
+  }
   .login-modal #login-buttons:not(.hidden) svg:not(:first-of-type) {
   margin-top: 1rem;
   }
-
+  .above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper .featured-banner-link > div a:hover, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper .featured-banner-link > div a:hover {
+  text-decoration: none;
+  }
 @media screen and (min-width:768px) {
 body::not(.has-sidebar-page).topic-body {
 width: 80%;
