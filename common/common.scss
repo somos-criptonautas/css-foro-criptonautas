@@ -132,7 +132,7 @@ align-items: center;
   font-size: var(--font-0);
  }
 ::not(.has-sidebar-page) #main-outlet-wrapper #main-outlet {
-justify-self: center;
+justify-self: center !important;
 }
 #create-topic,
 #create-topic:hover,
