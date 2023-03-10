@@ -212,6 +212,10 @@ background-color: none;
   justify-content: center;
   align-items: center;
  }
+
+ .custom-homepage-columns .navigation-topics .topic-list .topic-list-data {
+display: none !important;
+ }
  
  .badge-wrapper.box {
    border-radius: 0.25em;
@@ -965,6 +969,6 @@ font-size: inherit;
 }
 
 
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
-  display: initial;
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data {
+  display: table-cell;
 }
