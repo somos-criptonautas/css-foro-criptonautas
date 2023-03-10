@@ -694,9 +694,17 @@ display: none;
 
  /* Matenauta stuff */
 
+ #create-topic {
+ position: fixed;
+ bottom: 5vh;
+ top: auto;
+ right: 5vw;
+ z-index: 3;
+ padding: 1rem;
+ }
  .topic-list .num .badge-posts {
   font-size: 1.77rem;
-   }
+}
 
  .full-width .contents .topic-list .topic-list-body .topic-list-item:nth-child(1) {
 display: none;
