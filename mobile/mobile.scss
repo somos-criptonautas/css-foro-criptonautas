@@ -107,6 +107,7 @@ font-size: var(--font-down-1);
       height: 2.13rem;
   }
 
-  .topic-list {
-  width: 100% !important;
+  #main-outlet {
+    max-width: 100%;
+    width: 100%;
   }
