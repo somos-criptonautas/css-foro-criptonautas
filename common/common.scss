@@ -544,22 +544,19 @@ border-bottom: 0 !important;
            color: var(--primary) !important;
          }
        }
-       .topic-list-data.main-link {
-         width: 63%;
-         order: 1;
-       }
        .topic-list-data.posters {
-         order: 2;
          height: auto;
+         display: flex;
          justify-content: center;
          align-items: center;
        }
        .topic-list-data.posts {
+         display: flex;
          justify-content: center;
          align-items: center;
        }
        .topic-list-data.age {
-         order: 4;
+         display: flex;
          justify-content: center;
          align-items: center;
        }
@@ -697,13 +694,9 @@ display: none;
 
  /* Matenauta stuff */
 
- .custom-homepage-columns .posters .topic-list-data {
-display: none;
- }
-
  .topic-list .num .badge-posts {
-font-size: 1.77rem;
- }
+  font-size: 1.77rem;
+   }
 
  .full-width .contents .topic-list .topic-list-body .topic-list-item:nth-child(1) {
 display: none;
@@ -964,6 +957,8 @@ font-weight: 700 !important;
 font-size: inherit;
 }
 
+
+}
 
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
   display: initial;
