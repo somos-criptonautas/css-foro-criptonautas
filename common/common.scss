@@ -706,23 +706,23 @@ display: none;
  /* Matenauta stuff */
 
  .tippy-box {
-font-size: unset;
+font-size: unset !important;
  }
 
 .algolia-holder .aa-Input {
-font-size: unset;
+font-size: unset !important;
  }
 
  .btn-primary .d-icon {
-display: none;
+display: none !important;
  }
 
  .sign-up-button {
-display: none;
+display: none !important;
  }
  .algolia-autocomplete .aa-dropdown-menu .aa-Item {
-  font-size: 77%;
-  font-family: Inter Tight;
+  font-size: 77% !important;
+  font-family: Inter Tight !important;
  }
 
  .aa-dataset-posts .hit-post .hit-post-content {
