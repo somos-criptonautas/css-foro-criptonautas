@@ -77,7 +77,6 @@ font-size: 1.63rem !important;
 }
 }
 .topic-list .views {
- order: 2;
 justify-content: center;
 align-items: center;
 }
@@ -970,11 +969,10 @@ font-size: inherit;
 
 
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.age,
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts,
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters  {
-  display: table-cell;
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts  {
+  display: table-cell !important;
 }
-
+.full-width .contents .topic-list .topic-list-body .topic-list-item,
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
-display: table-row-group;
+display: table-row;
 }
