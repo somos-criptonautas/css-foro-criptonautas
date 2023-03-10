@@ -208,9 +208,10 @@ background-color: none;
    padding: 15px 5px;
  }
  
- .navigation-topics .topic-list .topic-list-body .topic-list-data,
- .navigation-topics .topic-list .topic-list-header .topic-list-data {
-   flex: unset;
+ .navigation-topics .topic-list .topic-list-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
  
  .badge-wrapper.box {
@@ -550,28 +551,20 @@ border-bottom: 0 !important;
        .topic-list-data.posters {
          order: 2;
          height: auto;
-         display: flex;
          justify-content: center;
          align-items: center;
        }
        .topic-list-data.posts {
-         order: 2;
-         display: flex;
          justify-content: center;
          align-items: center;
        }
        .topic-list-data.age {
          order: 4;
-         display: flex;
          justify-content: center;
          align-items: center;
        }
      }
    }
- }
- .topic-list-data.num.age,
-.topic-list .activity {
-   display: none !important;
  }
 
 .sidebar-section-message {
@@ -703,6 +696,10 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+ .topic-list .num .badge-posts {
+font-size: 1.77rem;
+ }
 
  .full-width .contents .topic-list .topic-list-body .topic-list-item:nth-child(1) {
 display: none;
@@ -963,11 +960,9 @@ font-weight: 700 !important;
 font-size: inherit;
 }
 
-@media screen and (max-width: 1199px) {
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.main-link {
-width: 100% !important;
+
 }
+
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
-  display: none;
-}
+  display: initial;
 }
