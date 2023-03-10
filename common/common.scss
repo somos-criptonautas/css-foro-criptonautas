@@ -969,6 +969,13 @@ font-size: inherit;
 }
 
 
-.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data {
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.age,
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts,
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters,
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.  {
   display: table-cell;
+}
+
+.full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
+display: table-row-group;
 }
