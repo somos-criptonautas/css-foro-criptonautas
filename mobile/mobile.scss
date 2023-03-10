@@ -32,7 +32,7 @@ h1 {
 
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
-  border-bottom: 0px !important;
+  border-bottom: none !important;
 }
 
 body.category .category-breadcrumb .select-kit-header,
@@ -95,7 +95,7 @@ ol.category-breadcrumb {
 
 .d-editor-textarea-wrapper textarea,
 .d-editor-preview {
-font-size: var(--font-down-2);
+font-size: var(--font-down-1);
 }
 
 .it-foot-social a svg {
