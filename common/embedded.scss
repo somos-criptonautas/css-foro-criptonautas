@@ -185,12 +185,9 @@ display:flex;
 
 // we apparently use bottom margins on paras in the embed CSS, leading to weirdness
 // which we will now clean up
-aside.onebox {
+.onebox {
   font-size: var(--font-down-1) !important;
-  margin-bottom: 1rem;
-  p {
-    margin-bottom: 0 !important;
-  }
+  margin-bottom: 1rem;  
 }
 
 // images large enough for the lightbox wrapper don't have bottom margins

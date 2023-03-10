@@ -705,6 +705,30 @@ display: none;
 
  /* Matenauta stuff */
 
+ .tippy-box {
+font-size: unset;
+ }
+
+.algolia-holder .aa-Input {
+font-size: unset;
+ }
+
+ .btn-primary .d-icon {
+display: none;
+ }
+
+ .sign-up-button {
+display: none;
+ }
+ .algolia-autocomplete .aa-dropdown-menu .aa-Item {
+  font-size: 77%;
+  font-family: Inter Tight;
+ }
+
+ .aa-dataset-posts .hit-post .hit-post-content {
+  font-size: var(--font-0);
+ }
+
 .admin-customize .themes-list {
 width: 40%;
 }
