@@ -61,8 +61,11 @@ topic-list-data {
  .switch span.toggle-icon {
  margin: 0;
  }
+ .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title {
 font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
+}
+.full-width .contents .topic-list .topic-list-item .main-link .title {
 line-height: 1 !important;
 font-weight: 700 !important;
 }
@@ -235,6 +238,10 @@ background-color: none;
  
  .custom-homepage-columns .navigation-topics .topic-list .topic-list-data {
   display: none !important;
+   }
+
+   .custom-homepage-columns {
+    column-gap: 2.11rem;
    }
 
  .discourse-tag {
