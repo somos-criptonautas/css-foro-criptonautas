@@ -107,7 +107,7 @@ font-size: var(--font-down-1);
       height: 2.13rem;
   }
 
-  #main-outlet {
-    max-width: 100% !important;
-    width: 100% !important;
+  .wrap .contents {
+    display: table;
+    width: 100%;
   }
