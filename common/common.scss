@@ -235,10 +235,6 @@ background-color: none;
      }
    }
  }
- 
- .custom-homepage-columns .navigation-topics .topic-list .topic-list-data {
-  display: none !important;
-   }
 
    .custom-homepage-columns {
     column-gap: 2.11rem;
@@ -703,6 +699,10 @@ display: none;
 
  /* Matenauta stuff */
 
+ #navigation-bar {
+
+ }
+
  #list-area .show-more {
 position: relative;
  }
@@ -865,7 +865,7 @@ width: 100%;
 background-color: var(--color-bg-alt);
 color: var(--color-text);
 white-space: inherit;
-padding: 11rem 0;
+padding: 11rem 0 3rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -983,14 +983,14 @@ font-weight: 700 !important;
   font-size: var(--font-0);
 }
 
-.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
-  font-size: 0.83rem;
-}
 
 .sidebar-row, .sidebar-section-wrapper .sidebar-section-header-text {
 font-size: inherit;
 }
 
+.category-boxes-with-topics {
+margin-bottom: 3rem;
+}
 
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.age,
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posts  {
@@ -1000,3 +1000,8 @@ font-size: inherit;
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
 display: table-row;
 }
+
+
+.custom-homepage-columns .posters   .topic-list-data {
+  display: none !important;
+   }
