@@ -468,9 +468,6 @@ box-shadow: none !important;
 padding: 1rem 0 1rem 1rem !important;
 background-color: transparent !important;
 }
-#main-outlet {
-padding: 0;
-}
 .new-user-wrapper .user-navigation .nav-pills li a:hover,
 .new-user-wrapper .user-navigation .nav-pills li a:active,
 .new-user-wrapper .user-navigation .nav-pills li a.active {
@@ -698,10 +695,6 @@ display: none;
  }
 
  /* Matenauta stuff */
-
- #navigation-bar {
-
- }
 
  #list-area .show-more {
 position: relative;
@@ -955,6 +948,7 @@ display: inline-flex;
     }
     .gh-copyright {
     font-size: 1rem;
+    margin-bottom: 2.11rem;
     }
     .it-foot-social a {
       padding: .25rem;
@@ -1005,3 +999,11 @@ display: table-row;
 .custom-homepage-columns .posters   .topic-list-data {
   display: none !important;
    }
+
+   suggested-topics-title {
+  font-size: 1.43rem;
+   }
+
+   .topic-list-item .discourse-tags {
+    font-size: var(--font-0);
+     }
