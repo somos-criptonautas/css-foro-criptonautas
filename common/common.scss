@@ -207,7 +207,7 @@ background-color: none;
  
  .topic-list .topic-list-header .topic-list-data,
  .topic-list .topic-list-item .topic-list-data {
-  padding: 0.5rem 1rem;
+  padding: 1rem 0.5rem;
  }
  
  .navigation-topics .topic-list .topic-list-data {
@@ -459,7 +459,7 @@ height: 2.23rem !important;
 }
 @media screen and (max-width: 767px) {
 #main {
-padding: 0.5rem;
+padding: 0;
 }
 }
 
@@ -695,6 +695,9 @@ display: none;
  }
 
  /* Matenauta stuff */
+.btn-social {
+margin: 1rem;
+}
 
  #list-area .show-more {
 position: relative;
@@ -793,6 +796,9 @@ font-size: 0;
   .login-modal #login-buttons {
   margin: 1rem;
   opacity: 0.77;
+  }
+  .login-modal #login-buttons:hover {
+    opacity: 1;
   }
   .login-modal #login-buttons:not(.hidden) svg:not(:first-of-type) {
   margin-top: 1rem;
