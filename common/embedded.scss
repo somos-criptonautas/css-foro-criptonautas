@@ -159,7 +159,7 @@ footer {
   box-sizing: border-box;
   appearance: none;
   background-color: transparent;
-  border: 2px solid var(--secondary);
+  border: 3px solid var(--secondary);
   border-radius: 0.33em;
   color: var(--secondary);
   display: inline-block;
@@ -177,7 +177,7 @@ font-weight: 500;
 opacity: .93;
   margin: 1rem;
   text-align: center;
-  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 73ms ease, color 73ms ease;
 }
 .button:hover {
    box-shadow: 0 0 40px 40px var(--tertiary) inset;

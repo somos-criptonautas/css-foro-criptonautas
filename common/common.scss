@@ -76,13 +76,21 @@ line-height: 1 !important;
 font-weight: 700 !important;
 }
 @media screen and (max-width: 991px) {
+  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
+  .topic-list .main-link a.title {
+    font-size: 1.37rem !important;
+  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-  font-size: 1.37rem !important;
+  font-size: 1.3rem !important;
 }
 }
 @media screen and (min-width: 992px) {
+  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
+  .topic-list .main-link a.title {
+    font-size: 1.63rem !important;
+  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-font-size: 1.63rem !important;
+font-size: 1.53rem !important;
 }
 }
 .topic-list .views {
@@ -217,8 +225,7 @@ background-color: none;
  }
  
  .navigation-topics .topic-list .topic-list-data {
-  justify-content: center;
-  align-items: center;
+display: none;
  }
  
  .badge-wrapper.box {
@@ -1037,5 +1044,5 @@ display: table;
    }
 
    .topic-list-item .discourse-tags {
-    font-size: var(--font-0);
+    font-size: var(--font-down-1);
      }
