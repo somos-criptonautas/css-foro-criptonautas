@@ -25,6 +25,7 @@
  --d-sidebar-section-link-prefix-margin-right: 0.53rem;
 --d-sidebar-section-link-prefix-width: 1.7rem;
 --d-sidebar-row-font-size: --font-up-2 !important;
+--heading-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
 }
 
 .nav-stacked a {
@@ -63,7 +64,7 @@ topic-list-data {
  }
  .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title {
-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
+  font-family: var(--heading-font-family);
 }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
 line-height: 1 !important;
@@ -239,7 +240,9 @@ background-color: none;
    .custom-homepage-columns {
     column-gap: 2.11rem;
    }
-
+   .custom-homepage-columns button {
+  display: none;
+   }
  .discourse-tag {
    font-size: $font-down-1;
    border-radius: 0.25em;
@@ -759,7 +762,7 @@ display: none !important;
  }
  .algolia-autocomplete .aa-dropdown-menu .aa-Item {
   font-size: 77% !important;
-  font-family: Inter Tight !important;
+  font-family: var(--heading-font-family) !important;
  }
 
  .aa-dataset-posts .hit-post .hit-post-content {
@@ -1010,7 +1013,7 @@ margin-bottom: 3rem;
 }
 .full-width .contents .topic-list .topic-list-body .topic-list-item,
 .full-width .contents .topic-list .topic-list-body .topic-list-item .topic-list-data.posters {
-display: table-row;
+display: table;
 }
 
 
