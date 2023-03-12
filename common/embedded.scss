@@ -154,18 +154,43 @@ footer {
   font-size: var(--font-up-2);
   margin-top: 0.5em;
 }
+
 .button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 3px solid var(--tertiary);
+  border-radius: 0.33em;
   color: white !important;
   background-color: var(--tertiary);
   display: inline-block;
   padding: 0.75rem 2rem !important;
   font-size: 1.5rem !important;
   margin: 3rem auto !important;
-  border-radius: .6rem;
   box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent,0 0 1px 0 rgba(0,0,0,.1),0 2px 6px 0 rgba(0,0,0,.03);
-  font-weight: 500;
   opacity: .93;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1.23rem;
+  font-weight: 500;
+  line-height: 1;
+  margin: 1rem;
+  text-decoration: none;
+  text-align: center;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
+.button:hover {
+   box-shadow: 0 0 40px 40px var(--tertiary) inset;
+ }
+
+ .button:hover,
+ .button:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+
 .dark {
 color: #f1f1f1;
 }
