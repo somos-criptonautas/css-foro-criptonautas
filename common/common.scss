@@ -64,6 +64,9 @@ topic-list-data {
  .switch span.toggle-icon {
  margin: 0;
  }
+ .latest-topic-list-item {
+font-size: 0.81rem;
+ }
  .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title {
   font-family: var(--heading-font-family);
@@ -700,6 +703,9 @@ display: none;
 
  /* Matenauta stuff */
 
+ .admin-intro {
+width: 39%;
+ }
  .btn-flat .bulk-select {
 font-size: var(--font-up-1);
  }
