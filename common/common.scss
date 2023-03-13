@@ -710,6 +710,31 @@ display: none;
 
  /* Matenauta stuff */
 
+ .toggle-password-mask {
+ font-size: var(--font-down-1);
+ }
+.not-found-container {
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-not-found {
+  margin: 2rem 0;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.page-not-found h1.title {
+padding-bottom:1.11rem;
+}
+.page-not-found.btn {
+margin: auto;
+}
  .admin-intro {
 width: 39%;
  }
@@ -729,9 +754,11 @@ padding: 0 1rem;
  }
 
  .btn-social {
-margin: 1rem;
+margin: 1rem !important;
 }
-
+.btn-social:hover {
+outline: none !important;
+}
  #list-area .show-more {
 position: relative;
  }
