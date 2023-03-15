@@ -52,9 +52,12 @@ animation: none;
 .groups-boxes .group-box .group-box-inner .group-description {
 color: var(--primary-900);
 }
+.sidebar-row {
+padding: unset !important;
+}
 .sidebar-row,
 .sidebar-section-wrapper .sidebar-section-header-text {
-  font-size: var(--d-sidebar-row-font-size);
+  font-size: var(--font-0);
 }
 topic-list-data {
   display: inherit;
