@@ -710,6 +710,11 @@ display: none;
 
  /* Matenauta stuff */
 
+ .d-user-card__bio-excerpt,
+ .d-user-card__relative-time,
+ .user-card-location-and-website-outlet {
+display: none;
+ }
 aside.onebox {
   font-size: var(--font-down-2);
 }
