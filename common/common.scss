@@ -3,6 +3,24 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
+
+:root {
+	--d-max-width: 83%;
+}
+
+.topic-body {
+	width: 73%;
+}
+
+#reply-control {
+    max-width: 83%;
+}
+
+.body-page {
+    width: 100%;
+    max-width: 100%;
+}
+
 @media screen and (min-width: 992px) {
   :root {
   --font-up-5: 2.11em;
@@ -308,7 +326,7 @@ background-color: none;
  .select-kit.combo-box .select-kit-header,
  .d-editor-textarea-wrapper,
  div.ac-wrap {
-   border-radius: 4px;
+   border-radius: 0.25rem;
  }
  .d-header {
    box-shadow: none;
@@ -382,14 +400,6 @@ font-size: var(--font-down-1);
  
  .timeline-container .topic-timeline .timeline-scrollarea {
    border-left-color: var(--tertiary);
- }
- 
- // graceful ish style
- @mixin box-shadow($value: 0px) {
-   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
-     0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-     0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
  }
  
  html {
