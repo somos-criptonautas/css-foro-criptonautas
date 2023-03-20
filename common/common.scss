@@ -35,9 +35,9 @@
 }
 :root {
 --white: #f1f1f1;
---line-height-small: 1.23;
---line-height-medium: 1.11;
---line-height-large: 1.57;
+--line-height-small: 1.11;
+--line-height-medium: 1.33;
+--line-height-large: 1.75;
 --secondary-high: #f85e15;
 --secondary-very-high: #fa8047;
  --d-sidebar-section-link-prefix-margin-right: 0.53rem;
@@ -77,9 +77,6 @@ padding: unset !important;
 .sidebar-section-wrapper .sidebar-section-header-text {
   font-size: var(--font-0);
 }
-.default.topic-list-data {
-  display: none;
-}
  .switch span.toggle-icon {
  margin: 0;
  }
@@ -116,9 +113,12 @@ font-size: 1.53rem !important;
 justify-content: center;
 align-items: center;
 }
- .d-header-icons .icon,
- 
-  {
+.topic-list .posts,
+.topic-list .views,
+.topic-list .views {
+  width: 79px;
+}
+ .d-header-icons .icon  {
  height: 2em;
  width: 2em;
  }
@@ -268,7 +268,8 @@ background-color: none;
    .custom-homepage-columns {
     column-gap: 2.11rem;
    }
-   .custom-homepage-columns button {
+   .custom-homepage-columns button,
+   .suggested-topics-title {
   display: none;
    }
  .discourse-tag {
@@ -692,6 +693,19 @@ display: none;
 
  /* Matenauta stuff */
 
+.timeline-scrollarea-wrapper {
+font-size: var(--font-0);
+ }
+ .topic-avatar .avatar-flair {
+display: none;
+ }
+ #topic-progress .nums {
+top: unset;
+ }
+ #topic-footer-buttons {
+max-width: 100%;
+ }
+
  a.topic-excerpt {
 display: none !important;
  }
@@ -707,7 +721,8 @@ display: none;
 aside.onebox {
   font-size: var(--font-down-2);
 }
- .toggle-password-mask {
+ .toggle-password-mask,
+ .select-kit .select-kit-header {
  font-size: var(--font-down-1);
  }
 .not-found-container {
@@ -875,10 +890,18 @@ max-width: 100% !important;
 
 .suggested-topics-message {
 margin: 1rem 0 2rem;
+font-size: var(--font-up-2);
 }
-
+.suggested-topics .badge-wrapper.bullet span.badge-category,
+.suggested-topics .badge-wrapper.bar span.badge-category {
+max-width: unset;
+}
 .reply-control {
 padding: 0.33rem !important;
+}
+
+.chat-channel-title__usernames {
+font-size: var(--font-down-1);
 }
 
 .chat-drawer {
@@ -961,10 +984,15 @@ font-weight: 400;
 display: none;
 }
 
+.footer-criptonauta {
+margin-top: 1.23rem;
+}
+
 .gh-copyright {
 letter-spacing: .011rem;
 text-align: center;
 font-size: 1.11rem;
+margin-bottom: 3.33rem;
 }
 
 .nav-pills > li button
@@ -1015,7 +1043,6 @@ display: inline-flex;
     }
     .gh-copyright {
     font-size: 1rem;
-    margin-bottom: 2.11rem;
     }
     .it-foot-social a {
       padding: .25rem;
