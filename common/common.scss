@@ -362,7 +362,10 @@ background-color: none;
    border-radius: 8px;
    border: 1px solid transparent;
  }
- 
+ .list-controls .combo-box .combo-box-header,
+ .select-kit-collection {
+font-size: var(--font-down-1);
+ }
  .post-admin-menu.popup-menu {
    .btn.widget-button {
      border-radius: 0px;
@@ -558,7 +561,7 @@ border-bottom: 0 !important;
          border: 1px solid rgba(var(--primary-rgb), 0.3);
          a.title:not(.badge-notification),
          a.topic-excerpt {
-           display: none;
+           color: var(--primary);
          }
        }
        .topic-list-data.posters {
@@ -709,6 +712,9 @@ display: none;
 
  /* Matenauta stuff */
 
+ a.topic-excerpt {
+display: none;
+ }
  .d-user-card__custom-fields {
 font-size: var(--font-0)
  }
