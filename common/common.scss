@@ -693,6 +693,9 @@ display: none;
 
  /* Matenauta stuff */
 
+ .cooked ul, .cooked ol, .d-editor-preview ul, .d-editor-preview ol {
+  font-size: var(--font-0);
+ }
 .timeline-scrollarea-wrapper {
 font-size: var(--font-0);
  }
