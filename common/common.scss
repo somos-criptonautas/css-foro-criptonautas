@@ -45,9 +45,6 @@
 --d-sidebar-row-font-size: --font-up-2 !important;
 --heading-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
 }
-p {
-font-size: var(--font-0);
-}
 .nav-stacked a {
 font-size: var(--font-0);
 }
@@ -693,6 +690,9 @@ display: none;
 
  /* Matenauta stuff */
 
+ .composer-popup h3 {
+font-size: 1.6rem;
+ }
  .cooked ul, .cooked ol, .d-editor-preview ul, .d-editor-preview ol {
   font-size: var(--font-0);
  }
