@@ -45,7 +45,10 @@
 --d-sidebar-row-font-size: --font-up-2 !important;
 --heading-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
 }
-p:not(li) {
+li p {
+font-size: unset !important;
+}
+p {
 font-size: var(--font-0);
 }
 .nav-stacked a {
