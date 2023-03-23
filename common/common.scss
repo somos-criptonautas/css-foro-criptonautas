@@ -693,6 +693,10 @@ display: none;
 
  /* Matenauta stuff */
 
+.details summary {
+  font-size: var(--font-0);
+  font-weight: 600;
+}
  .composer-popup h3 {
 font-size: 1.6rem;
  }
