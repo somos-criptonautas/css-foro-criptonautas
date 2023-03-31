@@ -126,8 +126,18 @@ article.post {
 }
 
 img.emoji {
-  width: 20px;
-  height: 20px;
+  width: 1.11rem;
+  height: 1.11rem;
+  vertical-align: middle;
+
+}
+
+.d-editor-preview aside.onebox .onebox-body p:last-child {
+font-size: var(--font-down-1)
+}
+
+.suggested-topics .suggested-topics-title {
+display: none;
 }
 
 .in-reply-to {

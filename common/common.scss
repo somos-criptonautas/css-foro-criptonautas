@@ -30,7 +30,8 @@
   --font-up-1: 1.35em;
   --font-0: 1.23em;
   --font-down-1: 0.97em;
-  --font-down-2: 0.91em;
+  --font-down-2: 0.93em;
+  --font-down-3: 0.91em;
 }
 }
 :root {
@@ -44,6 +45,7 @@
 --d-sidebar-section-link-prefix-width: 1.7rem;
 --d-sidebar-row-font-size: --font-up-2 !important;
 --heading-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
+--font-down-3: 0.93em;
 }
 li p {
 font-size: unset !important;
@@ -299,6 +301,10 @@ background-color: none;
    margin-right: 0px;
  }
  
+ .topic-list .link-bottom-line {
+font-size: var(--font-down-2-rem);
+ }
+
  #site-text-logo {
    color: var(--primary);
  }
@@ -695,6 +701,10 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+ .topic-list-item {
+  border-bottom: 1px solid rgba(var(--primary-rgb), 0.1) !important;
+ }
 
 .details summary {
   font-size: var(--font-0);
