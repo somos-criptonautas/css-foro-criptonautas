@@ -702,6 +702,10 @@ display: none;
 
  /* Matenauta stuff */
 
+.site-texts .search-area {
+font-size: var(--font-down-1);
+}
+
  .topic-list-item {
   border-bottom: 1px solid rgba(var(--primary-rgb), 0.1) !important;
  }
