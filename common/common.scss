@@ -106,7 +106,7 @@ font-weight: 700 !important;
 }
 }
 @media screen and (min-width: 992px) {
-  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
+  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
   .topic-list .main-link a.title {
     font-size: 1.63rem !important;
   }
@@ -115,8 +115,7 @@ font-size: 1.53rem !important;
 }
 }
 .topic-list .views {
-justify-content: center;
-align-items: center;
+display: none;
 }
 .topic-list .posts,
 .topic-list .views,
@@ -702,6 +701,17 @@ display: none;
 
  /* Matenauta stuff */
 
+ .discourse-post-event .discourse-post-event-widget {
+  font-size: var(--font-0-rem);
+ }
+ .discourse-post-event .event-header {
+  font-size: var(--font-up-1);
+ }
+ .discourse-post-event .event-actions {
+  font-size: var(--font-down-2);
+  margin: 1rem 0;
+ }
+
 .site-texts .search-area {
 font-size: var(--font-down-1);
 }
@@ -722,16 +732,23 @@ font-size: 1.6rem;
  }
 .timeline-scrollarea-wrapper {
 font-size: var(--font-0);
- }
- .topic-avatar .avatar-flair {
+}
+.topic-avatar .avatar-flair {
 display: none;
- }
- #topic-progress .nums {
+}
+#topic-progress .nums {
 top: unset;
- }
- #topic-footer-buttons {
+}
+#topic-footer-buttons {
 max-width: 100%;
- }
+font-size: var(--font-down-2)
+}
+.d-user-card__main-content-bottom {
+font-size: var(--font-down-2)
+}
+.select-kit.is-expanded .select-kit-collection {
+font-size: var(--font-down-1);
+}
 
  a.topic-excerpt {
 display: none !important;
