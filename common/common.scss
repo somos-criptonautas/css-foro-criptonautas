@@ -701,17 +701,25 @@ display: none;
 
  /* Matenauta stuff */
 
+ .discourse-post-event {
+  height: 423px !important;
+ }
+ ]
+
  .discourse-post-event .discourse-post-event-widget {
   font-size: var(--font-0-rem);
  }
  .discourse-post-event .event-header {
-  font-size: var(--font-up-1);
+  font-size: var(--font-up-2);
  }
  .discourse-post-event .event-actions {
   font-size: var(--font-down-2);
-  margin: 1rem 0;
+  margin: 2rem 0;
  }
-
+ .discourse-post-event .event-invitees {
+  height: unset;
+  overflow-y: unset;
+ }
 .site-texts .search-area {
 font-size: var(--font-down-1);
 }
