@@ -701,6 +701,10 @@ display: none;
 
  /* Matenauta stuff */
 
+ div.user-profile-website,
+ .nationalflag-usersummary {
+display: none !important;
+ }
  .discourse-post-event {
   height: 423px !important;
  }
