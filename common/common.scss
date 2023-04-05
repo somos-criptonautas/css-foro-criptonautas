@@ -701,6 +701,12 @@ display: none;
 
  /* Matenauta stuff */
 
+ .topic-category {
+margin-top: 0.35rem;
+ }
+ .badge-wrapper .badge-category .category-name {
+  padding: 0.1rem 0.25rem;
+ }
  div.user-profile-website,
  .nationalflag-usersummary {
 display: none !important;
@@ -831,9 +837,8 @@ position: relative;
  }
 
  #list-area .show-more .alert {
-  color: var(--white);
   font-size: var(--font-0);
-  padding : 0 !important;
+  padding : 0.5rem !important;
   margin: 1rem 0 !important;
  }
 
