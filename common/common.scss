@@ -140,7 +140,9 @@
     width: 100%;
     max-width: 100%;
 }
-
+@media screen and (max-width: 991px) {
+--font-0: 1;
+}
 @media screen and (min-width: 992px) {
   :root {
   --font-up-5: 2.11em;
