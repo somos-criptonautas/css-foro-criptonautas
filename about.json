@@ -6,6 +6,19 @@
     "https://github.com/discourse/discourse-loading-slider.git",
     "https://github.com/discourse/discourse-clickable-topic.git"
   ],
+  "assets": {
+    "inter-500": "assets/inter-tight-v1-latin-500.woff2",
+    "inter-500-i": "assets/inter-tight-v1-latin-500italic.woff2",
+    "inter-600": "assets/inter-tight-v1-latin-600.woff2",
+    "inter-600-i": "assets/inter-tight-v1-latin-600italic.woff2",
+    "inter-800": "assets/inter-tight-v1-latin-800.woff2",
+    "inter-800-i": "assets/inter-tight-v1-latin-800-i.woff2",
+    "inter-900": "assets/inter-tight-v1-latin-900.woff2",
+    "inter-900-i": "assets/inter-tight-v1-latin-900italic.woff2",
+    "opensans-400": "assets/open-sans-v34-latin-regular.woff2",
+    "opensans-400-i": "assets/open-sans-v34-latin-italic.woff2",
+    "opensans-700": "assets/open-sans-v34-latin-700.woff2"
+  },
   "modifiers": {
     "serialize_topic_excerpts": true
   },
