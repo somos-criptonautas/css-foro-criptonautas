@@ -141,7 +141,9 @@
     max-width: 100%;
 }
 @media screen and (max-width: 991px) {
---font-0: 1;
+  :root {
+  --font-0: 1rem;
+}
 }
 @media screen and (min-width: 992px) {
   :root {
