@@ -1,3 +1,123 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url($opensans-400) format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/open-sans-v34-latin-regular.woff') format('woff');  Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url($opensans-400-i) format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/open-sans-v34-latin-italic.woff') format('woff');  Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url($opensans-700) format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       /*url('../fonts/open-sans-v34-latin-700.woff') format('woff');  Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-tight-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url($inter-500) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-regular.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-tight-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 400;
+  src: local(''),
+       url($inter-500-i) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-italic.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-tight-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url(inter-600) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-600.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-tight-600italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 600;
+  src: local(''),
+       url($inter-600-i) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-600italic.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* inter-tight-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),
+       url($inter-800) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-800.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-tight-800italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 800;
+  src: local(''),
+       url($inter-800-i) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-800italic.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-tight-900 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url($inter-900) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-900.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+/* inter-tight-900italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Tight';
+  font-style: italic;
+  font-weight: 900;
+  src: local(''),
+       url($inter-900-i) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+/*       url('../fonts/inter-tight-v1-latin-900italic.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .sidebar-section-link-wrapper .sidebar-section-link,
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary,
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
