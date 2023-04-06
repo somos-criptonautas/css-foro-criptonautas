@@ -122,10 +122,7 @@ display: none;
 .topic-list .views {
   width: 79px;
 }
- .d-header-icons .icon  {
- height: 2em;
- width: 2em;
- }
+
  .switch span.toggle-icon .d-icon {
  width: 1.23rem;
  }
@@ -135,9 +132,7 @@ display: none;
  left: 0.5rem;
  top: calc(50% - 0.63rem);
  }
- .d-header-icons .icon svg {
- font-size: 1.75em !important;
- }
+
  .full-width .contents .topic-list .topic-list-body .topic-list-item {
  border-radius: 0.5rem !important;
  background-color: transparent !important;
@@ -342,19 +337,8 @@ font-size: var(--font-down-2-rem);
    
  }
  
- .d-header-icons .d-icon {
-   border-radius: 100px;
- }
  
- .d-header-icons .icon {
-   border-radius: 0.25em;
-   margin-left: 0.3em;
-   border: 1px solid transparent;
-   svg {
-     font-size: 1.25em;
-   }
- }
- 
+ .d-header-icons .icon, 
  .d-header-icons .icon img.avatar {
    border-radius: 0.25em;
  }
@@ -701,6 +685,13 @@ display: none;
 
  /* Matenauta stuff */
 
+ .table-heading {
+color: unset;
+font-size: var(--heading-font-family);
+ }
+ .popup-menu .btn:focus, .popup-menu .btn:hover {
+color: var(--secondary)!important;
+ }
  .topic-category {
 margin-top: 0.35rem;
  }
@@ -773,7 +764,18 @@ display: none !important;
  .d-user-card__custom-fields {
 font-size: var(--font-0)
  }
-
+ .user-card {
+line-height: 1.73;
+ }
+ .user-card-metadata-outlet .gamification-score {
+font-size: var(--font-up-1);
+ }
+ .user-card-metadata-outlet .accepted-answers {
+display: none;
+ }
+ .card-row .bio {
+margin: 0.75rem 0;
+ }
  .d-user-card__bio-excerpt,
  .d-user-card__relative-time,
  .user-card-location-and-website-outlet {
