@@ -827,7 +827,7 @@ display: none;
 
  /* Matenauta stuff */
 
-.sidebar-section [data-section-name=tags] {
+.sidebar-section [data-section-name="tags"] {
 display: none;
  }
 
@@ -846,12 +846,10 @@ display: none;
  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
 border: none;
  }
- .user-menu.revamped .tabs-list .btn [data-tab-number="1"]
- .user-menu.revamped .tabs-list .btn [data-tab-number="2"],
- .user-menu.revamped .tabs-list .btn [data-tab-number="3"],
- .user-menu.revamped .tabs-list .btn [data-tab-number="5"],
- .user-menu.revamped .tabs-list .btn [data-tab-number="6"],
- .user-menu.revamped .tabs-list .btn [data-tab-number="8"] {
+#user-menu-button-replies,
+#user-menu-button-likes,
+#user-menu-button-chat-notifications,
+#user-menu-button-other-notifications {
 display: none;
  }
  .user-menu.revamped .tabs-list .btn .badge-notification,
