@@ -827,10 +827,28 @@ display: none;
 
  /* Matenauta stuff */
 
+ .related-messages-title,
+ .suggested-topics .suggested-topics-title,
  .poster-icon,
- .sidebar-wrapper .sidebar-sections [data-section-name="tags"] {
+ .sidebar-wrapper .sidebar-sections [data-section-name="tags"],
+ .control-group .preferences-sidebar-tags,
+ .sidebar-section-link-docs {
 display: none;
  }
+
+ .suggested-topics {
+  margin: 4.5em 0 0;
+ }
+
+ .suggested-topics .topics {
+padding-bottom: 0;
+ }
+
+#suggested-topics,
+.suggested-topics table,
+.topic-list {
+margin: 0;
+}
 
  .user-menu.revamped #quick-access-profile .profile-tab-btn {
   font-size: var(--base-font-size);
