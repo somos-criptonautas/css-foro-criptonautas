@@ -625,7 +625,7 @@ padding: 0;
 
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
-padding: 1rem 0 1rem 1rem !important;
+padding: 1rem 0 0 1rem !important;
 background-color: transparent !important;
 height: 100%;
 }
@@ -827,6 +827,9 @@ display: none;
 
  /* Matenauta stuff */
 
+ .btn .d-icon {
+transition: none;
+ }
  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
 border-radius: 3px;
  }
@@ -1114,8 +1117,7 @@ width: 57%;
 padding: 0;
  }
  #main-outlet-wrapper .sidebar-wrapper {
-padding: 0;
-margin: 0;
+margin: 0 !important;
  }
 nav.post-controls,
 .menu-panel {
