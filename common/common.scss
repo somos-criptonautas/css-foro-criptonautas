@@ -117,7 +117,6 @@
        url(assets/fonts/inter-tight-v1-latin-900italic.woff2) format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
 /*       url('../fonts/inter-tight-v1-latin-900italic.woff') format('woff');  Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 .sidebar-section-link-wrapper .sidebar-section-link,
 .sidebar-more-section-links-details .sidebar-more-section-links-details-summary,
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
@@ -828,6 +827,16 @@ display: none;
 
  /* Matenauta stuff */
 
+ .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
+border-radius: 3px;
+ }
+ nav.post-controls .actions .extra-buttons {
+  display: inline-flex;
+  flex: 0 1 auto;
+  align-items: center;
+  white-space: nowrap;
+ }
+ 
 .control-group .advanced-search-topics-posts fieldset.grouped-control {
 display: none;
 }
@@ -880,6 +889,12 @@ display: none;
  .user-menu.revamped .tabs-list .btn .badge-notification,
  .menu-panel .panel-body-bottom {
 font-size: 0.75rem !important;
+ }
+ .user-menu.revamped .quick-access-panel li {
+  background-color: var(--tertiary-100);
+ }
+ .user-menu.revamped .quick-access-panel li:hover {
+  background-color: var(--tertiary-300);
  }
  .user-stream .time, .user-stream .delete-info, .user-stream .draft-type {
   font-size: var(--font-up-1);
