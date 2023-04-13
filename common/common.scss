@@ -628,6 +628,7 @@ padding: 0;
 box-shadow: none !important;
 padding: 1rem 0 1rem 1rem !important;
 background-color: transparent !important;
+height: 100%;
 }
 .new-user-wrapper .user-navigation .nav-pills li a:hover,
 .new-user-wrapper .user-navigation .nav-pills li a:active,
@@ -826,6 +827,10 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+.control-group .advanced-search-topics-posts fieldset.grouped-control {
+display: none;
+}
 
  .related-messages-title,
  .suggested-topics .suggested-topics-title,
@@ -1091,7 +1096,7 @@ width: 40%;
 width: 57%;
 }
  .sidebar-wrapper .sidebar-sections {
-padding-top: 0
+padding: 0;
  }
  #main-outlet-wrapper .sidebar-wrapper {
 padding: 0;

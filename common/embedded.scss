@@ -173,7 +173,7 @@ footer {
 .button {
   box-sizing: border-box;
   appearance: none;
-  background-color: transparent;
+  background-color: transparent !important;
   border: 3px solid var(--secondary-low);
   border-radius: 0.33em;
   color: var(--secondary-high);
@@ -194,12 +194,12 @@ opacity: .93;
   transition: box-shadow 73ms ease, color 73ms ease;
 }
 .button:hover {
-   box-shadow: 0 0 40px 40px var(--secondary-low) inset;
+   box-shadow: 0 0 40px 40px var(--secondary-low) inset !important;
  }
 
  .button:hover,
  .button:focus {
-    color: #fff;
+    color: #fff !important;
     outline: 0;
   }
 
@@ -275,7 +275,7 @@ div.lightbox-wrapper {
       }
 
       a:visited {
-        color: var(--primary-medium);
+        color: var(--primary-medium) !important;
       }
     }
 
