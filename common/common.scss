@@ -127,10 +127,6 @@
 	--d-max-width: 83%;
 }
 
-.topic-body {
-	width: 73%;
-}
-
 #reply-control {
     max-width: 83%;
 }
@@ -826,6 +822,18 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+ #topic-footer-buttons p {
+  font-size: var(--font-down-1)
+  }
+  
+  .modal .modal-body textarea {
+  font-size: var(--font-down-1);
+  }
+  
+  nav.post-controls .show-replies {
+  display: none;
+  }
 
  .discourse-tags a.discourse-tag.simple:not(:last-of-type)::after, .list-tags a.discourse-tag.simple:not(:last-of-type)::after, .content-language-tags a.content-language-tag:not(:last-of-type)::after {
   content: "";
