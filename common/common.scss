@@ -827,6 +827,12 @@ display: none;
 
  /* Matenauta stuff */
 
+ .discourse-tags a.discourse-tag.simple:not(:last-of-type)::after, .list-tags a.discourse-tag.simple:not(:last-of-type)::after, .content-language-tags a.content-language-tag:not(:last-of-type)::after {
+  content: "";
+ }
+ .discourse-tag .list-vote-count {
+display: none;
+ }
  .btn .d-icon {
 transition: none;
  }
@@ -1218,8 +1224,6 @@ width: 100%;
   color: var(--primary) !important;
 }
 }
-
-/* Footer */
 
 /* Site footer */
 
