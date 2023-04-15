@@ -336,7 +336,8 @@ background-color: none;
    p {
      margin-bottom: 1em;
    }
-  .btn-primary {
+  .btn-primary,
+  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
   padding: 0.55rem 1rem !important;
   }
    .search-menu input[type="text"] {
@@ -413,6 +414,9 @@ background-color: none;
    }
    .custom-homepage-columns button,
    .suggested-topics-title {
+  display: none;
+   }
+   .d-user-card__avatar .avatar-flair {
   display: none;
    }
  .discourse-tag {
