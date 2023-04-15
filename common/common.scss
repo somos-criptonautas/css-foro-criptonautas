@@ -152,6 +152,7 @@
     --font-down-1: 0.96em;
     --font-down-2: 0.93em;
     --font-down-3: 0.91em;
+    --chat-header-offset: 3rem;
 }
 }
 @media screen and (min-width: 992px) {
@@ -829,6 +830,20 @@ display: none;
 
  /* Matenauta stuff */
 
+ .channels-list .chat-channel-divider {
+color: unset;
+ }
+ .channels-list .chat-channel-divider,
+ .sidebar-section-wrapper .sidebar-section-header-text,
+ .chat-drawer-header__title {
+text-transform: uppercase;
+ }
+
+ .has-full-page-chat .chat-message .onebox:not(img) h3 a,
+ .has-full-page-chat .chat-message .onebox:not(img) p, .chat-drawer-container .chat-message .onebox p {
+font-size: var(--font-down-1);
+ }
+
  #topic-footer-buttons p {
   font-size: var(--font-down-1)
   }
@@ -1367,7 +1382,7 @@ font-weight: 700 !important;
 
 
 .sidebar-row, .sidebar-section-wrapper .sidebar-section-header-text {
-font-size: inherit;
+font-size: var(--font-down-1);
 }
 
 .category-boxes-with-topics {
