@@ -137,3 +137,13 @@ font-size: var(--font-down-1);
 .top-lists {
   display: none;
   }
+
+  /* Burger to left */
+
+.d-header .panel {
+margin: 0;
+}
+
+.header-dropdown-toggle .hamburger-dropdown {
+position: absolute !important;
+}
