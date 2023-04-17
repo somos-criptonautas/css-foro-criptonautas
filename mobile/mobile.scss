@@ -125,13 +125,20 @@ font-size: var(--font-down-1);
   left: 1rem;
   }
 
-  .d-modal.login-modal .modal-header {
+  .d-modal .modal-header {
   
     position: relative;
     top: 0.5rem;
   }
 
-  .d-modal.login-modal:not(.hidden) #login-buttons:not(.hidden) .btn, .d-modal.create-account #login-buttons:not(.hidden) .btn {
+  .create-account .disclaimer {
+    margin-top: 1rem;
+    font-size: var(--font-down-2);
+  }
+  .create-account__password-info {
+  padding-bottom: 1rem;
+  }
+  .d-modal:not(.hidden) #login-buttons:not(.hidden) .btn, .d-modal.create-account #login-buttons:not(.hidden) .btn {
     margin: 0.5rem;
   }
 
