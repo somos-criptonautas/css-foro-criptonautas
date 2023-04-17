@@ -24,6 +24,20 @@
 }
 @media screen and (max-width: 991px) {
   :root {
+    --font-up-5: 1.8em;
+    --font-up-4: 1.5em;
+    --font-up-3: 1.33em;
+    --font-up-2: 1.15em;
+    --font-up-1: 1em;
+    --font-0: 0.95em;
+    --font-down-1: 0.96em;
+    --font-down-2: 0.93em;
+    --font-down-3: 0.91em;
+    --chat-header-offset: 3rem;
+}
+}
+@media screen and (max-width: 991px) {
+  :root {
     --font-up-5: 2em;
     --font-up-4: 1.8em;
     --font-up-3: 1.43em;
