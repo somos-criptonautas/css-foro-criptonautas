@@ -23,7 +23,7 @@ html {
 }
 h1 {
   font-family: var(--heading-font-family);
-  font-weight: 900;
+  font-weight: 800;
 }
   h2, h3, h4, h5 {
     font-family: var(--font-family);
@@ -114,6 +114,15 @@ font-size: var(--font-down-1);
 
   .d-header {
   height: 4.93rem;
+  }
+
+  .d-header > .wrap .contents {
+  justify-content: right;
+  }
+
+  .header-dropdown-toggle .hamburger-dropdown {
+    position: absolute;
+  left: 1rem;
   }
 
   .d-modal.login-modal .modal-header {
