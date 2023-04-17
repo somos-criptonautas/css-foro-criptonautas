@@ -232,7 +232,7 @@ background-color: none;
      margin-bottom: 1em;
    }
   .btn-primary,
-  .btn:not(.themes-tab):not(.components-tab):not(.sidebar-section-header), .select-kit.dropdown-select-box .dropdown-select-box-header {
+  .btn:not(.themes-tab):not(.components-tab):not(.sidebar-section-header):not(.tabs-list ), .select-kit.dropdown-select-box .dropdown-select-box-header {
   padding: 0.55rem 1rem !important;
   }
    .search-menu input[type="text"] {
