@@ -1066,7 +1066,7 @@ margin: auto;
 width: 39%;
  }
  a.icon .btn-flat {
-  font-size: var(--font-0);
+  font-size: var(--font-0) !important;
  }
  .btn-flat .bulk-select {
 font-size: var(--font-up-1);
