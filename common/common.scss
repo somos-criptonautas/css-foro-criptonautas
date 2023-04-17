@@ -383,11 +383,6 @@ background-color: none;
    margin: 1em 0;
  }
  
- .topic-list .topic-list-header .topic-list-data,
- .topic-list .topic-list-item .topic-list-data {
-  padding: 1rem 0.5rem;
- }
- 
  .badge-wrapper.box {
    border-radius: 0.25em;
    overflow: hidden;
@@ -416,7 +411,7 @@ background-color: none;
    .suggested-topics-title {
   display: none;
    }
-   .d-user-card__avatar .avatar-flair {
+   .d-user-card__id .avatar-flair {
   display: none;
    }
  .discourse-tag {
@@ -1069,6 +1064,9 @@ margin: auto;
 }
  .admin-intro {
 width: 39%;
+ }
+ a.icon .btn-flat {
+  font-size: var(--font-0);
  }
  .btn-flat .bulk-select {
 font-size: var(--font-up-1);
