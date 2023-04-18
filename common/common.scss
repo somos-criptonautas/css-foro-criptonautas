@@ -456,8 +456,8 @@ font-size: var(--font-down-1);
    }
  }
  .discourse-tag {
- padding: 0.25em 0.63rem;
- margin: 0.25rem 0.5rem;
+  padding: .15em .53rem;
+  margin: .25rem !important;
  }
  html body {
  background: none !important;
@@ -724,6 +724,18 @@ display: none;
 
  /* Matenauta stuff */
 
+  @media screen and (max-width:992px) {
+.container.posts .timeline-container:not(.timeline-fullscreen) {
+  display: inherit !important;
+}
+#topic-footer-buttons .pinned-button .reason, #topic-footer-buttons .topic-notifications-button .reason {
+display: none;
+}
+}
+
+ a[data-link-name="all-categories"] {
+ font-weight: 500;
+ }
 
 img.emoji {
   width: 1.11rem !important;
@@ -1113,6 +1125,7 @@ max-width: 100% !important;
 .suggested-topics-message {
 margin: 1rem 0 2rem;
 font-size: var(--font-up-2);
+text-align: center;
 }
 .suggested-topics .badge-wrapper.bullet span.badge-category,
 .suggested-topics .badge-wrapper.bar span.badge-category {
