@@ -720,6 +720,17 @@ display: none;
 
  /* Matenauta stuff */
 
+ a[data-link-name="all-categories"] {
+text-transform: uppercase;
+ }
+ a[data-link-name="docs"],
+ a[data-link-name="users"],
+ a[data-link-name="about"],
+ a[data-link-name="anniversaries"] {
+  display: none;
+ }
+
+
  .tag-list .tag-group-glosario,
  .tag-list .tag-group-tickets_priority,
  .tag-list .tag-group-tickets_reason,
@@ -741,15 +752,14 @@ display: none;
  .sidebar-wrapper .sidebar-container {
 height: inherit;
  }
-  @media screen and (max-width:992px) {
-.container.posts .timeline-container:not(.timeline-fullscreen) {
-  display: inherit !important;
-}
-#topic-footer-buttons .pinned-button .reason, #topic-footer-buttons .topic-notifications-button .reason {
-display: none;
-}
-}
+ #topic-footer-buttons .topic-footer-main-buttons {
+float: right;
+ }
 
+ #topic-footer-buttons .reason .text {
+display: none;
+ }
+ }
  a[data-link-name="all-categories"] {
  font-weight: 500;
  }

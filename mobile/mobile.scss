@@ -154,26 +154,6 @@ font-size: var(--font-down-1);
   display: none;
   }
 
-  /* Burger to left */
-@media screen and (max-width: 991px) {
-  .d-header .panel {
-  width: 100%;
-  }
-}
-.d-header .panel {
-margin: 0;
-display: flex;
-justify-content: flex-end;
-}
-.d-header .d-header-icons {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.header-dropdown-toggle .hamburger-dropdown {
-position: absolute !important;
-left: 0;
-}
 @media screen and (max-width: 767px) {
 .header-dropdown-toggle .chat-header-icon {
 display: none;
