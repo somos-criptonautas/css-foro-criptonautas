@@ -6,14 +6,6 @@
 .discourse-no-touch a.lightbox:hover {
 box-shadow: none;
 }
-@media screen and (min-width: 992px) {
-.topic-body {
-	width: 73%;
-}
-#reply-control {
-  max-width: 83%;
-}
-}
 
 .body-page {
     width: 100%;
@@ -49,12 +41,12 @@ box-shadow: none;
 }
 @media screen and (min-width: 992px) {
   :root {
-  --font-up-5: 2.11em;
-  --font-up-4: 1.93em;
-  --font-up-3: 1.73em;
+  --font-up-5: 2.1em;
+  --font-up-4: 1.9em;
+  --font-up-3: 1.7em;
   --font-up-2: 1.5em;
-  --font-up-1: 1.35em;
-  --font-0: 1.23em;
+  --font-up-1: 1.3em;
+  --font-0: 1.2em;
   --font-down-1: 0.97em;
   --font-down-2: 0.93em;
   --font-down-3: 0.91em;
@@ -361,6 +353,7 @@ font-size: var(--font-down-2-rem);
  .d-header {
    box-shadow: none;
    width: inherit !important;
+   font-size: var(--font-down-3);
  }
  
  
@@ -719,17 +712,15 @@ text-transform: uppercase;
  a[data-link-name="users"],
  a[data-link-name="about"],
  a[data-link-name="anniversaries"] {
-  display: none;
+  display: none !important;
  }
 
 
  .tag-list .tag-group-glosario,
- .tag-list .tag-group-tickets_priority,
  .tag-list .tag-group-tickets_reason,
- .tag-list .tag-group-tickets_status,
  .tag-list .tag-group-content_languages,
  .tag-list .tag-group-content_languages_disabled {
- display: none;
+ display: none !important;
  }
 
 
