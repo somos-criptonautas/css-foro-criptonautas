@@ -133,7 +133,17 @@ font-size: var(--font-down-1);
   .search-container .search-bar input.search-query {
   flex: unset;
   }
-
+  @media screen and (min-width: 767px) and (max-width:992px) {
+  .popup-menu .topic-admin-popup-menu {
+    top: 3%;
+right: 3%;
+left: unset;
+bottom: unset;
+  }
+}
+.suggested-topics-message {
+  text-align: center;
+  }
   .hamburger-panel .revamped .panel-body-contents .sidebar-hamburger-dropdown {
   padding-top: 2.11rem;
   }
