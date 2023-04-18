@@ -60,6 +60,17 @@ ol.category-breadcrumb {
       background-color: var(--secondary);
     }
   }
+  #topic-progress {
+  width: 100vw;
+  color: var(--primary);
+  opacity: 0.87;
+  height: 2.5rem;
+  background-color: var(--tertiary-200);
+  cursor: pointer;
+  }
+  .topic-list .topic-list-data {
+    padding: 0.87rem 0;
+   }
   .drop {
     top: calc(100% + 0.5em);
     border-radius: 8px;

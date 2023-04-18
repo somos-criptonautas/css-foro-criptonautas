@@ -283,8 +283,7 @@ background-color: none;
    .custom-homepage-columns {
     column-gap: 2.11rem;
    }
-   .custom-homepage-columns button,
-   .suggested-topics-title {
+   .custom-homepage-columns button {
   display: none;
    }
    .d-user-card__id .avatar-flair {
@@ -881,6 +880,7 @@ color: var(--secondary)!important;
  }
  .topic-category {
 margin-top: 0.35rem;
+gap:0.33rem;
  }
  .badge-wrapper .badge-category .category-name {
   padding: 0.1rem 0.25rem;
@@ -933,7 +933,10 @@ font-size: var(--font-0);
 display: none;
 }
 #topic-progress .nums {
-top: unset;
+top: 0.23rem;
+}
+timeline-open-jump-to-post-prompt-btn {
+display: none;
 }
 #topic-footer-buttons {
 max-width: 100%;
