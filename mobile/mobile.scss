@@ -158,8 +158,21 @@ font-size: var(--font-down-1);
 
 .d-header .panel {
 margin: 0;
+display: flex;
+justify-content: flex-end;
+width: 100%;
 }
+.d-header .d-header-icons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 
 .header-dropdown-toggle .hamburger-dropdown {
 position: absolute !important;
+left: 0;
+}
+@media and (max-width: 767px) {
+.header-dropdown-toggle .chat-header-icon {
+display: none;
+}
 }
