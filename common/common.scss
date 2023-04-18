@@ -192,9 +192,6 @@ display: none;
   padding: 2rem;
  }
     }
- .wrap {
-  max-width:inherit !important;
- }
  .btn, a,
  .sidebar-section-wrapper,
  .btn,
@@ -371,7 +368,7 @@ font-size: var(--font-down-2-rem);
  .d-header {
    box-shadow: none;
    width: inherit !important;
-   
+   font-size: var(--font-down-3);
  }
  
  
@@ -722,6 +719,16 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+ .tag-list .tag-group-glosario,
+ .tag-list .tag-group-tickets_priority,
+ .tag-list .tag-group-tickets_reason,
+ .tag-list .tag-group-tickets_status,
+ .tag-list .tag-group-content_languages,
+ .tag-list .tag-group-content_languages_disabled {
+ display: none;
+ }
+
 
  .d-editor-button-bar .bullet,
  .d-editor-button-bar .list,
