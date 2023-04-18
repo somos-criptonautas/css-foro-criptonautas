@@ -160,7 +160,9 @@ display: none;
  left: 0.5rem;
  top: calc(50% - 0.63rem);
  }
-
+ .full-width .contents .topic-list .topic-list-body .topic-list-item {
+padding: 1.87rem 0;
+ }
  .full-width .contents .topic-list .topic-list-body .topic-list-item {
  border-radius: 0.5rem !important;
  background-color: transparent !important;
@@ -292,7 +294,6 @@ background-color: none;
  .discourse-tag {
    font-size: $font-down-1;
    border-radius: 0.25em;
-   padding: 0.15em 0.25em 0.15em 0.35em;
    background-color: var(--primary-low);
    color: var(--primary) !important;
    &:hover {
@@ -325,7 +326,9 @@ font-size: var(--font-down-2-rem);
    .cm-header-links {
      display: none;
    }
-   .list-controls .nav-pills .drop li:first-of-type {
+   .list-controls .nav-pills .drop .nav-item_latest,
+   .list-controls .nav-pills .drop .nav-item_unassigned,
+   .navigation-container .select-kit.combo-box.tag-drop {
      display: none;
    }
  }
@@ -442,9 +445,12 @@ font-size: var(--font-down-1);
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
- .discourse-tag {
+ .discourse-tag,
+  {
   padding: .15em .53rem;
-  margin: .25rem !important;
+ }
+ .topic-list .topic-item-stats {
+ padding: 0;
  }
  html body {
  background: none !important;
@@ -883,7 +889,7 @@ margin-top: 0.35rem;
 gap:0.33rem;
  }
  .badge-wrapper .badge-category .category-name {
-  padding: 0.1rem 0.25rem;
+  padding: 0.05rem 0.15rem;
  }
  div.user-profile-website,
  .nationalflag-usersummary,
@@ -1049,10 +1055,6 @@ position: relative;
  .topic-list .num .badge-posts {
   font-size: 1.77rem;
 }
-
- .full-width .contents .topic-list .topic-list-body .topic-list-item:nth-child(1) {
-display: none;
- }
 
  .topic-list-item .posters .topic-list-data {
 display: none;
@@ -1350,7 +1352,13 @@ display: table;
   font-size: 1.43rem;
    }
 
-   .topic-list-item .discourse-tags {
+   .topic-list .topic-item-stats__category-tags .discourse-tags {
     font-size: var(--font-down-1);
-    display: inline-flex;
+    display: inline-flex !important;
+    gap: 0.33rem;
+     }
+
+     .floating-search-input {
+      width: 43%;
+      font-size: var(--font-down-2);
      }
