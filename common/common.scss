@@ -331,6 +331,13 @@ font-size: var(--font-down-2-rem);
    }
  }
  
+ .list-controls .nav-pills .drop li a,
+ .list-controls .nav-pills .drop li a:visited {
+ color :unset;
+ }
+ .list-controls .nav-pills .drop {
+ border: 1px solid var(--primary-low-mid-or-secondary-high);
+ }
  input[type="text"],
  input[type="password"],
  input[type="datetime"],
@@ -1093,7 +1100,13 @@ nav.post-controls,
 .menu-panel {
 font-size: var(--base-font-size);
 }
- .chat-channel-unread-indicator.urgent {
+.menu-panel {
+  padding-right: 0.1rem;
+  }
+  .hamburger-panel .revamped .sidebar-footer-container::before {
+  background: none;
+  }
+  .chat-channel-unread-indicator.urgent {
 background: coral;
 }
 .chat-channel-unread-indicator {
@@ -1336,4 +1349,5 @@ display: table;
 
    .topic-list-item .discourse-tags {
     font-size: var(--font-down-1);
+    display: inline-flex;
      }

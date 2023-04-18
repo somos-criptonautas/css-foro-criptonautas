@@ -53,7 +53,6 @@ ol.category-breadcrumb {
 .list-controls .nav-pills {
   li.navigation-toggle {
     border-radius: 8px;
-    border: none;
     background-color: var(--secondary);
     a:hover,
     a:focus {
@@ -127,8 +126,8 @@ font-size: var(--font-down-1);
     margin: 0.5rem;
   }
   #main-outlet-wrapper {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   }
   .search-container .search-bar input.search-query {
   flex: unset;
