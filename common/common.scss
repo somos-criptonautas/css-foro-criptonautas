@@ -3,7 +3,9 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
-
+.discourse-no-touch a.lightbox:hover {
+box-shadow: none;
+}
 @media screen and (min-width: 992px) {
 .topic-body {
 	width: 73%;
