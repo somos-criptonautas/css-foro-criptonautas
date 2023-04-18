@@ -757,7 +757,8 @@ float: right;
  }
 }
 
- #topic-footer-buttons .reason .text {
+ #topic-footer-buttons .reason .text,
+ li[data-value="toggleWhisper"] {
 display: none;
  }
  a[data-link-name="all-categories"] {
@@ -798,9 +799,6 @@ font-size: var(--font-down-1);
 
  .discourse-tags a.discourse-tag.simple:not(:last-of-type)::after, .list-tags a.discourse-tag.simple:not(:last-of-type)::after, .content-language-tags a.content-language-tag:not(:last-of-type)::after {
   content: "";
- }
- .discourse-tag .list-vote-count {
-display: none;
  }
  .btn .d-icon {
 transition: none;
