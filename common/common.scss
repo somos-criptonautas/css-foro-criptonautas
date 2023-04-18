@@ -707,6 +707,7 @@ display: none;
 
  a[data-link-name="all-categories"] {
 text-transform: uppercase;
+font-weight: 500;
  }
  a[data-link-name="docs"],
  a[data-link-name="users"],
@@ -718,8 +719,10 @@ text-transform: uppercase;
 
  .tag-group-glosario,
  .tag-group-tickets_reason,
+ .tag-group-tickets_priority,
  .tag-group-content_languages,
- .tag-group-content_languages_disabled {
+ .tag-group-content_languages_disabled,
+ .tag-sort-options {
  display: none !important;
  }
 
@@ -750,9 +753,6 @@ display: none;
 
  #topic-footer-buttons .reason .text {
 display: none;
- }
- a[data-link-name="all-categories"] {
- font-weight: 500;
  }
 
 img.emoji {
@@ -1314,6 +1314,7 @@ font-weight: 700 !important;
 
 .sidebar-row, .sidebar-section-wrapper .sidebar-section-header-text {
 font-size: var(--font-down-1);
+font-weight: 500;
 }
 
 .category-boxes-with-topics {
