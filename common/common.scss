@@ -214,6 +214,9 @@ background-color: none;
    p {
      margin-bottom: 1em;
    }
+   .btn {
+    font-size: var(--font-down-1);
+   }
   .btn-primary,
   .select-kit.dropdown-select-box .dropdown-select-box-header {
   padding: 0.55rem 1rem !important;
@@ -1360,5 +1363,8 @@ display: table;
 
      .floating-search-input {
       width: 43%;
+     }
+     .floating-search-input {
+      .full-width .contents .topic-list .topic-list-header
       font-size: var(--font-down-2);
      }
