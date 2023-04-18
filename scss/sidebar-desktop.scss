@@ -23,7 +23,7 @@ overflow: inherit !important;
     background-color: var(--secondary);
     border-radius: 1em;
     top: calc(var(--header-offset) + 30px);
-    height: calc(100vh - (var(--header-offset) + 80px));
+    height: calc(100vh - (var(--header-offset) + 3rem));
     @include box-shadow;
   }
   .sidebar-footer-wrapper {

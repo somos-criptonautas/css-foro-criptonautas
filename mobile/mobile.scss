@@ -106,23 +106,8 @@ font-size: var(--font-down-1);
       width: 2.13rem;
       height: 2.13rem;
   }
-
-  .wrap .contents {
-    display: table;
-    width: 100%;
-  }
-
   .d-header {
   height: 4.93rem;
-  }
-
-  .d-header > .wrap .contents {
-  justify-content: right;
-  }
-
-  .header-dropdown-toggle .hamburger-dropdown {
-    position: absolute;
-  left: 1rem;
   }
 
   .d-modal .modal-header {
