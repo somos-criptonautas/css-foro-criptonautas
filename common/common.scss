@@ -743,8 +743,7 @@ text-transform: uppercase;
 
  .d-editor-button-bar .bullet,
  .d-editor-button-bar .list,
- .d-editor-button-bar .emoji,
- .d-editor-button-bar .blockquote {
+ .d-editor-button-bar .emoji {
 display: none;
  }
 
@@ -752,9 +751,11 @@ display: none;
  .sidebar-wrapper .sidebar-container {
 height: inherit;
  }
+ @media screen and (max-width:767px) {
  #topic-footer-buttons .topic-footer-main-buttons {
 float: right;
  }
+}
 
  #topic-footer-buttons .reason .text {
 display: none;
