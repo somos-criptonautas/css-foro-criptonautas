@@ -155,12 +155,15 @@ font-size: var(--font-down-1);
   }
 
   /* Burger to left */
-
+@media screen and (max-width: 992px) {
+  .d-header .panel {
+  width: 100%;
+  }
+}
 .d-header .panel {
 margin: 0;
 display: flex;
 justify-content: flex-end;
-width: 100%;
 }
 .d-header .d-header-icons {
   width: 100%;
