@@ -836,11 +836,12 @@ display: none;
  .related-messages-title,
  .suggested-topics .suggested-topics-title,
  .poster-icon,
- .sidebar-wrapper .sidebar-sections [data-section-name="tags"],
+ .sidebar-wrapper .sidebar-section [data-section-name="tags"],
+ .sidebar-wrapper .sidebar-section [data-section-name="messages"],
  .control-group .preferences-sidebar-tags,
  .sidebar-section-link-docs,
  .sidebar-section-link-birthdays {
-display: none !important;
+display: none;
  }
 
  .suggested-topics {
