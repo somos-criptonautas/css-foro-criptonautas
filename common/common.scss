@@ -415,6 +415,22 @@ font-size: var(--font-down-1);
  .timeline-container .topic-timeline .timeline-scrollarea {
    border-left-color: var(--tertiary);
  }
+
+ .timeline-container .fancy-title {
+font-size: 1rem;
+ }
+
+ .timeline-container .fancy-title .jump-to-post {
+ display: none;
+ }
+
+ .timeline-container.timeline-fullscreen .topic-timeline .timeline-scrollarea-wrapper {
+ width: 6rem;
+ }
+
+ .timeline-container.timeline-fullscreen .topic-timeline .post-excerpt {
+padding-bottom: 1rem;
+ }
  
  html {
    body {
@@ -824,7 +840,7 @@ display: none;
  .control-group .preferences-sidebar-tags,
  .sidebar-section-link-docs,
  .sidebar-section-link-birthdays {
-display: none;
+display: none !important;
  }
 
  .suggested-topics {
