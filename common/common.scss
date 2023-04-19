@@ -38,7 +38,7 @@ box-shadow: none;
   --font-down-3: 0.91em;
 }
 .topic-list .posters {
-  width: 299px !important;
+  width: 23% !important;
 }
 }
 :root {
@@ -131,7 +131,7 @@ font-weight: 700 !important;
 font-size: 1.53rem !important;
 }
 }
-.topic-list .views,
+.topic-list .activity,
 .user-stream .expand-item, .user-stream .collapse-item,
 .topic-list button.bulk-select {
 display: none;
@@ -139,7 +139,7 @@ display: none;
 .topic-list .posts,
 .topic-list .views,
 .topic-list .views {
-  width: 79px;
+  width: 8%;
 }
 
  .switch span.toggle-icon .d-icon {
@@ -1154,7 +1154,7 @@ max-width: 100% !important;
 }
 
 .suggested-topics-message {
-margin: 2rem 0;
+margin: 3rem 0 1.33rem;
 font-size: var(--font-up-2);
 }
 .suggested-topics .badge-wrapper.bullet span.badge-category,
