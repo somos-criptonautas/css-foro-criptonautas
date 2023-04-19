@@ -761,7 +761,9 @@ img.emoji {
   height: 1.11rem !important;
   vertical-align: middle !important;
 }
-
+.chat-messages-container {
+font-size: var(--font-down-2);
+}
  .channels-list .chat-channel-divider {
 color: unset;
  }
