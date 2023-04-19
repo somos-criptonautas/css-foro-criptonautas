@@ -1364,7 +1364,7 @@ display: table;
      .floating-search-input {
       width: 43%;
      }
-     .floating-search-input {
-      .full-width .contents .topic-list .topic-list-header
+     .floating-search-input,
+      .full-width .contents .topic-list .topic-list-header {
       font-size: var(--font-down-2);
      }
