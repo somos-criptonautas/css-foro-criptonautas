@@ -48,8 +48,13 @@ body.has-sidebar-page {
 $dark-theme-d-hover: var(--tertiary-very-low);
 $light-theme-d-hover: #f2f2f2;
 
+$dark-theme-quaternary: var(--white);
+$light-theme-quaternary: #7e8b93;
+
 $d-hover: dark-light-choose($light-theme-d-hover, $dark-theme-d-hover);
+$quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
 
 :root {
   --d-hover: #{$d-hover};
+  --quaternary: #{$quaternary};
 }
