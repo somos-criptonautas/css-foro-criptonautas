@@ -838,7 +838,9 @@ display: none;
  .poster-icon,
  .control-group .preferences-sidebar-tags,
  .sidebar-section-link-docs,
- .sidebar-section-link-birthdays {
+ .sidebar-section-link-birthdays,
+ .sidebar-section[data-section-name="tags"],
+ .sidebar-section[data-section-name="messages"] {
 display: none;
  }
 
