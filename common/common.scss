@@ -25,28 +25,14 @@ box-shadow: none;
     --chat-header-offset: 3rem;
 }
 }
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   :root {
-    --font-up-5: 2em;
-    --font-up-4: 1.8em;
-    --font-up-3: 1.43em;
-    --font-up-2: 1.25em;
-    --font-up-1: 1.1em;
-    --font-0: 1em;
-    --font-down-1: 0.96em;
-    --font-down-2: 0.93em;
-    --font-down-3: 0.91em;
-    --chat-header-offset: 3rem;
-}
-}
-@media screen and (min-width: 992px) {
-  :root {
-  --font-up-5: 2.1em;
-  --font-up-4: 1.9em;
-  --font-up-3: 1.7em;
-  --font-up-2: 1.5em;
-  --font-up-1: 1.3em;
-  --font-0: 1.2em;
+  --font-up-5: 2em;
+  --font-up-4: 1.75em;
+  --font-up-3: 1.6em;
+  --font-up-2: 1.45em;
+  --font-up-1: 1.2em;
+  --font-0: 1.1em;
   --font-down-1: 0.97em;
   --font-down-2: 0.93em;
   --font-down-3: 0.91em;

@@ -163,7 +163,14 @@ bottom: unset;
   }
 
 @media screen and (max-width: 767px) {
-.header-dropdown-toggle .chat-header-icon {
+.header-dropdown-toggle .chat-header-icon,
+.d-icon-far-check-square .d-button-label {
 display: none;
+}
+td .main-link {
+width: 97%;
+}
+.post-menu-area {
+font-size: var(--font-down-1);
 }
 }
