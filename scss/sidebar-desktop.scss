@@ -27,7 +27,7 @@ overflow: inherit !important;
     @include box-shadow;
   }
   .sidebar-footer-wrapper {
-    background: var(--secondary);
+    display: none;
   }
 }
 
@@ -43,4 +43,13 @@ body.has-sidebar-page {
     transparent,
     rgba(var(--secondary), 1)
   );
+}
+
+$dark-theme-d-hover: var(--tertiary-very-low);
+$light-theme-d-hover: #f2f2f2;
+
+$d-hover: dark-light-choose($light-theme-d-hover, $dark-theme-d-hover);
+
+:root {
+  --d-hover: #{$d-hover};
 }

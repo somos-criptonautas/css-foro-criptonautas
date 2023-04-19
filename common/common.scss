@@ -108,7 +108,12 @@ font-size: var(--font-up-1)
 line-height: 1 !important;
 font-weight: 700 !important;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
+.full-width .contents .topic-list .topic-list-item .main-link .title {
+  font-size: 1.11rem !important;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
   .topic-list .main-link a.title {
     font-size: 1.37rem !important;
@@ -797,7 +802,7 @@ font-size: var(--font-down-1);
 transition: none;
  }
  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
-border-radius: 3px;
+border-radius: 0.1rem;
  }
  nav.post-controls .actions .extra-buttons {
   display: inline-flex;
@@ -809,7 +814,9 @@ border-radius: 3px;
 .control-group .advanced-search-topics-posts fieldset.grouped-control {
 display: none;
 }
-
+.top-categories-section {
+display: none;
+}
  .related-messages-title,
  .suggested-topics .suggested-topics-title,
  .poster-icon,
