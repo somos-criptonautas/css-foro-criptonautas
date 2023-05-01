@@ -727,6 +727,12 @@ display: none;
 
  /* Matenauta stuff */
 
+ .ai-summary-modal .modal-inner-container {
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+ }
+
  a[data-link-name="all-categories"] {
 text-transform: uppercase;
 font-weight: 500;
