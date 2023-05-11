@@ -466,8 +466,7 @@ padding-bottom: 1rem;
      clip-path: ellipse(148% 70% at 91% -14%);
    }
  }
- .discourse-tag,
-  {
+ .discourse-tag  {
   padding: .15em .53rem;
  }
  .topic-list .topic-item-stats {
@@ -505,7 +504,6 @@ padding-bottom: 0;
 }
 .sidebar-section-link-wrapper .sidebar-section-link, .sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2.11rem !important;
-}
 }
   @media screen and (max-width: 991px) {
 .tc-right-sidebar {
