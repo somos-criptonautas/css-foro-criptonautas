@@ -137,9 +137,8 @@ font-size: 1.53rem !important;
 display: none;
 }
 .topic-list .posts,
-.topic-list .views,
 .topic-list .views {
-  width: 8%;
+  width: 8% !important;
 }
 
  .switch span.toggle-icon .d-icon {
