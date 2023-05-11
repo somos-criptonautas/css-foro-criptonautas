@@ -503,10 +503,6 @@ padding-bottom: 1rem;
 #list-area {
 padding-bottom: 0;
 }
-  @media screen and (max-width: 767px) {
-.d-header .title {
-   display: none !important;
-  }
 .sidebar-section-link-wrapper .sidebar-section-link, .sidebar-section-wrapper .sidebar-section-header-wrapper {
 height: 2.11rem !important;
 }
@@ -1222,10 +1218,6 @@ font-size: 1.11rem;
   color: var(---high);
 }
 @media screen and (max-width: 767px) {
- .topic-list .num,
- posters .topic-list-data {
-display: none !important;
-}
 .main-link .topic-list-data {
 width: 100%;
 }
