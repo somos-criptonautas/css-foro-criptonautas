@@ -57,11 +57,20 @@ box-shadow: none;
 li p {
 font-size: unset !important;
 }
-p {
-font-size: var(--font-0);
+.chat-drawer-container .channels-list .chat-channel-row {
+height: 3rem;
+}
+.chat-reply {
+font-size: var(--font-down-3);
 }
 .nav-stacked a {
 font-size: var(--font-0);
+}
+.chat-composer__input:placeholder-shown, .chat-composer__input::placeholder {
+font-size: var(--font-down-2)
+}
+.chat-composer-dropdown__trigger-btn .d-icon {
+color: var(--secondary);
 }
 .admin-nav {
 width: 23%;
