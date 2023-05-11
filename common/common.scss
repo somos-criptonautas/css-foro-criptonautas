@@ -179,6 +179,7 @@ padding: 0.33rem 0;
  }
  .sidebar-section-wrapper .sidebar-section-header-wrapper .btn.dropdown-select-box-header, .sidebar-section-wrapper .sidebar-section-header-wrapper .sidebar-section-header-button {
   font-size: var(--font-0);
+  margin-right: 0.23rem
  }
 ::not(.has-sidebar-page) #main-outlet-wrapper #main-outlet {
 justify-self: center !important;
@@ -208,8 +209,7 @@ background-color: none;
    .btn {
     font-size: var(--font-down-1);
    }
-  .btn-primary,
-  .select-kit.dropdown-select-box .dropdown-select-box-header {
+  .btn-primary {
   padding: 0.55rem 1rem !important;
   }
    .search-menu input[type="text"] {
@@ -250,6 +250,10 @@ background-color: none;
    }
  }
  
+ .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
+  background: var(--tertiary-low) !important;
+}
+
  // Main customizations
  .alert {
    margin: 1em 0;
@@ -391,7 +395,6 @@ font-size: var(--font-down-2-rem);
  
  .btn:not(.themes-tab):not(.components-tab),
  .select-kit.dropdown-select-box .dropdown-select-box-header {
-   border-radius: 8px;
    border: 1px solid transparent;
  }
  .list-controls .combo-box .combo-box-header,
@@ -876,7 +879,7 @@ display: none;
   font-size: var(--font-up-2);
   font-weight: 800;
  }
- .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
+ .btn:not(.themes-tab):not(.components-tab) {
 border: none;
  }
 #user-menu-button-replies,
@@ -1040,12 +1043,16 @@ font-size: var(--font-up-1);
  #reply-control.draft #create-topic {
   display: none;
  }
- 
+ #reply-control.open {
+height: unset;
+ }
  #reply-control.draft, #reply-control.saving {
 height: 3rem !important;
 padding: 0 1rem;
  }
-
+ body:not(.ios-safari-composer-hacks) #reply-control.open {
+  --min-height: 450px;
+ }
  .btn-social {
 margin: 1rem !important;
 }
