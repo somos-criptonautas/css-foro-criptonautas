@@ -1043,9 +1043,6 @@ font-size: var(--font-up-1);
  #reply-control.draft #create-topic {
   display: none;
  }
- #reply-control.open {
-height: unset;
- }
  #reply-control.draft, #reply-control.saving {
 height: 3rem !important;
 padding: 0 1rem;
