@@ -97,6 +97,7 @@ padding: unset !important;
 .sidebar-row,
 .sidebar-section-wrapper .sidebar-section-header-text {
   font-size: var(--font-0);
+  padding-left: 0.25rem;
 }
  .switch span.toggle-icon {
  margin: 0;
@@ -141,8 +142,8 @@ font-size: 1.53rem !important;
 }
 }
 .topic-list .activity,
-.user-stream .expand-item, .user-stream .collapse-item,
-.topic-list button.bulk-select {
+.user-stream .expand-item,
+.user-stream .collapse-item {
 display: none;
 }
 .topic-list .posts,
@@ -955,7 +956,7 @@ font-size: var(--font-down-1);
  .composer-popup h3 {
 font-size: 1.6rem;
  }
- .cooked ul, .cooked ol, .d-editor-preview ul, .d-editor-preview ol {
+ .d-editor-preview ul, .d-editor-preview ol {
   font-size: var(--font-0);
  }
 .timeline-scrollarea-wrapper {
@@ -978,7 +979,27 @@ font-size: var(--font-down-2)
 font-size: var(--font-down-2)
 }
 .select-kit.is-expanded .select-kit-collection {
-font-size: var(--font-down-1);
+font-size: var(--font-down-5);
+}
+
+.select-kit.single-select.dropdown-select-box .select-kit-row .icons {
+  font-size: var(--font-down-3);
+}
+
+.select-kit .select-kit-row {
+padding: 0.25rem;
+}
+
+.chat-composer__wrapper {
+background-color: unset;
+}
+
+.select-kit.is-expanded .select-kit-filter.is-expanded {
+padding: 0.5rem;
+}
+
+.sidebar-more-section-links-details-summary {
+padding-left: 0;
 }
 
  a.topic-excerpt {
@@ -1385,4 +1406,18 @@ display: table;
      .floating-search-input,
       .full-width .contents .topic-list .topic-list-header {
       font-size: var(--font-down-2);
+     }
+
+     $dark-theme-d-hover: var(--tertiary-very-low);
+     $light-theme-d-hover: #f2f2f2;
+     
+     $dark-theme-quaternary: var(--white);
+     $light-theme-quaternary: #7e8b93;
+     
+     $d-hover: dark-light-choose($light-theme-d-hover, $dark-theme-d-hover);
+     $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
+     
+     :root {
+       --d-hover: #{$d-hover};
+       --quaternary: #{$quaternary};
      }
