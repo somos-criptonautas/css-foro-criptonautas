@@ -1199,15 +1199,6 @@ body::not(.has-sidebar-page).topic-body {
 width: 80%;
 }
 }
-.container.posts {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.container.posts > .row,
-.topic-body,
-.small-action .small-action-desc {
-width: 100% !important;
-}
 .small-action {
 max-width: 80%;
 margin: auto;
