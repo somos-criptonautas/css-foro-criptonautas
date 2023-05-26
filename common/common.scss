@@ -966,7 +966,8 @@ font-size: 1.6rem;
 .timeline-scrollarea-wrapper {
 font-size: var(--font-0);
 }
-.topic-avatar .avatar-flair {
+.topic-avatar .avatar-flair,
+.user-nav__messages-new {
 display: none;
 }
 #topic-progress .nums {
