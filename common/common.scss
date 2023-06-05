@@ -733,7 +733,9 @@ display: none;
 
  /* Matenauta stuff */
 
-.pref-new-user-tips .controls {
+.pref-new-user-tips .controls,
+.more-tags,
+.btn .expand-post {
 display: none;
  }
 
