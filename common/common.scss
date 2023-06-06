@@ -740,8 +740,17 @@ display: none;
 
 .pref-new-user-tips .controls,
 .more-tags,
-.btn .expand-post {
+.btn .expand-post,
+.chat-composer-button .-emoji {
 display: none;
+ }
+
+ .chat-message .chat-message-reaction {
+  padding: .13em .26em;
+ }
+
+ .is-send-disabled.is-focused .chat-composer-button .d-icon {
+color: var(--secondary);
  }
 
  .ai-summary-modal .modal-inner-container {
