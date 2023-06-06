@@ -371,8 +371,13 @@ font-size: var(--font-down-2-rem);
    width: inherit !important;
    font-size: var(--font-down-3);
  }
- 
- 
+ .d-header-icons {
+  align-items: center;
+  display: flex;
+ }
+ header-color-scheme-toggle icon {
+height: 2.5rem;
+}
  .d-header-icons .icon, 
  .d-header-icons .icon img.avatar {
    border-radius: 0.25em;
