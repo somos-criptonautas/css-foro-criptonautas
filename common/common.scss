@@ -738,6 +738,10 @@ display: none;
 
  /* Matenauta stuff */
 
+.anon .sidebar-section-link-wrapper[data-list-item-name="groups"] {
+display: none;
+}
+
 .pref-new-user-tips .controls,
 .more-tags,
 .btn .expand-post,
@@ -871,7 +875,6 @@ display: none;
  .control-group .preferences-sidebar-tags,
  .sidebar-section-link-docs,
  .sidebar-section-link-birthdays,
- .sidebar-section[data-section-name="tags"],
  .sidebar-section[data-section-name="messages"] {
 display: none;
  }
