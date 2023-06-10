@@ -918,9 +918,6 @@ display: none;
  .menu-panel .panel-body-bottom {
 font-size: 0.75rem !important;
  }
- .user-menu.revamped .quick-access-panel li {
-  background-color: var(--tertiary-100);
- }
  .user-menu.revamped .quick-access-panel li:hover {
   background-color: var(--tertiary-300);
  }
@@ -1023,7 +1020,7 @@ padding: 0.5rem;
 }
 
 .sidebar-more-section-links-details-summary {
-padding-left: 0;
+padding-left: 0 !important
 }
 
  a.topic-excerpt {
@@ -1231,14 +1228,20 @@ padding: 1.33rem 0;
 nav.post-controls .actions button {
 padding: 0.53rem;
 }
-.suggested-topics-message {
+body:not(.has-sidebar-page) .suggested-topics-message {
 margin: 3rem 0 1.33rem;
 font-size: var(--font-up-2);
+text-align: left;
+}
+body.has-sidebar-page .suggested-topics-message {
 text-align: center;
 }
 .suggested-topics .badge-wrapper.bullet span.badge-category,
 .suggested-topics .badge-wrapper.bar span.badge-category {
 max-width: unset;
+}
+.select-kit .select-kit-header .selected-name {
+  padding: .11em .23em;
 }
 .reply-control {
 padding: 0.33rem !important;
