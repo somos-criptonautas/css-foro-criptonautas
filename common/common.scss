@@ -742,7 +742,6 @@ height: calc(100vh - (var(--header-offset) + 3rem));
 
  .new-user-wrapper .user-navigation-secondary .nav-pills {
   flex-direction: column;
-  float: left;
   padding-right: 1rem;
  }
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
@@ -904,9 +903,10 @@ margin: 0;
 }
 
  .user-menu.revamped #quick-access-profile .profile-tab-btn {
-  font-size: var(--base-font-size);
+  font-size: var(--font-down-1-rem);
  }
- .user-menu.revamped #quick-access-profile li.activity {
+ .user-menu.revamped #quick-access-profile li.activity,
+ .control-group .pref-location {
 display: none;
  }
  .stats-title,
