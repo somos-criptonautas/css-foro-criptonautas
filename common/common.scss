@@ -540,9 +540,7 @@ padding: 1rem 0 0 1rem !important;
 background-color: transparent !important;
 height: 100%;
 }
-.new-user-wrapper .user-navigation .nav-pills li a:hover,
-.new-user-wrapper .user-navigation .nav-pills li a:active,
-.new-user-wrapper .user-navigation .nav-pills li a.active {
+.new-user-wrapper .user-navigation .nav-pills li a {
 border-bottom: 0 !important;
 }
  .nav-pills > li > a,
@@ -737,7 +735,17 @@ display: none;
  }
 
  /* Matenauta stuff */
+ .user-navigation .user-navigation-secondary {
+float: left;
+calc(100vh - (var(--header-offset) + 3rem))
+ }
 
+ .new-user-wrapper .user-navigation-secondary .nav-pills {
+  flex-direction: column;
+ }
+ .new-user-wrapper .user-navigation-secondary .nav-pills li a {
+justify-content: left;
+ }
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"] {
 display: none;
 }
