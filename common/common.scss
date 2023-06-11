@@ -737,7 +737,7 @@ display: none;
  /* Matenauta stuff */
  .user-navigation .user-navigation-secondary {
 float: left;
-calc(100vh - (var(--header-offset) + 3rem))
+height: calc(100vh - (var(--header-offset) + 3rem));
  }
 
  .new-user-wrapper .user-navigation-secondary .nav-pills {
