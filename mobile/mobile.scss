@@ -44,8 +44,12 @@ h1 {
   .user-nav__admin {
   background-color: var(--d-sidebar-highlight-background);
   }
-  .user-nav__activity ember-view {
+  .user-nav__activity ember-view,
+  .timeline-open-jump-to-post-prompt-btn {
   display: none;
+  }
+  .topic-timeline .title {
+  opacity: 0.33;
   }
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
