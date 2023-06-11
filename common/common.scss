@@ -738,8 +738,9 @@ display: none;
  .new-user-wrapper .user-navigation-secondary {
 float: left;
  }
-
- .user-preferences .form-vertical,
+ .user-preferences .form-vertical {
+width: unset;
+ }
  .user-navigation .user-navigation-secondary {
  height: calc(100vh - (var(--header-offset) + 3rem));
  }
