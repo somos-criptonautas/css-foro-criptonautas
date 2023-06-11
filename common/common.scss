@@ -123,11 +123,6 @@ font-weight: 700 !important;
   font-size: 1.63rem !important;
 }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .latest-topic-list-item.visited a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
-  .topic-list .main-link a.title {
-    font-size: 1.93rem !important;
-  }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
   font-size: 1.3rem !important;
 }
@@ -150,7 +145,9 @@ display: none;
 .topic-list .views {
   width: 8% !important;
 }
-
+widget-button btn btn-default popup-menu-button {
+min-width: 5rem;
+}
  .switch span.toggle-icon .d-icon {
  width: 1.23rem;
  }
@@ -1005,9 +1002,6 @@ font-size: var(--font-0);
 .topic-avatar .avatar-flair,
 .user-nav__messages-new {
 display: none;
-}
-#topic-progress .nums {
-top: 0.23rem;
 }
 timeline-open-jump-to-post-prompt-btn {
 display: none;

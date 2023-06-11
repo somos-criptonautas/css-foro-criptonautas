@@ -69,7 +69,26 @@ ol.category-breadcrumb,
 .navigation-container .select-kit.combo-box.tag-drop {
   display: flex !important;
 }
-
+#topic-progress-wrapper {
+right: unset;
+justify-content: unset;
+width: 100%;
+left: 0;
+height: 3.33rem;
+}
+#topic-progress {
+width: 100%;
+height: unset;
+}
+#topic-progress .nums {
+width: 100%;
+top: 0.53rem;
+font-size: var(--font-up-3);
+}
+.select-kit .select-kit-header .select-kit-header-wrapper {
+  min-width: 2.35rem;
+  margin-right: 0.33rem;
+}
 .list-controls .nav-pills {
   li.navigation-toggle {
     border-radius: 8px;
