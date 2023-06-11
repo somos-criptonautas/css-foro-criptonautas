@@ -108,28 +108,39 @@ font-size: 0.81rem;
  .full-width .contents .topic-list {
 font-size: var(--font-up-1)
  }
- .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title,
+ .topic-list-main-link a.title, .latest-topic-list-item .main-link a.title,
+ .topic-list .main-link a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title,
-.user-stream-item a.title {
+.user-stream-item a.title,
+aside.quote .title {
   font-family: var(--heading-font-family);
 }
 .user-stream-item a.title,
-.full-width .contents .topic-list .topic-list-item .main-link .title {
+.full-width .contents .topic-list .topic-list-item .main-link .title,
+.topic-list .main-link {
 line-height: 1 !important;
 font-weight: 700 !important;
 }
 @media screen and (max-width: 768px) {
-.full-width .contents .topic-list .topic-list-item .main-link .title {
+.full-width .contents .topic-list .topic-list-item .main-link .title,
+.topic-list .main-link {
   font-size: 1.63rem !important;
 }
 }
-.full-width .contents .topic-list .topic-list-item .main-link .title {
+.full-width .contents .topic-list .topic-list-item .main-link .title,
+.topic-list .main-link {
   font-size: 1.3rem !important;
 }
-
+aside.quote .title a {
+  color: unset;
+  }
+.topic-list .main-link a.title {
+  font-size: 1.33rem !important;
+  }
 @media screen and (min-width: 992px) {
-  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification), .category-topic-link.visited a.title:not(.badge-notification),
-  .topic-list .main-link a.title {
+  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
+  .category-topic-link.visited a.title:not(.badge-notification),
+  aside.quote .title {
     font-size: 1.63rem !important;
   }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
@@ -1021,9 +1032,7 @@ font-size: var(--font-down-5);
   font-size: var(--font-down-3);
 }
 
-.select-kit .select-kit-row {
-padding: 0.25rem;
-}
+
 
 .chat-composer__wrapper {
 background-color: unset;
@@ -1415,12 +1424,11 @@ nav-pills > li a:active {
   background-color: var(--tertiary-900);
 }
 
-.topic-list-main-link a.title, .latest-topic-list-item .main-link a.title, .topic-list .main-link a.title {
+.topic-list-main-link a.title,
+.latest-topic-list-item .main-link a.title,
+.topic-list .main-link a.title,
+aside.quote .title {
 font-weight: 700 !important;
-}
-
-.topic-list .main-link {
-  font-size: var(--font-0);
 }
 
 
