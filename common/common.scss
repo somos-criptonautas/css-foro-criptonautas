@@ -737,9 +737,12 @@ display: none;
  /* Matenauta stuff */
  .user-navigation .user-navigation-secondary {
 float: left;
-height: calc(100vh - (var(--header-offset) + 3rem));
  }
 
+ .user-preferences .form-vertical,
+ .user-navigation .user-navigation-secondary {
+ height: calc(100vh - (var(--header-offset) + 3rem));
+ }
  .new-user-wrapper .user-navigation-secondary .nav-pills {
   flex-direction: column;
   padding-right: 1rem;
