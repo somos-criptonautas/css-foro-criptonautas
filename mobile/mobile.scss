@@ -62,10 +62,11 @@ body.category .navigation-categories .list-container,
 .categories-list .list-container {
   padding-top: 1em !important;
 }
-
+.list-controls .navigation-container {
+margin-top: 1em;
+}
 ol.category-breadcrumb,
 .navigation-container .select-kit.combo-box.tag-drop {
-  margin-top: 1em;
   display: flex !important;
 }
 
