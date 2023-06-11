@@ -735,7 +735,7 @@ display: none;
  }
 
  /* Matenauta stuff */
- .user-navigation .user-navigation-secondary {
+ .new-user-wrapper .user-navigation-secondary {
 float: left;
  }
 
@@ -951,8 +951,9 @@ gap:0.33rem;
  .badge-wrapper .badge-category .category-name {
   padding: 0 0.15rem;
  }
- div.user-profile-website,
+ .user-location-and-website-outlet,
  .nationalflag-usersummary,
+ .user-profile-location,
  .d-user-card__field .posted {
 display: none !important;
  }
