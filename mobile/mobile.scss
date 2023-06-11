@@ -44,12 +44,15 @@ h1 {
   .user-nav__admin {
   background-color: var(--d-sidebar-highlight-background);
   }
-  .user-nav__activity ember-view,
+  .user-nav__activity,
   .timeline-open-jump-to-post-prompt-btn {
   display: none;
   }
   .topic-timeline .title {
   opacity: 0.33;
+  }
+  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
+    color: var(--active_color);
   }
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
