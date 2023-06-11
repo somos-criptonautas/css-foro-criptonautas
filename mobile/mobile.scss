@@ -63,8 +63,10 @@ body.category .navigation-categories .list-container,
   padding-top: 1em !important;
 }
 
-ol.category-breadcrumb {
+ol.category-breadcrumb,
+.navigation-container .select-kit.combo-box.tag-drop {
   margin-top: 1em;
+  display: flex !important;
 }
 
 .list-controls .nav-pills {
