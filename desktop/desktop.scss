@@ -20,7 +20,9 @@ html {
 .chat-messages-container p {
 font-size: var(--font-down-1-rem);
 }
-
+.user-preferences .category-selector {
+    max-width: 70%
+    }
 .container.posts {
     display: flex;
     flex-direction: row-reverse;
