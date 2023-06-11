@@ -737,17 +737,22 @@ display: none;
  /* Matenauta stuff */
  .new-user-wrapper .user-navigation-secondary {
 float: left;
-min-height: 100vh;
+height: 100vh;
+border: 0;
  }
  .user-preferences .form-vertical {
 width: unset;
+ }
+
+ .user-preferences .form-vertical .save-changes {
+margin: auto;
  }
  .user-navigation .user-navigation-secondary {
  height: calc(100vh - (var(--header-offset) + 3rem));
  }
  .new-user-wrapper .user-navigation-secondary .nav-pills {
   flex-direction: column;
-  padding-right: 1rem;
+  padding-right: 1.76rem;
  }
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
 justify-content: left;
