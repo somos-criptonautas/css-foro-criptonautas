@@ -742,6 +742,8 @@ height: calc(100vh - (var(--header-offset) + 3rem));
 
  .new-user-wrapper .user-navigation-secondary .nav-pills {
   flex-direction: column;
+  float: left;
+  padding-right: 1rem;
  }
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
 justify-content: left;
