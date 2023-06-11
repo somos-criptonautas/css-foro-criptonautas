@@ -41,7 +41,12 @@ h1 {
     font-family: var(--font-family);
   }
 
-
+  .user-nav__admin {
+  background-color: var(--d-sidebar-highlight-background);
+  }
+  .user-nav__activity ember-view {
+  display: none;
+  }
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
   border-bottom: none !important;
