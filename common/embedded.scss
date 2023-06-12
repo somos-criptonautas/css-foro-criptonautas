@@ -4,11 +4,7 @@
 @import "./color_definitions";
 @import "./common/components/buttons";
 
-@media screen and (max-width: 991px) {
-.button {
-font-size: inherit !important;
-}
-}
+
 :root {
 --font-down-1: --font-up-1;
 --font-0: 22px;
@@ -175,7 +171,7 @@ footer {
   background-color: transparent !important;
   border: 3px solid var(--secondary-low);
   border-radius: 0.33em;
-  color: var(--secondary-high);
+  color: var(--secondary);
   display: inline-block;
   padding: 1.33rem 3rem !important;
   margin: 3rem auto !important;
