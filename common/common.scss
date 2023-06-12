@@ -116,9 +116,12 @@ aside.quote .title {
   font-family: var(--heading-font-family);
 }
 .user-stream-item a.title,
+.full-width .contents .topic-list .topic-list-item .main-link .title {
+  line-height: 1 !important;
+}
+.user-stream-item a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title,
 .topic-list .main-link {
-line-height: 1 !important;
 font-weight: 700 !important;
 }
 @media screen and (max-width: 768px) {
