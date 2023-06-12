@@ -139,9 +139,11 @@ aside.quote .title a {
   }
 @media screen and (min-width: 992px) {
   .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
-  .category-topic-link.visited a.title:not(.badge-notification),
-  aside.quote .title {
+  .category-topic-link.visited a.title:not(.badge-notification) {
     font-size: 1.63rem !important;
+  }
+  aside.quote .title {
+    font-size: 1.33rem !important;
   }
 .full-width .contents .topic-list .topic-list-item .main-link .title {
 font-size: 1.53rem !important;
@@ -743,6 +745,10 @@ display: none;
  }
 
  /* Matenauta stuff */
+
+ #reply-control .reply-to .composer-action-title .d-icon {
+padding: 0.33rem;
+ }
  .new-user-wrapper .user-navigation-secondary {
 float: left;
 height: 100vh;
