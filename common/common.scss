@@ -754,6 +754,9 @@ display: none;
 
  /* Matenauta stuff */
 
+.chat-message-actions-container {
+font-size: var(--font-down-1);
+}
  #reply-control .reply-to .composer-action-title .d-icon {
 padding: 0.33rem;
  }
