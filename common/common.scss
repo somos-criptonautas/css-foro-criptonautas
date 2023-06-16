@@ -231,9 +231,6 @@ background-color: none;
    .btn {
     font-size: var(--font-down-1);
    }
-  .btn-primary {
-  padding: 0.55rem 1rem !important;
-  }
    .search-menu input[type="text"] {
      border: 1px solid transparent;
      border-radius: 0.25em;
@@ -241,6 +238,9 @@ background-color: none;
      &:focus {
        outline: 3px solid rgba(var(--primary-rgb), 0.35);
      }
+   }
+   .widget-button .search-button {
+  display: none;
    }
    .widget-link.show-help {
      color: rgba(var(--primary-rgb), 0.75);
@@ -353,6 +353,11 @@ font-size: var(--font-down-2-rem);
    }
  }
  
+ .select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"], .select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"] {
+color: var(--primary-high);
+font-weight: unset;
+ }
+
  .list-controls .nav-pills .drop li a,
  .list-controls .nav-pills .drop li a:visited {
  color :unset;
@@ -1164,10 +1169,6 @@ font-size: unset !important;
 
 .algolia-holder .aa-Input {
 font-size: unset !important;
- }
-
- .btn-primary .d-icon {
-display: none !important;
  }
 
  .sign-up-button {
