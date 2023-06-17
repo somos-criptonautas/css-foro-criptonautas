@@ -782,8 +782,13 @@ margin-top: 1.53rem;
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
 justify-content: left;
  }
-.anon .sidebar-section-link-wrapper[data-list-item-name="groups"] {
+.anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
+.chat-replying-indicator-container,
+.groups-header .groups-header-filters {
 display: none;
+}
+.chat-composer {
+padding-bottom: 0.5rem;
 }
 .pref-new-user-tips .controls,
 .more-tags,
