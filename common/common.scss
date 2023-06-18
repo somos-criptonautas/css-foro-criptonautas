@@ -1154,7 +1154,12 @@ position: relative;
   padding : 0.5rem !important;
   margin: 1rem 0 !important;
  }
-
+ @media screen and (max-width: 991px) {
+ #create-topic {
+  bottom: 2.5vh;
+  right: 2.5vw;
+ }
+}
  #create-topic {
  position: fixed;
  bottom: 5vh;
