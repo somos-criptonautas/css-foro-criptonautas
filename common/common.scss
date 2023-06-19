@@ -146,10 +146,6 @@ aside.quote .title a {
   font-size: 1.33rem !important;
   }
 @media screen and (min-width: 992px) {
-  .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
-  .category-topic-link.visited a.title:not(.badge-notification) {
-    font-size: 1.63rem !important;
-  }
   aside.quote .title {
     font-size: 1.33rem !important;
   }
@@ -286,6 +282,9 @@ background-color: none;
    margin: 1em 0;
  }
  
+ .suggested-topics-message .badge-wrapper {
+ font-size: inherit;
+}
  .badge-wrapper.box {
    border-radius: 0.25em;
    overflow: hidden;
