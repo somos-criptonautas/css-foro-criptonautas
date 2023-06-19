@@ -353,7 +353,8 @@ font-size: var(--font-down-2-rem);
    }
    .list-controls .nav-pills .drop .nav-item_latest,
    .list-controls .nav-pills .drop .nav-item_unassigned,
-   .navigation-container .select-kit.combo-box.tag-drop {
+   .navigation-container .select-kit.combo-box.tag-drop,
+   .nav-item_my_votes {
      display: none;
    }
  }
@@ -361,6 +362,7 @@ font-size: var(--font-down-2-rem);
  .select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"], .select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"] {
 color: var(--primary-high);
 font-weight: unset;
+font-size: var(--font-down-1);
  }
 
  .list-controls .nav-pills .drop li a,
