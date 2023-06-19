@@ -353,12 +353,14 @@ font-size: var(--font-down-2-rem);
    .list-controls .nav-pills .drop .nav-item_latest,
    .list-controls .nav-pills .drop .nav-item_unassigned,
    .navigation-container .select-kit.combo-box.tag-drop,
-   .nav-item_my_votes {
+   .nav-item_my_votes,
+   .group-reports-nav-item-outlet .assigned-topic-list,
+   .group-username-filter {
      display: none;
    }
  }
  
- .select-kit.combo-box.category-drop .select-kit-row[data-value="all-categories"], .select-kit.combo-box.category-drop .select-kit-row[data-value="no-categories"] {
+ .select-kit.combo-box.category-drop .select-kit-row {
 color: var(--primary-high);
 font-weight: unset;
 font-size: var(--font-down-1);
