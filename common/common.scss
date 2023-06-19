@@ -355,7 +355,8 @@ font-size: var(--font-down-2-rem);
    .navigation-container .select-kit.combo-box.tag-drop,
    .nav-item_my_votes,
    .group-reports-nav-item-outlet .assigned-topic-list,
-   .group-username-filter {
+   .group-username-filter,
+   .personal-messages-new {
      display: none;
    }
  }
@@ -959,7 +960,6 @@ margin: 0;
  .user-menu.revamped #quick-access-profile .profile-tab-btn {
   font-size: var(--font-down-1-rem);
  }
- .user-menu.revamped #quick-access-profile li.activity,
  .control-group .pref-location {
 display: none;
  }
