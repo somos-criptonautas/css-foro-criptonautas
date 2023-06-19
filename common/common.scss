@@ -760,20 +760,30 @@ font-size: var(--font-down-1);
  #reply-control .reply-to .composer-action-title .d-icon {
 padding: 0.33rem;
  }
- .new-user-wrapper .user-navigation-secondary {
-float: left;
-height: 100vh;
-border: 0;
+.new-user-content-wrapper {
+display: flex;
  }
  .user-preferences .form-vertical {
 width: unset;
  }
-
+ .user-nav__activity {
+ display: none;
+ }
  .user-preferences .form-vertical .save-changes {
 margin-top: 1.53rem;
  }
  .user-navigation .user-navigation-secondary {
  height: calc(100vh - (var(--header-offset) + 3rem));
+ }
+ .user-nav__messages-new {
+display: none;
+ }
+ .user-messages-page .new-user-wrapper .user-navigation-secondary {
+padding-right: 1rem;
+ }
+ .user-messages-page .new-user-wrapper .user-navigation-secondary .user-content {
+  flex-grow: 1;
+  margin-top: 0;
  }
  .new-user-wrapper .user-navigation-secondary .nav-pills {
   flex-direction: column;
@@ -1476,7 +1486,11 @@ display: table;
    suggested-topics-title {
   font-size: 1.43rem;
    }
-
+   .floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
+    padding: .5em .65em;
+    top: unset;
+    left: unset;
+  }
    .topic-list .topic-item-stats__category-tags .discourse-tags {
     font-size: var(--font-down-1);
     display: inline-flex !important;
