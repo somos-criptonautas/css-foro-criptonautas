@@ -3,7 +3,7 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
-.sidebar-section-link-content-text {
+.sidebar-section-link[data-link-name="eventos"] {
 display: none;
 }
 .discourse-no-touch a.lightbox:hover {
