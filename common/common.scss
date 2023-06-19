@@ -960,7 +960,8 @@ margin: 0;
  .user-menu.revamped #quick-access-profile .profile-tab-btn {
   font-size: var(--font-down-1-rem);
  }
- .control-group .pref-location {
+ .control-group .pref-location,
+ .private_message .suggested-topics:nth-child(2) {
 display: none;
  }
  .stats-title,
