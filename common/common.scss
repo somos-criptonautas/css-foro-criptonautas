@@ -3,6 +3,9 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
+.sidebar-section-link-content-text {
+display: none;
+}
 .discourse-no-touch a.lightbox:hover {
 box-shadow: none;
 }
@@ -929,11 +932,7 @@ display: none;
 }
  .related-messages-title,
  .suggested-topics .suggested-topics-title,
- .poster-icon,
- .control-group .preferences-sidebar-tags,
- .sidebar-section-link-docs,
- .sidebar-section-link-birthdays,
- .sidebar-section[data-section-name="messages"] {
+ .poster-icon {
 display: none;
  }
 
