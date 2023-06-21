@@ -155,8 +155,9 @@ font-size: 1.53rem !important;
 }
 .topic-list .activity,
 .user-stream .expand-item,
-.user-stream .collapse-item {
-display: none;
+.user-stream .collapse-item,
+.topic-thumbnails-grid.topic-list .posters {
+display: none !important;
 }
 .topic-list .posts,
 .topic-list .views {
@@ -1515,6 +1516,13 @@ margin-bottom: 3rem;
 display: table;
 }
 
+.topic-thumbnails-grid .full-width .contents .topic-list .topic-list-body {
+display: grid;
+}
+
+.topic-thumbnails-grid .full-width .contents .topic-list .topic-list-item .main-link .title {
+font-size: unset !important;
+}
 
 .custom-homepage-columns .posters   .topic-list-data {
   display: none !important;
