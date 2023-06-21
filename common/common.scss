@@ -333,11 +333,6 @@ background-color: none;
    margin-left: unset;
  }
  
- .topic-list .link-bottom-line .discourse-tag.simple:after,
- .topic-list .link-bottom-line .discourse-tag.box {
-   margin-right: 0px;
- }
- 
  .topic-list .link-bottom-line {
 font-size: var(--font-down-2-rem);
  }
@@ -360,11 +355,38 @@ font-size: var(--font-down-2-rem);
      display: none;
    }
  }
- 
+ .full-page-chat .channels-list .chat-channel-row {
+height: 3rem;
+ }
+ .full-page-chat .channels-list .chat-channel-divider {
+font-size: var(--font-up-2);
+color: 
+ }
+ .full-page-chat .channels-list .chat-channel-divider .channel-title {
+  font-size: unset;
+  color: unset;
+ }
+ .btn-floating.open-draft-channel-page-btn svg {
+ font-size: var(--font-up-2);
+}
+ .btn-floating.open-draft-channel-page-btn {
+background: var(--primary);
+color: var(--secondary);
+border-radius: 1.11rem;
+bottom: 1.11rem;
+right: 1.11rem;
+ }
+ .btn-flat .d-icon {
+  transition: none;
+ }
+ .btn-floating.open-draft-channel-page-btn:hover {
+background: var(--primary);
+color: var(--secondary);
+ }
  .select-kit.combo-box.category-drop .select-kit-row {
-color: var(--primary-high);
-font-weight: unset;
-font-size: var(--font-down-1);
+color: var(--primary-high) !important;
+font-weight: unset !important;
+font-size: var(--font-down-1) !important;
  }
 
  .list-controls .nav-pills .drop li a,
@@ -546,9 +568,8 @@ display: none;
 .sidebar-more-section-links-details-summary {
   padding: var(--d-sidebar-row-vertical-padding) var(--d-sidebar-row-horizontal-padding);
   height: 2.23rem !important;
-  background-color: var(--tertiary-50);
 }
-onboarding-popup-content {
+.onboarding-popup-content {
 font-size: inherit !important;
 }
 .sidebar-section-link-wrapper .sidebar-section-link,
@@ -961,7 +982,8 @@ margin: 0;
   font-size: var(--font-down-1-rem);
  }
  .control-group .pref-location,
- .private_message .suggested-topics:nth-child(2) {
+ .private_message .suggested-topics:nth-child(2),
+ .nav-item_my_votes {
 display: none;
  }
  .stats-title,
@@ -1070,7 +1092,13 @@ font-size: var(--font-down-5);
   font-size: var(--font-down-3);
 }
 
-
+.badge-notification.unread-posts {
+  color: var(--primary-900);
+  font-size: 1.37rem !important;
+  font-weight: 700;
+  background-color: var(--tertiary-900);
+  padding: 0.23rem 0.33rem !important;
+}
 
 .chat-composer__wrapper {
 background-color: unset;
@@ -1079,7 +1107,10 @@ background-color: unset;
 .select-kit.is-expanded .select-kit-filter.is-expanded {
 padding: 0.5rem;
 }
-
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
+color: unset;
+}
 .sidebar-more-section-links-details-summary {
 padding-left: 0 !important
 }
