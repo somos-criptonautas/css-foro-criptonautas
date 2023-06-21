@@ -1516,11 +1516,12 @@ margin-bottom: 3rem;
 display: table;
 }
 
-body.category-trading-at-padawan .topic-list-body .full-width .contents .topic-list .topic-list-body {
+body.category-trading-at-padawan .full-width .contents .topic-list .topic-list-body,
+body.category-trading-at-padawan .full-width .contents .topic-list .topic-list-body .topic-list-item {
 display: grid;
 }
 
-body.category-trading-at-padawan .topic-list-body .full-width .contents .topic-list .topic-list-item .main-link .title {
+body.category-trading-at-padawan .full-width .contents .topic-list .topic-list-item .main-link .title {
 font-size: unset !important;
 }
 
