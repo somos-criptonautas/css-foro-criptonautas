@@ -809,9 +809,11 @@ margin-top: 1.53rem;
  .user-nav__messages-new {
 display: none;
  }
+ .new-user-wrapper .user-navigation-secondary {
+min-height: 10rem;
+ }
  .user-messages-page .new-user-wrapper .user-navigation-secondary {
 padding-right: 1rem;
-min-height: 10rem;
  }
  .user-messages-page .new-user-wrapper .user-navigation-secondary .user-content {
   flex-grow: 1;
