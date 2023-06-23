@@ -794,6 +794,9 @@ padding: 0.33rem;
 .new-user-content-wrapper {
 display: flex;
  }
+ .user-navigation .user-navigation-secondary {
+  border-bottom: 0
+ }
  .new-user-content-wrapper .user-content {
 width: calc(100% - 10rem)
  }
@@ -817,6 +820,13 @@ min-height: 10rem;
  }
  .user-messages-page .new-user-wrapper .user-navigation-secondary {
 padding-right: 1rem;
+display: unset;
+ }
+ .favorite-count {
+ font-family: var(--heading-font-family);
+ font-weight: bold;
+ font-size: var(--font-up-2);
+ line-height: var(--line-height-large);
  }
  .user-messages-page .new-user-wrapper .user-navigation-secondary .user-content {
   flex-grow: 1;
