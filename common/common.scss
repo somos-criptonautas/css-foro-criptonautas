@@ -794,6 +794,9 @@ padding: 0.33rem;
 .new-user-content-wrapper {
 display: flex;
  }
+ .new-user-content-wrapper .user-content {
+width: calc (100% - 10rem)
+ }
  .user-preferences .form-vertical {
 width: unset;
  }
