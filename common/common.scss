@@ -834,8 +834,9 @@ padding-bottom: 0.5rem;
 .pref-new-user-tips .controls,
 .more-tags,
 .btn .expand-post,
-.chat-composer-button .-emoji {
-display: none;
+.chat-composer-button .-emoji,
+.reactions .user-list {
+display: none !important;
  }
 
  .chat-message .chat-message-reaction {
@@ -1184,9 +1185,6 @@ font-size: var(--font-up-1);
 height: 3rem !important;
 padding: 0 1rem;
  }
- body:not(.ios-safari-composer-hacks) #reply-control.open {
-  --min-height: 450px;
- }
  .btn-social {
 margin: 1rem !important;
 }
@@ -1333,6 +1331,17 @@ font-size: var(--font-up-2);
 }
 body.has-sidebar-page .suggested-topics-message {
 text-align: left;
+}
+.chat-message-separator-date .chat-message-separator__text {
+  padding: .11rem .53rem;
+}
+.no-touch .chat-message-container:hover, .no-touch .chat-transcript:hover, .no-touch .chat-message-container.-active, .no-touch .-active.chat-transcript {
+  background: var(--primary-low);
+}
+.chat-message .chat-message-reaction.reacted {
+  border-color: unset;
+  background: var(--primary-low);
+  color: var(--primary-900);
 }
 .suggested-topics .badge-wrapper.bullet span.badge-category,
 .suggested-topics .badge-wrapper.bar span.badge-category {
