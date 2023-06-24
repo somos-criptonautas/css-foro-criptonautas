@@ -76,6 +76,10 @@ font-size: var(--font-down-2)
 }
 .chat-composer-dropdown__trigger-btn .d-icon {
 color: var(--secondary);
+background-color: var(--primary-low-mid);
+}
+.chat-composer-button .d-icon:hover {
+  background-color: var(--primary-700);
 }
 .admin-nav {
 width: 23%;
@@ -864,10 +868,6 @@ display: none !important;
 
  .chat-message .chat-message-reaction {
   padding: .13em .26em;
- }
-
- .is-send-disabled.is-focused .chat-composer-button .d-icon {
-color: var(--secondary);
  }
 
  .ai-summary-modal .modal-inner-container {
