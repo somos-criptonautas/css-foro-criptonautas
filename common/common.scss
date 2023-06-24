@@ -81,6 +81,12 @@ background-color: var(--primary-low-mid);
 .chat-composer-button .d-icon:hover {
   background-color: var(--primary-700);
 }
+.btn-flat.sidebar-more-section-links-details-summary {
+color: inherit;
+}
+.btn-flat.sidebar-more-section-links-details-summary:active {
+  background: inherit;
+}
 .admin-nav {
 width: 23%;
 }
