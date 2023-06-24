@@ -117,7 +117,8 @@ font-size: var(--font-up-1)
  .topic-list .main-link a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title,
 .user-stream-item a.title,
-aside.quote .title {
+aside.quote .title,
+.stream-topic-title {
   font-family: var(--heading-font-family);
 }
 .user-stream-item a.title,
@@ -126,17 +127,20 @@ aside.quote .title {
 }
 .user-stream-item a.title,
 .full-width .contents .topic-list .topic-list-item .main-link .title,
-.topic-list .main-link {
+.topic-list .main-link,
+.stream-topic-title {
 font-weight: 700 !important;
 }
 @media screen and (max-width: 768px) {
 .full-width .contents .topic-list .topic-list-item .main-link .title,
-.topic-list .main-link {
+.topic-list .main-link,
+.stream-topic-title {
   font-size: 1.63rem !important;
 }
 }
 .full-width .contents .topic-list .topic-list-item .main-link .title,
-.topic-list .main-link {
+.topic-list .main-link,
+.stream-topic-title {
   font-size: 1.3rem !important;
 }
 aside.quote .title a {
@@ -149,7 +153,8 @@ aside.quote .title a {
   aside.quote .title {
     font-size: 1.33rem !important;
   }
-.full-width .contents .topic-list .topic-list-item .main-link .title {
+.full-width .contents .topic-list .topic-list-item .main-link .title,
+.stream-topic-title {
 font-size: 1.53rem !important;
 }
 }
@@ -798,7 +803,9 @@ display: flex;
   border-bottom: 0
  }
  .new-user-content-wrapper .user-content {
-width: calc(100% - 10rem)
+width: calc(100% - 10rem);
+margin-left: auto;
+margin-right: auto;
  }
  .user-preferences .form-vertical {
 width: unset;
@@ -850,7 +857,7 @@ padding-bottom: 0.5rem;
 .pref-new-user-tips .controls,
 .more-tags,
 .btn .expand-post,
-.chat-composer-button .-emoji,
+button.-emoji,
 .reactions .user-list {
 display: none !important;
  }
@@ -931,12 +938,17 @@ font-size: var(--font-down-2);
  .channels-list .chat-channel-divider {
 color: unset;
  }
+ .chat-drawer-header {
+font-size: var(--font-0)
+ }
  .channels-list .chat-channel-divider,
  .sidebar-section-wrapper .sidebar-section-header-text,
  .chat-drawer-header__title {
 text-transform: uppercase;
  }
-
+ .chat-message-container.-user-info-hidden .chat-time {
+font-size: 0.5rem;
+ }
  .has-full-page-chat .chat-message .onebox:not(img) h3 a,
  .has-full-page-chat .chat-message .onebox:not(img) p, .chat-drawer-container .chat-message .onebox p {
 font-size: var(--font-down-1);
@@ -1203,6 +1215,11 @@ padding: 0 1rem;
  }
  .btn-social {
 margin: 1rem !important;
+font-size: 0;
+line-height: 0;
+}
+.login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .login-form .input-group, .login-modal:not(.hidden) .invite-form .input-group, .create-account #login-form .input-group, .create-account .login-form .input-group, .create-account .invite-form .input-group, .invites-show #login-form .input-group, .invites-show .login-form .input-group, .invites-show .invite-form .input-group {
+margin-bottom: 0;
 }
 .btn-social:hover {
 outline: none !important;
