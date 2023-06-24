@@ -93,7 +93,12 @@ font-size: var(--font-up-3);
 }
 .select-kit .select-kit-header .select-kit-header-wrapper {
   min-width: 2.35rem;
-  margin-right: 0.33rem;
+}
+.reason .select-kit .select-kit-header .select-kit-header-wrapper {
+  margin-right: 2rem;
+}
+.select-kit.combo-box.topic-footer-mobile-dropdown .select-kit-row {
+padding: unset;
 }
 .list-controls .nav-pills {
   li.navigation-toggle {
