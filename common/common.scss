@@ -987,6 +987,9 @@ transition: none;
  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
 border-radius: 0.1rem;
  }
+ .btn:not(.themes-tab):not(.components-tab) {
+  border-color: unset;
+ }
  nav.post-controls .actions .extra-buttons {
   display: inline-flex;
   flex: 0 1 auto;
@@ -1144,8 +1147,11 @@ font-size: var(--font-down-3);
 
 .chat-composer__wrapper {
 background-color: unset;
+padding: 0;
 }
-
+.chat-message-separator-date .chat-message-separator__text-container {
+top: 1rem;
+}
 .select-kit.is-expanded .select-kit-filter.is-expanded {
 padding: 0.5rem;
 }
