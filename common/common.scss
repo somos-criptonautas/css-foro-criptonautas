@@ -607,6 +607,14 @@ height: 100%;
 .new-user-wrapper .user-navigation .nav-pills li a {
 border-bottom: 0 !important;
 }
+.navigation-toggle .nav-pills > li > a {
+  padding: .43em .65em;
+  background-color: var(--active_color);
+  border-radius: .25rem;  
+}
+.list-controls .nav-pills li.navigation-toggle {
+  border-radius: .25rem;
+}
  .nav-pills > li > a,
  .nav-pills > li button {
  border-radius: 0.11rem;
@@ -1144,7 +1152,6 @@ font-size: var(--font-down-3);
   background-color: var(--tertiary-900);
   padding: 0.23rem 0.33rem !important;
 }
-
 .chat-composer__wrapper {
 background-color: unset;
 padding: 0;
