@@ -820,8 +820,8 @@ padding: 0.33rem;
 .new-user-content-wrapper {
 display: flex;
  }
- .user-navigation .user-navigation-secondary .navigation-controls {
-display: block;
+ .new-user-wrapper .user-navigation-secondary {
+display: block !important;
  }
  .user-navigation .user-navigation-secondary {
   border-bottom: 0;
