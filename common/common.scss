@@ -597,7 +597,10 @@ height: 2.23rem !important;
 padding: 0;
 }
 }
-
+.emoji-picker img.emoji {
+height: 1rem !important;
+weight: 1rem !important;
+}
 #main-outlet-wrapper .sidebar-wrapper {
 box-shadow: none !important;
 padding: 1rem 0 0 1rem !important;
