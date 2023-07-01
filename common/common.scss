@@ -1267,7 +1267,10 @@ padding: 0;
  #main-outlet-wrapper .sidebar-wrapper {
 margin: 0 !important;
 border: 0 !important;
-box-shadow: 0 !important;
+box-shadow: none !important;
+ }
+ .sidebar-wrapper .sidebar-container {
+border: none;
  }
  .sidebar-section-link-content-badge {
   margin-right: 0.5rem;
