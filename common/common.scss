@@ -642,7 +642,7 @@ padding-bottom: 1rem;
 
 .sidebar-section-message,
 .user-card-below-message-button-outlet .chat-button,
-.sidebar-section-wrapper .sidebar-section [data-section-name="chat-dms"] {
+.sidebar-section[data-section-name="chat-dms"] {
 display: none !important;
  }
  
