@@ -827,7 +827,8 @@ justify-content: left;
 border-bottom: 0;
  }
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
- .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active {
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active,
+ .select-kit .select-kit-row.is-selected.is-highlighted {
   background: var(--active_color);
  }
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
