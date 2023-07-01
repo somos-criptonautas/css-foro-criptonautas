@@ -428,7 +428,8 @@ font-size: var(--font-down-1) !important;
  input[type="color"],
  .select-kit.combo-box .select-kit-header,
  .d-editor-textarea-wrapper,
- div.ac-wrap {
+ div.ac-wrap,
+ #reply-control .mini-tag-chooser .select-kit-header {
    border-radius: 0.25rem;
  }
  .d-header {
@@ -642,7 +643,9 @@ padding-bottom: 1rem;
    }
  }
 
-.sidebar-section-message {
+.sidebar-section-message,
+.user-card-below-message-button-outlet .chat-button,
+.sidebar-section-wrapper sidebar-section [data-section-name="chat-dms"] {
 display: none;
  }
  
@@ -1515,7 +1518,9 @@ nav-pills > li a:active {
   color: var(--primary);
   background-color: var(--tertiary-900);
 }
-
+.nav-pills > li > a {
+border-radius: unset;
+}
 .topic-list-main-link a.title,
 .latest-topic-list-item .main-link a.title,
 .topic-list .main-link a.title,
