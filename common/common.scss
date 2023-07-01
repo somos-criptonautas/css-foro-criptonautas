@@ -829,7 +829,10 @@ border-bottom: 0;
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active,
  .select-kit .select-kit-row.is-selected.is-highlighted,
- .select-kit .select-kit-row.is-selected {
+ .select-kit .select-kit-row.is-highlighted,
+ .select-kit .select-kit-row.is-selected,
+ .user-menu.revamped .tabs-list .btn.active,
+ .user-menu.revamped .tabs-list .btn:hover {
   background: var(--active_color);
  }
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
