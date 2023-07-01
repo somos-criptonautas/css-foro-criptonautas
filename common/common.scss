@@ -821,6 +821,15 @@ display: unset;
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
 justify-content: left;
  }
+ .new-user-wrapper .user-navigation-secondary .nav-pills li a,
+ .new-user-wrapper .user-navigation .nav-pills li a:hover,
+ .new-user-wrapper .user-navigation .nav-pills li a:focus {
+border-bottom: 0;
+ }
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active {
+  background: var(--active_color);
+ }
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
 .chat-replying-indicator-container,
 .groups-header .groups-header-filters {
