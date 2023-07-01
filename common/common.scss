@@ -9,9 +9,6 @@ display: none;
 .discourse-no-touch a.lightbox:hover {
 box-shadow: none;
 }
-.sidebar-section-wrapper .sidebar-section [data-section-name="chat-dms"] {
-display: none;
-}
 .body-page {
     width: 100%;
     max-width: 100%;
@@ -430,7 +427,7 @@ font-size: var(--font-down-1) !important;
  .d-editor-textarea-wrapper,
  div.ac-wrap,
  #reply-control .mini-tag-chooser .select-kit-header {
-   border-radius: 0.25rem;
+   border-radius: 0.23rem;
  }
  .d-header {
    box-shadow: none;
@@ -645,8 +642,8 @@ padding-bottom: 1rem;
 
 .sidebar-section-message,
 .user-card-below-message-button-outlet .chat-button,
-.sidebar-section-wrapper sidebar-section [data-section-name="chat-dms"] {
-display: none;
+.sidebar-section-wrapper .sidebar-section [data-section-name="chat-dms"] {
+display: none !important;
  }
  
  .full-width .contents .topic-list {
@@ -1519,6 +1516,7 @@ nav-pills > li a:active {
   background-color: var(--tertiary-900);
 }
 .nav-pills > li > a {
+font-size: var(--font-down-1);
 border-radius: unset;
 }
 .topic-list-main-link a.title,
