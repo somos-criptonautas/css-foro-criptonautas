@@ -821,10 +821,11 @@ display: unset;
  .new-user-wrapper .user-navigation-secondary .nav-pills li a {
 justify-content: left;
  }
+ .new-user-wrapper .user-navigation .nav-pills li a,
  .new-user-wrapper .user-navigation-secondary .nav-pills li a,
  .new-user-wrapper .user-navigation .nav-pills li a:hover,
  .new-user-wrapper .user-navigation .nav-pills li a:focus {
-border-bottom: 0;
+border-bottom: none !important;
  }
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active,
@@ -1593,7 +1594,7 @@ font-size: unset !important;
       vertical-align: middle;
      }
      .floating-search-input {
-      width: 53%;
+      width: 73%;
       padding: 0 1rem;
      }
      .floating-search-input,
