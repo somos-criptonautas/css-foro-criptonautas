@@ -3,6 +3,9 @@
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon{
   color: inherit !important;
 }
+.sidebar-more-section-links-details-summary .btn-icon-text:hover {
+  background: var(--d-sidebar-highlight-background);
+}
 .sidebar-section-link[data-link-name="eventos"] {
 display: none;
 }
@@ -1574,10 +1577,18 @@ font-size: unset !important;
 .custom-homepage-columns .posters   .topic-list-data {
   display: none !important;
    }
-
-   suggested-topics-title {
+   @media screen and (max-width: 1025px) {
+   .floating-search-input .search-banner-inner.wrap .search-menu {
+width: 100%;
+  }
+  .floating-search-input {
+  width: 91%;
+  }
+}
+   .suggested-topics-title {
   font-size: 1.43rem;
    }
+
    .floating-search-input .search-banner-inner.wrap .search-menu .widget-button.btn {
     padding: .5em .65em;
     top: unset;
