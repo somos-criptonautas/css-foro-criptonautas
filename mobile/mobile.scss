@@ -92,7 +92,8 @@ top: 0;
 font-size: var(--font-up-3);
 }
 .select-kit .select-kit-header .select-kit-header-wrapper {
-  min-width: 2.35rem;
+  font-size: 1.11rem;
+padding: 0.11rem;
 }
 .reason .select-kit .select-kit-header .select-kit-header-wrapper {
   margin-right: 2rem;
@@ -101,7 +102,7 @@ font-size: var(--font-up-3);
 padding: unset;
 }
 #reply-control .category-input .category-chooser .select-kit-header {
-padding: .39rem .65rem;
+  padding: .375em .35em !important;
 }
 .list-controls .nav-pills {
   li.navigation-toggle {
