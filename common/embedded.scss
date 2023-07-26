@@ -185,7 +185,9 @@ opacity: .93;
 .button:hover {
    box-shadow: 0 0 40px 40px var(--secondary-low) inset !important;
  }
-
+ .discourse-no-touch .btn-flat:hover {
+  background: var(--d-sidebar-highlight-background);
+ }
  .button:hover,
  .button:focus {
     color: #fff !important;
