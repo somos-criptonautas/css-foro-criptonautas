@@ -853,6 +853,12 @@ border-bottom: none !important;
 .groups-header .groups-header-filters {
 display: none;
 }
+.chat-composer .chat-composer-button {
+font-size: var(--font-down-3);
+}
+.chat-side-panel {
+min-width: 350px;
+}
 .chat-composer {
 padding-bottom: 0.5rem;
 }
@@ -873,7 +879,9 @@ display: none !important;
   height: 70%;
   margin: 0 auto;
  }
-
+.featured-tiles-container .featured-tile .topic-info .topic-title {
+font-size: var(--font-down-1);
+}
  a[data-link-name="all-categories"],
  a[data-link-name="all-tags"] {
 text-transform: uppercase;
@@ -1177,6 +1185,7 @@ aside.onebox {
  .toggle-password-mask,
  .select-kit .select-kit-header {
  font-size: var(--font-down-1);
+ padding: .35em .5em;
  }
 .not-found-container {
   align-content: center;
