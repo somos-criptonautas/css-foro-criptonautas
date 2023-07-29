@@ -32,6 +32,9 @@ box-shadow: none;
     --d-input-border-radius: 
 }
 }
+body:not(.ios-safari-composer-hacks) #reply-control.open {
+  --min-height: var(--min-height);
+}
 @media screen and (min-width: 768px) {
   :root {
   --font-up-5: 2rem;
@@ -1562,8 +1565,9 @@ display: inline-flex;
 color: var(--secondary-very-high);
 }
 .user-menu.revamped .quick-access-panel li.unread,
-.user-menu.revamped .quick-access-panel li.pending {
-  background: inherit;
+.user-menu.revamped .quick-access-panel li.pending,
+.user-menu.revamped .quick-access-panel li:hover {
+  background-color: var(--active_color);
 }
 .user-menu.revamped .quick-access-panel li.unread:hover,
 .user-menu.revamped .quick-access-panel li.pending:hover {
@@ -1579,9 +1583,6 @@ nav-pills > li a:active {
 .nav-pills > li > a {
 font-size: var(--font-down-1);
 border-radius: unset;
-}
-:not(.navigation-toggle).nav-pills > li > a {
-padding: 0.53rem 0.83rem;
 }
 .user-menu.revamped #quick-access-profile li {
 padding: 0.33rem 0;
