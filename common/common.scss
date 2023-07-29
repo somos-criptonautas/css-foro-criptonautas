@@ -299,7 +299,10 @@ background-color: none;
      padding-top: 2em;
    }
  }
- 
+ #main-outlet,
+ #main-outlet-wrapper .sidebar-wrapper {
+padding-top: 1.23rem;
+ }
  .select-kit.dropdown-select-box.toolbar-popup-menu-options .select-kit-row:hover {
   background: var(--tertiary-low) !important;
 }
