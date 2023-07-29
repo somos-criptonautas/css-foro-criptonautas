@@ -1160,8 +1160,11 @@ top: 1rem;
 .select-kit.is-expanded .select-kit-filter.is-expanded {
 padding: 0.5rem;
 }
-.discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
-color: inherit !important;
+.discourse-no-touch .btn:hover .d-icon,
+.discourse-no-touch .btn.btn-hover .d-icon,
+.user-menu .quick-access-panel .d-icon,
+.user-menu .quick-access-panel:hover .d-icon {
+  color: var(--primary) !important;
 }
 .sidebar-more-section-links-details-summary {
 padding-left: 0 !important
@@ -1178,7 +1181,7 @@ width: inherit;
  }
  .top-section .badges-section,
  .top-sub-section .replied-section {
-display: none;
+display: none !important;
  }
  .user-card-metadata-outlet .accepted-answers {
 display: none;
