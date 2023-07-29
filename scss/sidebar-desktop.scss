@@ -26,9 +26,6 @@ overflow: inherit !important;
     height: calc(100vh - (var(--header-offset) + 3rem));
     @include box-shadow;
   }
-  .sidebar-footer-wrapper {
-    display: none;
-  }
 }
 
 body.has-sidebar-page {

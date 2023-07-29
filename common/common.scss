@@ -838,7 +838,8 @@ justify-content: left;
  .new-user-wrapper .user-navigation .nav-pills li a,
  .new-user-wrapper .user-navigation-secondary .nav-pills li a,
  .new-user-wrapper .user-navigation .nav-pills li a:hover,
- .new-user-wrapper .user-navigation .nav-pills li a:focus {
+ .new-user-wrapper .user-navigation .nav-pills li a:focus,
+ .new-user-wrapper .user-navigation {
 border-bottom: none !important;
  }
  .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover,
@@ -1312,6 +1313,7 @@ padding: 0;
 margin: 0 !important;
 border: 0 !important;
 box-shadow: none !important;
+border-radius: 0 !important;
  }
  .sidebar-wrapper .sidebar-container {
 border: none;
