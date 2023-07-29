@@ -1057,6 +1057,9 @@ font-size: 0.75rem !important;
 color: unset;
 font-size: var(--heading-font-family);
  }
+ .discourse-no-touch .btn:active {
+color: unset;
+ }
  .popup-menu .btn:focus, .popup-menu .btn:hover {
 color: var(--secondary)!important;
  }
