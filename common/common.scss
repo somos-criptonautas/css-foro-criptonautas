@@ -1584,6 +1584,12 @@ nav-pills > li a:active {
 font-size: var(--font-down-1);
 border-radius: unset;
 }
+.nav-pills:not(.user-nav) > li a.active, .nav-pills:not(.user-nav) > li > a {
+  padding: 0.56rem 0.84rem;
+}
+.leaderboard__controls {
+display: none;
+}
 .user-menu.revamped #quick-access-profile li {
 padding: 0.33rem 0;
 }
