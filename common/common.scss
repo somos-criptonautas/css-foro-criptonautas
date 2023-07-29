@@ -1162,14 +1162,15 @@ padding-left: 0 !important
  a.topic-excerpt {
 display: none !important;
  }
- .d-user-card__custom-fields {
-font-size: var(--font-0)
- }
  .user-card {
 line-height: 1.73;
  }
- .user-card-metadata-outlet .gamification-score {
-font-size: var(--font-up-1);
+ .top-sub-section .links-section {
+width: inherit;
+ }
+ .top-section .badges-section,
+ .top-sub-section .replied-section {
+display: none;
  }
  .user-card-metadata-outlet .accepted-answers {
 display: none;
@@ -1556,9 +1557,6 @@ display: inline-flex;
 color: var(--secondary-very-high);
 }
 
-.category-list .topics {
-display: none;
-}
 .nav-pills > li {
 margin-right: 0.25rem;
 }
@@ -1570,10 +1568,15 @@ nav-pills > li a:active {
 font-size: var(--font-down-1);
 border-radius: unset;
 padding: 0.53rem 0.83rem;
-margin: 0.23rem 0;
 }
-.user-menu .quick-access-panel li a {
+.user-menu.revamped #quick-access-profile li {
 padding: 0.33rem 0;
+}
+.d-user-card__link {
+font-size: var(--font-down-1);
+}
+.d-user-card__featured-topic {
+margin-top: 1rem;
 }
 .topic-list-main-link a.title,
 .latest-topic-list-item .main-link a.title,
