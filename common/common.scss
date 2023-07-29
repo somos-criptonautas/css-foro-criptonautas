@@ -1157,9 +1157,8 @@ top: 1rem;
 .select-kit.is-expanded .select-kit-filter.is-expanded {
 padding: 0.5rem;
 }
-.discourse-no-touch .btn:hover,
-.discourse-no-touch .btn.btn-hover {
-color: unset;
+.discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
+color: inherit !important;
 }
 .sidebar-more-section-links-details-summary {
 padding-left: 0 !important
@@ -1562,7 +1561,14 @@ display: inline-flex;
 .topic-list .topic-list-item-separator .topic-list-data span {
 color: var(--secondary-very-high);
 }
-
+.user-menu.revamped .quick-access-panel li.unread,
+.user-menu.revamped .quick-access-panel li.pending {
+  background: inherit;
+}
+.user-menu.revamped .quick-access-panel li.unread:hover,
+.user-menu.revamped .quick-access-panel li.pending:hover {
+  background: var(--active_color);
+}
 .nav-pills > li {
 margin-right: 0.25rem;
 }
