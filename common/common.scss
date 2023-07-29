@@ -29,6 +29,7 @@ box-shadow: none;
     --font-down-3: 0.91rem;
     --chat-header-offset: 3rem;
     --min-height: "450px";
+    --d-input-border-radius: 
 }
 }
 @media screen and (min-width: 768px) {
@@ -180,7 +181,8 @@ font-size: 1.53rem !important;
 .topic-list .activity,
 .user-stream .expand-item,
 .user-stream .collapse-item,
-.topic-thumbnails-grid.topic-list .posters {
+.topic-thumbnails-grid.topic-list .posters,
+.sidebar-more-section-links-details-summary {
 display: none !important;
 }
 .topic-list .posts,
@@ -1182,6 +1184,12 @@ display: none;
 aside.onebox {
   font-size: var(--font-down-2);
 }
+.d-modal.create-account .has-alt-auth .login-form, .d-modal.create-account .login-form {
+  font-size: var(--font-down-3);
+}
+.d-modal.create-account .login-welcome-header {
+display: none;
+}
  .toggle-password-mask,
  .select-kit .select-kit-header {
  font-size: var(--font-down-1);
@@ -1559,8 +1567,11 @@ nav-pills > li a:active {
 .nav-pills > li > a {
 font-size: var(--font-down-1);
 border-radius: unset;
-padding: 0.43rem 0.73rem;
-margin: 0.13rem 0;
+padding: 0.53rem 0.83rem;
+margin: 0.23rem 0;
+}
+.user-menu .quick-access-panel li a {
+padding: 0.33rem 0;
 }
 .topic-list-main-link a.title,
 .latest-topic-list-item .main-link a.title,
