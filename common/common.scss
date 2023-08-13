@@ -1424,7 +1424,9 @@ max-width: unset;
 .reply-control {
 padding: 0.33rem !important;
 }
-
+.admin-main-nav .nav-pills {
+  padding: 0.65rem 0.85rem;
+}
 .chat-channel-title__usernames {
 font-size: var(--font-down-1);
 }
