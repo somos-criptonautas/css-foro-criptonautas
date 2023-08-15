@@ -1247,7 +1247,7 @@ padding: 0 1rem;
  }
  .btn-social {
 margin: 1rem !important;
-font-size: 0;
+font-size: 0 !important;
 line-height: 0;
 }
 .login-modal:not(.hidden) #login-form .input-group, .login-modal:not(.hidden) .login-form .input-group, .login-modal:not(.hidden) .invite-form .input-group, .create-account #login-form .input-group, .create-account .login-form .input-group, .create-account .invite-form .input-group, .invites-show #login-form .input-group, .invites-show .login-form .input-group, .invites-show .invite-form .input-group {
