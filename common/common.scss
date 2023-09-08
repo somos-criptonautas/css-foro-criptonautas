@@ -1039,9 +1039,9 @@ display: none;
 border: none;
  }
 #user-menu-button-replies,
-#user-menu-button-likes,
 #user-menu-button-chat-notifications,
-#user-menu-button-other-notifications {
+#user-menu-button-other-notifications,
+.d-editor-button-bar button [tabindex="0"] {
 display: none;
  }
  .user-menu.revamped .tabs-list .btn .badge-notification,
@@ -1585,6 +1585,15 @@ nav-pills > li a:active {
 .nav-pills > li > a {
 font-size: var(--font-down-1);
 border-radius: unset;
+padding: 0 0.45rem;
+}
+@media screen and  (min-width: 992px)  {
+.chat-message-thread-indicator {
+  max-width: 992px;
+}
+}
+.list-controls .nav-pills li.navigation-toggle {
+  border-radius: inherit;
 }
 .leaderboard__controls {
 display: none;
