@@ -318,6 +318,31 @@ padding-top: 1.23rem;
  .suggested-topics-message .badge-wrapper {
  font-size: inherit;
 }
+
+.badge-wrapper.box {
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.badge-wrapper.bullet {
+  .badge-category-bg {
+    border-radius: 0.125em;
+  }
+  .badge-category-parent-bg {
+    border-top-left-radius: 0.125em;
+    border-bottom-left-radius: 0.125em;
+    + .badge-category-bg {
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 0.125em;
+      border-bottom-right-radius: 0.125em;
+    }
+  }
+}
+
+.discourse-tags {
+  gap: 0.5em;
+}
  .badge-wrapper.box {
    border-radius: 0.25em;
    overflow: hidden;
