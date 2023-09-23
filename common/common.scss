@@ -302,6 +302,13 @@ background-color: none;
      padding-top: 2em;
    }
  }
+ .suggested-topics-title,
+ .more-topics__browse-more {
+  font-size: var(--font-up-2);
+ }
+ .more-topics__browse-more {
+  padding: 1rem 0;
+ }
  #main-outlet,
  #main-outlet-wrapper .sidebar-wrapper {
 padding-top: 1.23rem;
