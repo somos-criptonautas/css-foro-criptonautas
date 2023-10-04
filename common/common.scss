@@ -1187,8 +1187,22 @@ top: 1rem;
 .select-kit.is-expanded .select-kit-filter.is-expanded {
 padding: 0.5rem;
 }
-.discourse-no-touch .btn:hover .d-icon,
-.discourse-no-touch .btn.btn-hover .d-icon,
+a#skip-link {
+  top: -60px;
+}
+.discourse-no-touch .btn .d-icon {
+  color: var(--primary-high) !important;
+}
+.btn-flat.close {
+  font-size: var(--font-up-5);
+}
+.d-modal.create-account .modal-header, .d-modal.login-modal .modal-header, .invites-show .modal-header, .admin-invite-page .modal-header {
+  top: .5em;
+  right: .5em;
+}
+.discourse-no-touch .btn:hover .d-icon {
+  color: var(--secondary) !important;
+}
 .user-menu .quick-access-panel .d-icon,
 .user-menu .quick-access-panel:hover .d-icon {
   color: var(--primary-medium) !important;
@@ -1396,6 +1410,11 @@ font-size: 0;
   padding: 1rem; 
   margin: auto;
 
+  }
+  .d-header .login-button,
+  .btn-large {
+    padding: 0.35rem 1rem;
+  border-radius: 3rem !important;s
   }
 #login-buttons {
   margin: 1rem;
