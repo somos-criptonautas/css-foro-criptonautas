@@ -32,3 +32,7 @@ font-size: var(--font-down-1);
   .small-action .small-action-desc {
   width: 100% !important;
   }
+  .admin-main-nav .nav-pills > li > a,
+  .admin-controls .nav-pills > li a {
+    padding: 0.65rem 0.85rem;
+  }
