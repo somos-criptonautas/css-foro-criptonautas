@@ -1723,10 +1723,13 @@ width: 100%;
       .full-width .contents .topic-list .topic-list-header {
       font-size: var(--font-down-2);
      }
-
+     .more-topics__container .nav li .btn d-button-label {
+      padding: 0.5rem;
+     }
      .more-topics__container .nav li .btn {
     padding: 0;
     font-size: var(--font-down-1);
+    border-radius: 0 !important;
      }
      $dark-theme-d-hover: var(--tertiary);
      $light-theme-d-hover: #f2f2f2;
