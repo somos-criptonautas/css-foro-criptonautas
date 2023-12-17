@@ -287,8 +287,10 @@ background-color: none;
      outline: 1px solid var(--tertiary-hover);
    }
    .results {
-     top: 43px;
      border-radius: 0.25em;
+   }
+   .preloader-text {
+  display: none;
    }
    .search-context {
      top: 3.25em;
