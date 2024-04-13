@@ -321,6 +321,25 @@ display: none;
 .topic-list .topic-list-item .topic-list-data {
   padding: 15px;
 }
+
+// default category list styles when the modern category boxes theme component isn't used
+
+.category-list-item.category {
+  background: var(--secondary);
+  border-radius: 1em;
+  tbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  td {
+    width: 100%;
+  }
+  .num.posts {
+    padding-right: 0.25em;
+  }
+}
+
 .admin-main-nav .nav-pills > li > a,
 .admin-controls .nav-pills > li a {
   padding: 0.55rem 0.75rem;
