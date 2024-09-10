@@ -1417,7 +1417,9 @@ height: 0.91rem;
  .d-modal.create-account .login-welcome-header .waving-hand {
 display: none;
 }
-
+.login-welcome-header .login-title {
+  line-height: 1.33;
+  }
 #login-buttons:not(.hidden) {
 font-size: 0;
  }
