@@ -1388,7 +1388,9 @@ position: relative;
 .select-kit .select-kit-row {
   padding: 0.35rem 0.93rem;
 }
-.badge-groups.badge-grouping:nth-child(5) {
+.badge-groups.badge-grouping:nth-child(1),
+.groups-header-filters,
+.page-not-found-search {
 display: none;
 }
  .topic-list .num .badge-posts {
