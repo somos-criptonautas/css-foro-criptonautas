@@ -3,18 +3,18 @@
 @import "sidebar-desktop";
 
 html {
-    font-size: 22px;
+    font-size: 23px;
     }
 
     @media screen and (max-width: 768px) {
     html {
-        font-size: 20px;
+        font-size: 21px;
         }
     }
 
     @media screen and (min-width: 768px) and (max-width: 991px) {
         html {
-            font-size: 21px;
+            font-size: 22px;
             }
         }
 .chat-messages-container p {

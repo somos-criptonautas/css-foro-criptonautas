@@ -63,7 +63,8 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 --d-sidebar-row-font-size: --font-up-2 !important;
 --heading-font-family: "Inter Tight","Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
 --font-down-3: 0.93em;
---active_color: var(--d-sidebar-highlight-background); 
+--active_color: var(--d-sidebar-highlight-background);
+--d-nav-color--hover: var(--d-sidebar-highlight-background);
 }
 
 li p {
@@ -81,9 +82,6 @@ height: 3rem;
 }
 .chat-reply {
 font-size: var(--font-down-3);
-}
-.nav-stacked a {
-font-size: var(--font-0);
 }
 .chat-composer__input:placeholder-shown, .chat-composer__input::placeholder {
 font-size: var(--font-down-2)
@@ -1459,9 +1457,11 @@ width: 80%;
 }
 }
 .small-action {
-max-width: 80%;
+max-width: 83%;
 margin: auto;
-padding: 1.33rem 0;
+}
+.small-action .small-action-custom-message {
+color: unset;
 }
 .small-action.topic-post-visited .topic-post-visited-line {
   border-bottom: 1px solid var(--tertiary);
