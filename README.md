@@ -2,7 +2,7 @@
 
 A clean & modern theme for our Discourse (comunidad) instance. We adapted a modern theme to our minimalistic design keeping it clean and simple 🙂
 
-> Based on official Air Theme for Discourse: https://github.com/discourse/discourse-air.git
+> Based on official Air Theme for Discourse: https://github.com/discourse/css-foro-criptonautas.git
 
 <!-- Add screenshots (if applicable) -->
 
