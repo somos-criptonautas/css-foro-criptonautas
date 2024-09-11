@@ -844,6 +844,7 @@ padding: 0.33rem;
  }
 .new-user-content-wrapper {
 display: flex;
+padding-top: 1.33rem;
  }
  .new-user-wrapper .user-navigation-secondary {
 display: block !important;
@@ -871,7 +872,9 @@ margin-top: 1.53rem;
  .user-navigation .user-navigation-secondary {
  height: calc(100vh - (var(--header-offset) + 3rem));
  }
- .user-nav__messages-new {
+ .user-nav__messages-new,
+ .user-navigation-secondary .category-breadcrumb,
+ .user-nav__activity {
 display: none;
  }
  .new-user-wrapper .user-navigation-secondary {
@@ -879,7 +882,9 @@ min-height: 10rem;
  }
  .user-messages-page .new-user-wrapper .user-navigation-secondary {
 padding-right: 1rem;
-display: unset;
+ }
+ .summary-user-list li {
+height: 2.7rem;
  }
  .favorite-count {
  font-family: var(--heading-font-family);
@@ -1052,7 +1057,6 @@ border-radius: 0.1rem;
  }
  .btn:not(.themes-tab):not(.components-tab) {
   border-color: unset;
-    border: none;
     font-size: 1rem;
  }
  nav.post-controls .actions .extra-buttons {
@@ -1490,8 +1494,14 @@ text-align: left;
 .no-touch .chat-message-container:hover, .no-touch .chat-transcript:hover, .no-touch .chat-message-container.-active, .no-touch .-active.chat-transcript {
   background: var(--primary-low);
 }
+.no-touch .chat-message-separator-date .chat-message-separator__text:hover {
+border: 0;
+}
+.user-nav__messages-new,
+.user-nav__messages-unread {
+display: none;
+}
 .chat-message .chat-message-reaction.reacted {
-  border-color: unset;
   background: var(--primary-low);
   color: var(--primary-900);
 }
