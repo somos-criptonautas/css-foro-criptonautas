@@ -252,9 +252,6 @@ padding: 0.33rem 0;
 ::not(.has-sidebar-page) #main-outlet-wrapper #main-outlet {
 justify-self: center !important;
 }
-.discourse-no-touch .btn .d-icon {
-  color: var(--primary-high) !important;
-}
 .sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable {
 background: none;
 }
@@ -1467,7 +1464,7 @@ font-size: 0;
   margin: 1rem;
   opacity: 0.77;
   }
-#login-buttons:hover {
+#login-buttons .btn-social:hover {
     opacity: 1;
   }
 #login-buttons:not(.hidden) svg:not(:first-of-type) {
@@ -1805,4 +1802,7 @@ width: 100%;
       color: #d29400;
       float:right;
       font-style: italic;
+  }
+  .d-modal.-large .d-modal__container {
+    max-width: 1024px;
   }
