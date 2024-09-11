@@ -1766,7 +1766,7 @@ width: 100%;
     font-size: var(--font-down-1);
     border-radius: 0 !important;
      }
-     $dark-theme-d-hover: var(--tertiary);
+     $dark-theme-d-hover: var(--hover);
      $light-theme-d-hover: #f2f2f2;
      
      $dark-theme-quaternary: var(--white);
@@ -1783,4 +1783,7 @@ width: 100%;
      .nav-pills > li > a:active {
       color: var(--secondary);
   background-color: var(--quaternary);
+     }
+     .search-menu .search-link:focus, .search-menu .search-link:hover, .search-menu-container .search-link:focus, .search-menu-container .search-link:hover {
+    background-color: var(--d-hover);
      }
