@@ -10,15 +10,17 @@ html body.has-sidebar-page.has-full-page-chat {
 .full-page-chat {
   border: none !important;
 }
-
-.chat-channel {
-  height: calc(100vh - (var(--header-offset) + 10em));
+.c-navbar {
+  height: 2.33rem;
+  align-items: center;
 }
-
 .c-navbar-container {
   border-radius: 1em 1em 0 0;
 }
-
+.chat-channel-name__label {
+  font-size: var(--font-down-2);
+  font-family: var(--font-family-heading);
+}
 .chat-composer__wrapper {
   background: transparent;
 }
@@ -43,7 +45,6 @@ html body.has-sidebar-page.has-full-page-chat {
   .has-full-page-chat:not(.discourse-sidebar) #main-outlet.wrap {
     max-width: 100% !important;
     width: 100% !important;
-    border-radius: 0;
     margin: 0;
     padding: 0;
     .full-page-chat {

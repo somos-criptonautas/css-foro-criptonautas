@@ -27,7 +27,6 @@ box-shadow: none;
     --font-down-1: 0.96rem;
     --font-down-2: 0.93rem;
     --font-down-3: 0.91rem;
-    --chat-header-offset: 3rem;
     --min-height: "450px";
     --d-input-border-radius: 
 }
@@ -53,6 +52,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 }
 :root {
 --white: #f1f1f1;
+--chat-header-offset: 2rem;
 --line-height-small: 1.11;
 --line-height-medium: 1.33;
 --line-height-large: 1.75;
@@ -65,6 +65,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
 --font-down-3: 0.93em;
 --active_color: var(--d-sidebar-highlight-background); 
 }
+
 li p {
 font-size: unset !important;
 }
@@ -234,8 +235,24 @@ padding: 0.33rem 0;
   font-size: var(--font-0);
   margin-right: 0.23rem
  }
+ .badge-category__wrapper {
+font-size: unset;
+ }
+ .search-container .search-filters details.advanced-filters > summary, .search-container .search-filters details.search-advanced-additional-options > summary {
+  color: unset;
+  font-size: var(--font-up-1);
+ }
+ .search-container .search-page-heading {
+  padding-bottom: 0.74rem;
+ }
 ::not(.has-sidebar-page) #main-outlet-wrapper #main-outlet {
 justify-self: center !important;
+}
+.discourse-no-touch .btn .d-icon {
+  color: var(--primary-high) !important;
+}
+.sidebar-section-wrapper .sidebar-section-header.sidebar-section-header-collapsable {
+background: none;
 }
 #create-topic,
 #create-topic:hover,
@@ -259,8 +276,8 @@ background-color: none;
    p {
      margin-bottom: 1em;
    }
-   .btn {
-    font-size: var(--font-down-1);
+   input[disabled], input[readonly], select[disabled], select[readonly], textarea[disabled], textarea[readonly] {
+    background-color: unset;
    }
    .search-menu input[type="text"] {
      border: 1px solid transparent;
@@ -905,9 +922,7 @@ padding-bottom: 1rem;
 
  /* Matenauta stuff */
 
-.chat-message-actions-container {
-font-size: var(--font-down-1);
-}
+
  #reply-control .reply-to .composer-action-title .d-icon {
 padding: 0.33rem;
  }
@@ -1116,8 +1131,13 @@ transition: none;
  .btn:not(.themes-tab):not(.components-tab), .select-kit.dropdown-select-box .dropdown-select-box-header {
 border-radius: 0.1rem;
  }
+ .admin-area .sidebar-wrapper .admin-panel {
+  padding: 0.5rem 0.25rem;
+ }
  .btn:not(.themes-tab):not(.components-tab) {
   border-color: unset;
+    border: none;
+    font-size: 1rem;
  }
  nav.post-controls .actions .extra-buttons {
   display: inline-flex;
@@ -1165,9 +1185,6 @@ display: none;
   text-transform: none;
   font-size: var(--font-up-4);
   font-weight: 800;
- }
- .btn:not(.themes-tab):not(.components-tab) {
-border: none;
  }
 #user-menu-button-replies,
 #user-menu-button-chat-notifications,
@@ -1261,8 +1278,9 @@ font-size: var(--font-down-2)
 .d-user-card__main-content-bottom {
 font-size: var(--font-down-2)
 }
-.select-kit.is-expanded .select-kit-collection {
-font-size: var(--font-down-3);
+
+.chat-message-actions .more-buttons.dropdown-select-box .select-kit-row .texts .name {
+  font-size: var(--font-down-1);
 }
 
 .select-kit.single-select.dropdown-select-box .select-kit-row .icons {
@@ -1288,9 +1306,6 @@ padding: 0.5rem;
 }
 a#skip-link {
   top: -60px;
-}
-.discourse-no-touch .btn .d-icon {
-  color: var(--primary-high) !important;
 }
 .btn-flat.close {
   font-size: var(--font-up-5);
@@ -1416,14 +1431,7 @@ position: relative;
 .select-kit .select-kit-row {
   padding: 0.35rem 0.93rem;
 }
- #create-topic {
- position: fixed;
- bottom: 5vh;
- top: auto;
- right: 5vw;
- z-index: 3;
- padding: 0.74rem;
- }
+
  .topic-list .num .badge-posts {
   font-size: 1.77rem;
 }
@@ -1582,10 +1590,6 @@ font-size: var(--font-down-1);
 width: 450px !important;
 }
 
-.chat-drawer-container {
-font-size: 83%;
-}
-
 .extra-info-wrapper .topic-link {
 font-weight: 700;
 font-size: 1.11rem;
@@ -1731,7 +1735,6 @@ nav-pills > li a:active {
 .nav-pills > li > a {
 font-size: var(--font-down-1);
 border-radius: unset;
-padding: 0 0.45rem;
 }
 @media screen and  (min-width: 992px)  {
 .chat-message-thread-indicator {
