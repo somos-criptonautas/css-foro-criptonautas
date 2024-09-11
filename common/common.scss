@@ -966,7 +966,7 @@ button.-emoji,
 display: none !important;
  }
  .d-header-icons .d-icon {
-color: unset;
+color: var(--header_primary-very-high);
  }
  .chat-message .chat-message-reaction {
   padding: .13em .26em;
