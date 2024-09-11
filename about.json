@@ -11,7 +11,7 @@
     "serialize_topic_excerpts": true
   },
   "color_schemes": {
-    "air-light": {
+    "light-nauta": {
       "primary": "1c1c1c",
       "secondary": "f1f1f1",
       "tertiary": "ed5107",
@@ -23,17 +23,19 @@
       "success": "71bd9f",
       "love": "c16ad7"
     },
-    "air-dark": {
-      "primary": "f1f1f1",
-      "secondary": "1c2128",
-      "tertiary": "9a5cfd",
-      "quaternary": "5107ed",
-      "header_background": "1C2128",
-      "header_primary": "e0e0e0",
-      "highlight": "9a5cfd",
-      "danger": "ff3c33",
-      "success": "71bd9f",
-      "love": "c16ad7"
-    }
+"dark-nauta": {
+  "primary": "f1f1f1",
+  "secondary": "1c2128",
+  "tertiary": "bf98ff",
+  "quaternary": "5107ed",
+  "header_background": "111",
+  "header_primary": "e0e0e0",
+  "highlight": "bc95fc",
+  "danger": "ff3c33",
+  "success": "71bd9f",
+  "love": "c16ad7",
+  "selected": "3c3f43",
+  "hover": "3c3f43"
+}
   }
 }
