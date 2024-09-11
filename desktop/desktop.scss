@@ -20,13 +20,14 @@ html {
 .chat-messages-container p {
 font-size: var(--font-down-1);
 }
+@media screen and (min-width: 925px) {
+    .container.posts {
+      grid-template-columns: unset;
+    }
+  }
 .user-preferences .category-selector {
     max-width: 70%
     }
-.container.posts {
-    display: flex;
-    flex-direction: row-reverse;
-  }
   .container.posts > .row,
   .topic-body,
   .small-action .small-action-desc {
@@ -35,4 +36,12 @@ font-size: var(--font-down-1);
   .admin-main-nav .nav-pills > li > a,
   .admin-controls .nav-pills > li a {
     padding: 0.65rem 0.85rem;
+  }
+
+  .html {
+    background-size: 103vw,103vw,100vw;
+    background-image: var(--bg-svg-pieces),var(--bg-svg-yellow),var(--bg-svg-bluewave);
+    background-repeat: no-repeat;
+    background-position: 50% 125%,0px 95px,0px 175px;
+    background-attachment: fixed;
   }
