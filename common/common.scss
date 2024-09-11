@@ -1347,11 +1347,15 @@ position: relative;
 .select-kit .select-kit-row {
   padding: 0.35rem 0.93rem;
 }
-
+.badge-groups.badge-grouping:nth-child(5) {
+display: none;
+}
  .topic-list .num .badge-posts {
   font-size: 1.77rem;
 }
-
+.d-header .login-button {
+padding: .55rem 1rem;
+}
  .topic-list-item .posters .topic-list-data {
 display: none;
  }
@@ -1435,8 +1439,10 @@ font-size: 0;
   }
   .d-header .login-button,
   .btn-large {
-    padding: 0.35rem 1rem;
   border-radius: 3rem !important;
+  }
+  .btn-large {
+    padding: 0.35rem 1rem;
   }
 #login-buttons {
   margin: 1rem;
@@ -1455,10 +1461,6 @@ font-size: 0;
 body::not(.has-sidebar-page).topic-body {
 width: 80%;
 }
-}
-.small-action {
-max-width: 83%;
-margin: auto;
 }
 .small-action .small-action-custom-message {
 color: unset;
