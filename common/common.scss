@@ -140,6 +140,10 @@ animation: none;
 .groups-boxes .group-box .group-box-inner .group-description {
 color: var(--primary-900);
 }
+.groups-boxes .group-box [data-group-name="reseteados"],
+.groups-boxes .group-box [data-group-name="moderadores"],
+.groups-boxes .group-box [data-group-name=""],
+
 .sidebar-row {
 padding: unset !important;
 }
@@ -939,6 +943,8 @@ border-bottom: none !important;
   background: var(--active_color);
  }
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
+.anon .sidebar-section-link-wrapper[data-list-item-name="borradores"],
+:not(.anon) .sisdebar-section[data-section-name="info"],
 .chat-replying-indicator-container,
 .groups-header .groups-header-filters {
 display: none;
@@ -959,7 +965,9 @@ button.-emoji,
 .reactions .user-list {
 display: none !important;
  }
-
+ .d-header-icons .d-icon {
+color: unset;
+ }
  .chat-message .chat-message-reaction {
   padding: .13em .26em;
  }
