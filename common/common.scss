@@ -1284,12 +1284,22 @@ aside.onebox {
 .d-modal.create-account .has-alt-auth .login-form, .d-modal.create-account .login-form {
   font-size: var(--font-down-3);
 }
-.d-modal.create-account .login-welcome-header {
+.d-modal.create-account .login-welcome-header,
+.user-nav__notifications,
+.user-nav__preferences-ai,
+. {
 display: none;
 }
  .toggle-password-mask,
+ .search-container .search-bar input.search-query,
  .select-kit .select-kit-header {
  font-size: var(--font-down-1);
+ }
+ .badge-category__wrapper {
+font-size: unset;
+ }
+ .more-topics__container .more-topics__list .topic-list-body .topic-list-item:first-child td {
+padding-top: 0.33rem;
  }
 .not-found-container {
   align-content: center;
@@ -1787,3 +1797,156 @@ width: 100%;
      .search-menu .search-link:focus, .search-menu .search-link:hover, .search-menu-container .search-link:focus, .search-menu-container .search-link:hover {
     background-color: var(--d-hover);
      }
+
+     .sidebar-section[data-section-name="tags"] {
+      display: none;
+    }
+    .topic-post.group-GROUP-NAME .topic-body .cooked::after {
+      content: "team";
+      font-size: small;
+      color: #d29400;
+      float:right;
+      font-style: italic;
+  }
+
+
+
+  // * Import string splitter code * //
+
+@import "str-to-list";
+
+// * Top section * //
+
+@if $show_these_sections_for_staff_only !="" {
+
+   $staff_sections: str-to-list("#{$show_these_sections_for_staff_only}", "|");
+
+   @each $staff_section in $staff_sections {
+
+      .sidebar-section-wrapper.sidebar-section[data-section-name="#{$staff_section}"] {
+         display: none;
+      }
+
+      .staff .sidebar-section-wrapper.sidebar-section[data-section-name="#{$staff_section}"] {
+         display: block;
+      }
+   }
+}
+
+@if $show_these_sections_for_logged-in_only !="" {
+
+   $user_sections: str-to-list("#{$show_these_sections_for_logged-in_only}", "|");
+
+   @each $user_section in $user_sections {
+
+      .sidebar-section-wrapper.sidebar-section[data-section-name="#{$user_section}"] {
+         display: block;
+      }
+
+      .anon .sidebar-section-wrapper.sidebar-section[data-section-name="#{$user_section}"] {
+         display: none;
+      }
+   }
+}
+
+@if $show_these_links_for_staff_only !="" {
+
+   $staff_links: str-to-list("#{$show_these_links_for_staff_only}", "|");
+
+   @each $staff_link in $staff_links {
+
+      .sidebar-section-link-wrapper[data-list-item-name="#{$staff_link}"] {
+         display: none;
+      }
+
+      .staff .sidebar-section-link-wrapper[data-list-item-name="#{$staff_link}"] {
+         display: block;
+      }
+   }
+}
+
+@if $show_these_links_for_logged-in_only !="" {
+
+   $user_links: str-to-list("#{$show_these_links_for_logged-in_only}", "|");
+
+   @each $user_link in $user_links {
+
+      .sidebar-section-link-wrapper[data-list-item-name="#{$user_link}"] {
+         display: flex;
+      }
+
+      .anon .sidebar-section-link-wrapper[data-list-item-name="#{$user_link}"] {
+         display: none;       
+      }
+   }
+}
+
+
+// * More drop down section * //
+
+@if $show_more_for_staff_only =="true" {
+   button.sidebar-more-section-links-details-summary {
+      display: none;
+   }
+
+   .staff button.sidebar-more-section-links-details-summary {
+      display: flex;
+   }
+}
+
+@if $show_more_for_logged-in_only =="true" {
+   .anon button.sidebar-more-section-links-details-summary {
+      display: none;
+   }
+}
+
+// * Anon and Logged-in only user sections * //
+
+
+@if $show_custom_for_anon_only !="" {
+   .sidebar-section-wrapper.sidebar-section[data-section-name="#{$show_custom_for_anon_only}"] {
+      display: none;
+   }
+
+   .anon .sidebar-section-wrapper.sidebar-section[data-section-name="#{$show_custom_for_anon_only}"] {
+      display: block;
+   }
+}
+
+// * hide globe icon from staff * //
+
+@if $hide_custom_menus_globe_icon =="true" {
+   .sidebar-section-wrapper .sidebar-section-header-global-indicator {
+      display: none;
+   }
+}
+
+
+// * hide entire Navigaion Menu from anon in desktop and mobile view* * //
+
+@if $show_navigation_menu_to_logged-in_only =="true" {
+   html.anon {
+
+      // Hide the narrow desktop sidebar 
+      // sidebar mobile version which is activate on desktop too under 1000px width
+      .d-header .hamburger-panel {
+         display: none;
+      }
+
+      // Hide the header cloak when menu opens
+      .header-cloak {
+         display: none !important;
+      }
+   }
+}
+
+// * menu sections re-order * //
+
+
+$menu_sections: str-to-list($default_menu_section_ordering, "|");
+
+@for $i from 1 through length($menu_sections) {
+   .sidebar-section-wrapper.sidebar-section[data-section-name="#{nth($menu_sections, $i)}"] {
+      order: $i;
+   }
+}
