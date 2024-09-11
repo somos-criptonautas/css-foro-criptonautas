@@ -1390,7 +1390,8 @@ position: relative;
 }
 .badge-groups.badge-grouping:nth-child(1),
 .groups-header-filters,
-.page-not-found-search {
+.page-not-found-search,
+.page-not-found .btn-primary {
 display: none;
 }
  .topic-list .num .badge-posts {
@@ -1489,10 +1490,6 @@ font-size: 0;
   }
 #login-buttons {
   margin: 1rem;
-  opacity: 0.77;
-  }
-#login-buttons .btn-social:hover {
-    opacity: 1;
   }
 #login-buttons:not(.hidden) svg:not(:first-of-type) {
   margin-top: 1rem;
