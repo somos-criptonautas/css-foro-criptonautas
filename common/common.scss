@@ -1497,6 +1497,10 @@ font-size: 0;
   .above-main-container-outlet.welcome-link-banner-connectors .welcome-wrapper .featured-banner-link > div a:hover, .below-site-header-outlet.welcome-link-banner-connector .welcome-wrapper .featured-banner-link > div a:hover {
   text-decoration: none;
   }
+  .signup-progress-bar,
+  .sidebar-section-header-global-indicator {
+  display: none;
+  }
 @media screen and (min-width:768px) {
 body::not(.has-sidebar-page).topic-body {
 width: 80%;
