@@ -1818,13 +1818,15 @@ width: 100%;
   background-color: var(--quaternary);
      }
      .search-menu .search-link:focus, .search-menu .search-link:hover, .search-menu-container .search-link:focus, .search-menu-container .search-link:hover {
-    background-color: var(--d-hover);
+    background-color: var(--ssd-hover);
      }
 
-     .sidebar-section[data-section-name="tags"] {
+     .sidebar-section[data-section-name="tags"],
+     .sidebar-section[data-section-name="channels-chats"],
+     .sidebar-section[data-section-name="messages"] {
       display: none;
     }
-    .topic-post.group-GROUP-NAME .topic-body .cooked::after {
+    .topic-post.group-Team .topic-body .cooked::after {
       content: "team";
       font-size: small;
       color: #d29400;
