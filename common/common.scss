@@ -55,6 +55,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
   :root {
 --modal-max-width: 1024px;
 }
+}
 @media screen and (min-width: 1200px) {
   :root {
 --d-max-width: 1200px;
@@ -920,8 +921,12 @@ width: 100%;
  .d-user-card__cakeday {
 display: none;
  }
- .nav-pills > li a.active {
-
+ .nav-pills > li a.active,
+ .nav-pills > li a.active:hover,
+ .nav-pills > li a.active:active {
+  color: var(--d-input-bg-color);
+  background: var(--secondary-high);
+  border-radius: .23rem;
  }
  .user-preferences .form-vertical {
 width: unset;
