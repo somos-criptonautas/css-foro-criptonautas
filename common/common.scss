@@ -98,6 +98,10 @@ font-size: unset !important;
 li p {
 font-size: unset !important;
 }
+.header-sidebar-toggle button .d-icon,
+.d-header-icons .d-icon {
+  color: var(--primary-400);
+}
 #reply-control.hide-preview {
 max-width: unset;
 }
