@@ -598,12 +598,16 @@ font-size: var(--font-down-1);
    background: var(--quaternary);
  }
  
+ .archetype-private_message .topic-map .participants .user {
+  padding: 0.45rem 0.65rem;
+ }
  .timeline-container .topic-timeline .timeline-handle {
    background-color: var(--tertiary);
  }
  
  .timeline-container .topic-timeline .timeline-scrollarea {
    border-left-color: var(--tertiary);
+   border-left: 3px solid var(--tertiary-low-or-tertiary-high);
  }
 
  .timeline-container .fancy-title {
