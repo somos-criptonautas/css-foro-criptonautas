@@ -374,12 +374,12 @@ padding-top: 1.23rem;
 display: none;
  }
  .user-main .about .details .featured-topic {
- font-size: var(--font-up-4);
+ font-size: var(--font-0);
  font-weight: bold;
  }
  .user-main .about .details .location-and-website,
  .user-main .about .details .primary .bio {
-  font-size: var(--font-up-3);
+  font-size: var(--font-up-2);
  }
  .suggested-topics-message .badge-wrapper {
  font-size: inherit;
@@ -901,13 +901,19 @@ display: block !important;
 flex-direction: column-reverse;
 height: 100%;
  }
+ .user-content {
+padding-top: 0;
+ }
  .new-user-content-wrapper .user-content {
 width: calc(100% - 10rem);
 margin-left: 1.73rem;
 margin-right: auto;
  }
  .d-user-card__name {
-font-size: var(--font-up-4);
+font-size: var(--font-up-2);
+ }
+ .d-user-card__container {
+  line-height: 1.5;
  }
  .user-navigation .user-navigation-secondary .category-breadcrumb {
   padding: 1rem 0;
@@ -1131,15 +1137,12 @@ padding-top: 2rem;
  .admin-area .sidebar-wrapper .admin-panel {
   padding: 0.5rem 0.25rem;
  }
- .btn:not(.themes-tab):not(.components-tab) {
-    font-size: 1.11rem;
- }
  .docs-browse .docs-topic .topic-content h1 {
   text-align: center;
  }
  .docs-browse .docs-topic .docs-nav-link.more,
  .docs-browse .docs-topic .docs-nav-link.return {
-  font-size: var(--font-up-5);
+  font-size: var(--font-up-2);
   font-weight: bold;
  }
  nav.post-controls .actions .extra-buttons {
