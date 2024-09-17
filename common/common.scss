@@ -93,7 +93,7 @@ font-size: unset !important;
   background-color: var(--primary-100);
 }
 .discourse-tag:hover {
-  background-color: var(--primary-2s00);
+  background-color: var(--primary-200);
 }
 li p {
 font-size: unset !important;
@@ -376,11 +376,15 @@ padding-top: 1.23rem;
 
  .user-main dt.trust-level,
  .user-main dd.trust-level {
-display: none;
+display: none !important;
  }
  .user-main .about .details .featured-topic {
  font-size: var(--font-0);
  font-weight: bold;
+ }
+ .select-kit.combo-box.tag-drop .select-kit-row[data-value="all-tags"], .select-kit.combo-box.tag-drop .select-kit-row[data-value="no-tags"] {
+color: unset;
+font-weight: unset;
  }
  .user-main .about .details .location-and-website,
  .user-main .about .details .primary .bio {
@@ -1001,6 +1005,10 @@ border-bottom: none !important;
  .user-menu.revamped .tabs-list .btn:hover {
   background: var(--active_color);
  }
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover .discourse-tag,
+ .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:active .discourse-tag {
+  background-color:  var(--secondary);
+}
 .anon .sidebar-section-link-wrapper[data-list-item-name="groups"],
 .anon .sidebar-section-link-wrapper[data-list-item-name="borradores"],
 :not(.anon) .sisdebar-section[data-section-name="info"],
@@ -1242,7 +1250,20 @@ display: none !important;
  .discourse-post-event {
   height: 423px !important;
  }
-
+ .user-card-metadata-outlet {
+  display: flex;
+  border-radius: var(--d-border-radius);
+  align-items: center;
+ }
+ .gamification-score.desc {
+font-weight: bold;
+ }
+ .links-section .domain {
+font-size: var(--font-down-5);
+ }
+ .links-section .domain ul li .a:not(.domain) {
+font-weight: bold;
+ }
  .discourse-post-event .discourse-post-event-widget {
   font-size: var(--font-0-rem);
  }
