@@ -899,7 +899,7 @@ padding: 0.33rem;
  }
 .new-user-content-wrapper {
 display: flex;
-padding-top: 1.33rem;
+padding-top: 1.73rem;
  }
  .new-user-wrapper .user-navigation-secondary {
 display: block !important;
@@ -912,6 +912,7 @@ height: 100%;
  }
  .user-content {
 padding-top: 0;
+margin-top: 0;
  }
  .new-user-content-wrapper .user-content {
 width: calc(100% - 10rem);
@@ -933,8 +934,19 @@ padding: 1rem;
  .user-messages-page .new-user-wrapper .user-navigation-secondary .user-nav-messages-dropdown {
 width: 100%;
  }
- .d-user-card__cakeday {
+ .d-user-card__cakeday,
+ .top-sub-section .summary-user-list .replied-section .pull-right,
+ .top-section .badges-section {
 display: none;
+ }
+ .extra-info-wrapper .discourse-tag.box {
+  background-color: var(--primary-low);
+ }
+ .top-sub-section {
+  width: inherit;
+ }
+ .discourse-no-touch .admin-customize .themes-list-header .tab:focus.active, .discourse-no-touch .admin-customize .themes-list-header .tab:hover.active {
+   color: inherit;
  }
  .nav-pills > li a.active,
  .nav-pills > li a.active:hover,
@@ -943,7 +955,8 @@ display: none;
   background: var(--tertiary);
   border-radius: .23rem;
  }
- .nav-pills > li a.active::after, .nav-pills > li button.active::after {
+ .nav-pills > li a.active::after, .nav-pills > li button.active::after,
+ admin-customize .themes-list-header .tab.active::after {
 content: unset;
  }
  .user-preferences .form-vertical {
@@ -1934,4 +1947,12 @@ width: 100%;
   }
   .d-modal.-large .d-modal__container {
     max-width: 1024px;
+  }
+
+  /* no-time-experiment */
+  span.relative-date,
+  .timeline-container .topic-timeline .start-date,
+  .timeline-container .topic-timeline .timeline-ago,
+  .timegap {
+    display: none;
   }
