@@ -910,6 +910,14 @@ display: none !important;
 
  /* satonotdead stuff */
 
+ .top-section .replied-section,
+ .top-section .badges-section,
+ .top-categories-section {
+  display: none;
+  }
+ .summary-user-list ul li:nth-child(-n+3) {
+  display: none;
+ }
 
  #reply-control .reply-to .composer-action-title .d-icon {
 padding: 0.33rem;
@@ -1203,9 +1211,6 @@ padding-top: 2rem;
  }
  
 .control-group .advanced-search-topics-posts fieldset.grouped-control {
-display: none;
-}
-.top-categories-section {
 display: none;
 }
  .related-messages-title,
