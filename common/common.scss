@@ -307,7 +307,7 @@ color: var(--white);
 .topic-list-item .locked-down {
 opacity: 0.5;
 }
-.category .category-box .category-box-sin-canal {
+.category-box-sin-canal {
   display: none;
 }
 .topic-map {
@@ -910,10 +910,19 @@ display: none !important;
 
  /* satonotdead stuff */
 
- .top-section .replied-section,
- .top-section .badges-section,
- .top-categories-section {
+ .replied-section,
+ .badges-section,
+ .top-categories-section,
+ .most-liked-section,
+ .anon .user-main-nav-outlet .billing {
   display: none;
+  }
+  a#user-nav-skip-link, a#skip-link {
+    padding: .15em .5em;
+  }
+  .top-sub-section .pull-left,
+  .top-sub-section .pull-right {
+  float: none;
   }
  .summary-user-list ul li:nth-child(-n+3) {
   display: none;
@@ -941,8 +950,7 @@ margin-top: 0;
  }
  .new-user-content-wrapper .user-content {
 width: calc(100% - 10rem);
-margin-left: 1.73rem;
-margin-right: auto;
+margin: auto;
  }
  .d-user-card__name {
 font-size: var(--font-up-2);
