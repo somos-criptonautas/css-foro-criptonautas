@@ -986,7 +986,8 @@ display: none;
   width: inherit;
  }
  .discourse-no-touch .admin-customize .themes-list-header .tab:focus.active, .discourse-no-touch .admin-customize .themes-list-header .tab:hover.active {
-   color: inherit;
+  color: var(--primary);
+  background: var(--d-nav-bg-color--active);
  }
  .nav-pills > li a.active,
  .nav-pills > li a.active:hover,
