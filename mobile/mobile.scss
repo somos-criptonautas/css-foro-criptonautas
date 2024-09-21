@@ -167,9 +167,13 @@ font-size: var(--font-down-1);
   line-height: 1.53 !important;
 }
 .it-foot-social a svg {
-  height: 1.73rem;
-  width: 1.73rem;
+  height: 2rem;
+  width: 2rem;
   }
+  .it-foot-social a.rss svg {
+    width: 2.53rem;
+    height: 2.53rem;
+    }
   .d-header {
   height: 4.33rem;
   font-size: var(--font-down-2);
