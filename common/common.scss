@@ -310,6 +310,13 @@ opacity: 0.5;
 .category-box-sin-canal {
   display: none;
 }
+.categories-list .category h3, .categories-list .category h4 {
+  background-color: var(--category-badge-color);
+  padding: 0.5rem 0;
+}
+.category-boxes, .category-boxes-with-topics {
+margin-top: 1.8rem;
+}
 .topic-map {
 max-width: 95%;
 }
