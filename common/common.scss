@@ -1049,8 +1049,8 @@ a#skip-link {
   background: var(--d-nav-bg-color--active);
 }
 .nav-pills > li a.active,
-.nav-pills > li a.active:hover,
-.nav-pills > li a.active:active {
+.nav-pills > li a.hover,
+.nav-pills > li a.active:hover {
   color: var(--d-input-bg-color) !important;
   background: var(--tertiary);
   border-radius: 0.23rem;
