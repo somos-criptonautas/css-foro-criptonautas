@@ -1,6 +1,6 @@
 // hardcoded-voting-menu
 .voting-popup-menu {
-padding: 1rem !important;
+  padding: 1rem !important;
 }
 
 // sidebar
@@ -12,10 +12,10 @@ padding: 1rem !important;
     0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
 }
 .d-editor-textarea-wrapper textarea {
-line-height: inherit !important;
+  line-height: inherit !important;
 }
 .d-header .title {
-overflow: inherit !important;
+  overflow: inherit !important;
 }
 #main-outlet-wrapper {
   .sidebar-wrapper {
@@ -43,5 +43,5 @@ body.has-sidebar-page {
 }
 
 .sidebar-footer-wrapper .sidebar-footer-container {
-padding: 0;
+  padding: 0;
 }

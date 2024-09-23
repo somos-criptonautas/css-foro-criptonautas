@@ -4,13 +4,12 @@
 @import "./color_definitions";
 @import "./common/components/buttons";
 
-
 :root {
---font-0: 22px;
---font-up-2: 24px;
-/*font-family: "Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";*/
+  --font-0: 22px;
+  --font-up-2: 24px;
+  /*font-family: "Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";*/
 }
-  
+
 article.post {
   border-bottom: none;
   padding: 1rem;
@@ -22,9 +21,9 @@ article.post {
     background-color: var(--danger-low);
   }
 
-   a.post-replies.button {
+  a.post-replies.button {
     display: none !important;
-    }
+  }
 
   .quote .title {
     border-left: 5px solid var(--primary-very-low);
@@ -68,8 +67,8 @@ article.post {
     }
     a {
       pointer-events: none;
-  cursor: default;
-  text-decoration: none;
+      cursor: default;
+      text-decoration: none;
     }
   }
 
@@ -122,7 +121,7 @@ img.emoji {
 }
 
 .d-editor-preview aside.onebox .onebox-body p:last-child {
-font-size: var(--font-down-1)
+  font-size: var(--font-down-1);
 }
 
 .in-reply-to {
@@ -143,7 +142,7 @@ font-size: var(--font-down-1)
 }
 
 header.discourse {
-border: 0
+  border: 0;
 }
 
 .embed-error {
@@ -165,44 +164,44 @@ footer {
   display: inline-block;
   padding: 1.33rem 3rem !important;
   margin: 3rem auto !important;
-  opacity: .93;
+  opacity: 0.93;
   cursor: pointer;
   display: flex;
   align-self: center;
   font-size: 1.23rem;
-  letter-spacing: -.011em;
-box-shadow: 0 0 0 0 transparent,0 0 0 0 transparent,0 0 1px 0 rgba(0,0,0,.1),0 2px 6px 0 rgba(0,0,0,.03);
-font-weight: 500;
-opacity: .93;
+  letter-spacing: -0.011em;
+  box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent,
+    0 0 1px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.03);
+  font-weight: 500;
+  opacity: 0.93;
   margin: 1rem;
   text-align: center;
   transition: box-shadow 73ms ease, color 73ms ease;
 }
 .button:hover {
-   box-shadow: 0 0 40px 40px var(--secondary-low) inset !important;
- }
- .discourse-no-touch .btn-flat:hover {
+  box-shadow: 0 0 40px 40px var(--secondary-low) inset !important;
+}
+.discourse-no-touch .btn-flat:hover {
   background: var(--d-sidebar-highlight-background);
- }
- .button:hover,
- .button:focus {
-    color: #fff !important;
-    outline: 0;
-  }
-
+}
+.button:hover,
+.button:focus {
+  color: #fff !important;
+  outline: 0;
+}
 
 .dark {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .logo,
 hr,
 small,
 span.replies {
-display: none;
+  display: none;
 }
 footer.clearfix {
-display:flex;
+  display: flex;
 }
 
 // load onebox CSS at the end
@@ -212,7 +211,7 @@ display:flex;
 // which we will now clean up
 .onebox {
   font-size: var(--font-down-1) !important;
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
 }
 
 // images large enough for the lightbox wrapper don't have bottom margins
@@ -305,13 +304,12 @@ div.lightbox-wrapper {
   }
 }
 
-
 /* Fonts */
 
-   html {
-    background-color: unset;
-   }
+html {
+  background-color: unset;
+}
 
-   article.post .cooked p {
-    line-height: 1.66 !important;
+article.post .cooked p {
+  line-height: 1.66 !important;
 }

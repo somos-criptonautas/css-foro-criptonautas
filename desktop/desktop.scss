@@ -3,45 +3,46 @@
 @import "sidebar-desktop";
 
 html {
-    font-size: 23px;
-    }
+  font-size: 23px;
+}
 
-    @media screen and (max-width: 768px) {
-    html {
-        font-size: 21px;
-        }
-    }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 21px;
+  }
+}
 
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        html {
-            font-size: 22px;
-            }
-        }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 22px;
+  }
+}
 .chat-messages-container p {
-font-size: var(--font-down-1);
+  font-size: var(--font-down-1);
 }
 @media screen and (min-width: 925px) {
-    .container.posts {
-      grid-template-columns: unset;
-    }
+  .container.posts {
+    grid-template-columns: unset;
   }
+}
 .user-preferences .category-selector {
-    max-width: 70%
-    }
-  .container.posts > .row,
-  .topic-body,
-  .small-action .small-action-desc {
+  max-width: 70%;
+}
+.container.posts > .row,
+.topic-body,
+.small-action .small-action-desc {
   width: 100% !important;
-  }
-  .admin-main-nav .nav-pills > li > a,
-  .admin-controls .nav-pills > li a {
-    padding: 0.65rem 0.85rem;
-  }
+}
+.admin-main-nav .nav-pills > li > a,
+.admin-controls .nav-pills > li a {
+  padding: 0.65rem 0.85rem;
+}
 
-  .html {
-    background-size: 103vw,103vw,100vw;
-    background-image: var(--bg-svg-pieces),var(--bg-svg-yellow),var(--bg-svg-bluewave);
-    background-repeat: no-repeat;
-    background-position: 50% 125%,0px 95px,0px 175px;
-    background-attachment: fixed;
-  }
+.html {
+  background-size: 103vw, 103vw, 100vw;
+  background-image: var(--bg-svg-pieces), var(--bg-svg-yellow),
+    var(--bg-svg-bluewave);
+  background-repeat: no-repeat;
+  background-position: 50% 125%, 0px 95px, 0px 175px;
+  background-attachment: fixed;
+}
