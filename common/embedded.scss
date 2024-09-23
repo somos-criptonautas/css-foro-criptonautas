@@ -8,7 +8,7 @@
 :root {
 --font-0: 22px;
 --font-up-2: 24px;
-font-family: "Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";
+/*font-family: "Lato",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans";*/
 }
   
 article.post {
@@ -313,6 +313,5 @@ div.lightbox-wrapper {
    }
 
    article.post .cooked p {
-    font-family: "Lato",Georgia,Times,serif !important;
     line-height: 1.66 !important;
 }
