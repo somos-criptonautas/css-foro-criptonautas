@@ -292,22 +292,6 @@ aside.quote .title a {
   border: 2px solid var(--primary-low-mid);
   padding: 0 0.5rem;
 }
-.btn,
-a,
-.sidebar-section-wrapper,
-.btn,
-.btn-flat,
-.json-editor-btn-collapse,
-.discourse-no-touch
-  .sidebar-section-wrapper
-  .sidebar-section-header-wrapper
-  .btn.dropdown-select-box-header,
-.discourse-no-touch
-  .sidebar-section-wrapper
-  .sidebar-section-header-wrapper
-  .sidebar-section-header-button {
-  transition: none !important;
-}
 .sidebar-section-wrapper
   .sidebar-section-header-wrapper
   .btn.dropdown-select-box-header,
@@ -1715,8 +1699,10 @@ a.btn-flat {
 .sidebar-wrapper .sidebar-sections {
   padding: 0;
 }
+.topic-list .topic-list-data.posters {
+display: none;
+}
 #main-outlet-wrapper .sidebar-wrapper {
-  margin: 0 !important;
   border: 0 !important;
   box-shadow: none !important;
   border-radius: 0 !important;
