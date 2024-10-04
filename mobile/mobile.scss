@@ -122,7 +122,7 @@ ol.category-breadcrumb,
     cursor: pointer;
   }
   .topic-list .topic-list-data {
-    padding: 0.87rem 0;
+    padding: 0.67rem !important;
   }
   .drop {
     top: calc(100% + 0.5em);
@@ -341,4 +341,13 @@ ol.category-breadcrumb,
 .admin-main-nav .nav-pills > li > a,
 .admin-controls .nav-pills > li a {
   padding: 0.55rem 0.75rem;
+}
+.discourse-tag.box {
+padding: unset;
+}
+.new-user-wrapper {
+padding-top: 0.51rem;
+}
+.location-and-website .local-time {
+display: none;
 }
