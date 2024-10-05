@@ -586,7 +586,10 @@ textarea[readonly] {
 .select-kit.combo-box.category-drop .select-kit-row {
   color: var(--primary-high) !important;
   font-weight: unset !important;
-  font-size: var(--font-down-1) !important;
+}
+
+.select-kit.combo-box.category-drop .badge-category__wrapper {
+font-size: var(--font-down-1);
 }
 
 .list-controls .nav-pills .drop li a,
@@ -935,7 +938,6 @@ html body #main-outlet {
   display: none;
 }
 .quote-button {
-  background-color: var(--primary-low-mid);
   border-radius: 0.5em;
 }
 
@@ -1043,7 +1045,8 @@ a#skip-link {
   background: var(--d-nav-bg-color--active);
 }
 .nav-pills > li a.active,
-.nav-pills > li a.hover {
+.nav-pills > li a.hover,
+.nav-pills > li a.active:hover {
   color: var(--d-input-bg-color) !important;
   background: var(--tertiary);
   border-radius: 0.23rem;
@@ -2177,4 +2180,21 @@ $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
 .timeline-container .topic-timeline .timeline-ago,
 .timegap {
   display: none;
+}
+
+.admin-main-nav .nav-pills > li > a,
+.admin-controls .nav-pills > li a {
+  padding: 0.55rem 0.75rem;
+}
+.discourse-tag.box {
+padding: unset;
+}
+.new-user-wrapper {
+padding-top: 0.51rem;
+}
+.location-and-website .local-time {
+display: none;
+}
+.btn .insert-quote {
+font-size: var(--font-down-2);
 }

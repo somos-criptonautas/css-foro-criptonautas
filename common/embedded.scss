@@ -181,8 +181,9 @@ footer {
 .button:hover {
   box-shadow: 0 0 40px 40px var(--secondary-low) inset !important;
 }
-.discourse-no-touch .btn-flat:hover {
-  background: var(--d-sidebar-highlight-background);
+.discourse-no-touch .d-header-icons .icon:hover,
+.discourse-no-touch .d-header-icons .icon:focus {
+  background: var(--d-sidebar-background);
 }
 .button:hover,
 .button:focus {
