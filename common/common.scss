@@ -196,13 +196,15 @@ li p {
   color: var(--primary-very-high);
 }
 .category-boxes h3 {
-color: #f1f1f1;
+  color: #f1f1f1;
 }
-.nav-pills > li a.active .d-icon, .nav-pills > li button.active .d-icon {
-color: unset;
+.nav-pills > li a.active .d-icon,
+.nav-pills > li button.active .d-icon {
+  color: unset;
 }
-.nav-pills > li > a .d-icon, .nav-pills > li button .d-icon {
-  color: var(--d-sidebar-link-icon-color)
+.nav-pills > li > a .d-icon,
+.nav-pills > li button .d-icon {
+  color: var(--d-sidebar-link-icon-color);
 }
 .switch span.toggle-icon {
   margin: 0;
@@ -589,7 +591,7 @@ textarea[readonly] {
 }
 
 .select-kit.combo-box.category-drop .badge-category__wrapper {
-font-size: var(--font-down-1);
+  font-size: var(--font-down-1);
 }
 
 .list-controls .nav-pills .drop li a,
@@ -1316,10 +1318,10 @@ nav.post-controls .actions .extra-buttons {
   margin: 0;
 }
 .d-modal__header {
-border-bottom: none;
+  border-bottom: none;
 }
 .user-menu.revamped .bottom-tabs {
-border-top: none;
+  border-top: none;
 }
 .user-menu.revamped #quick-access-profile li > * {
   font-size: var(--font-down-1);
@@ -1552,7 +1554,7 @@ aside.onebox {
 }
 #reply-control .category-input .category-chooser.has-selection .name,
 #reply-control .with-tags .title-input #reply-title {
-font-size: inherit;
+  font-size: inherit;
 }
 .badge-category__wrapper {
   font-size: unset;
@@ -1599,7 +1601,7 @@ a.btn-flat {
   display: none;
 }
 .show-advanced-search {
-background: none;
+  background: none;
 }
 #reply-control.draft,
 #reply-control.saving {
@@ -1611,7 +1613,7 @@ background: none;
   line-height: 0;
 }
 .d-modal__header .modal-close .d-icon {
-font-size: var(--font-up-3);
+  font-size: var(--font-up-3);
 }
 [data-wrap="button"] a {
   display: inline-block;
@@ -2190,14 +2192,14 @@ $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
   padding: 0.55rem 0.75rem;
 }
 .discourse-tag.box {
-padding: unset;
+  padding: unset;
 }
 .new-user-wrapper {
-padding-top: 0.51rem;
+  padding-top: 0.51rem;
 }
 .location-and-website .local-time {
-display: none;
+  display: none;
 }
 .btn .insert-quote {
-font-size: var(--font-down-2);
+  font-size: var(--font-down-2);
 }
