@@ -328,7 +328,7 @@ ol.category-breadcrumb,
 
 .category-list-item.category {
   background: var(--secondary);
-  border-radius: 1em;
+  padding-left: 0.45rem;
   tbody {
     display: flex;
     flex-direction: column;
