@@ -331,7 +331,7 @@ aside.quote .title a {
   background: none;
 }
 .sidebar-section-wrapper {
-border: none;
+  border: none;
 }
 .categories-and-latest div.column,
 .categories-and-top div.column {
@@ -2206,4 +2206,8 @@ $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
 }
 .btn .insert-quote {
   font-size: var(--font-down-2);
+}
+
+.user-content .top-section .badges-section {
+  display: none;
 }
