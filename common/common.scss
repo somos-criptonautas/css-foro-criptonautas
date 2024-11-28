@@ -1051,12 +1051,14 @@ a#skip-link {
   color: var(--primary);
   background: var(--d-nav-bg-color--active);
 }
-.nav-pills > li a.active,
+.nav-pills > li a.active {
+  color: var(--tertiary) !important;
+  background: none;
+  border-radius: none;
+  box-shadow: 0 3px 0 var(--d-input-bg-color);
+}
 .nav-pills > li a.hover,
 .nav-pills > li a.active:hover {
-  color: var(--d-input-bg-color) !important;
-  background: var(--tertiary);
-  border-radius: 0.23rem;
 }
 .nav-pills > li a.active::after,
 .nav-pills > li button.active::after,
@@ -2017,9 +2019,6 @@ body.has-sidebar-page .suggested-topics-message {
 .nav-pills > li > a .d-icon,
 .nav-pills > li button .d-icon {
   margin-right: 0.33rem;
-}
-.nav-pills > li {
-  margin-right: 0.25rem;
 }
 nav-pills > li a:active {
   color: var(--primary);

@@ -62,7 +62,9 @@ body.category .category-breadcrumb .select-kit-header,
 .navigation-controls {
   margin-bottom: 0.5em !important;
 }
-
+#navigation-bar {
+  box-shadow: 0 3px 0 var(--primary-50);
+}
 body.category .navigation-categories .list-container,
 .categories-list .list-container {
   padding-top: 1em !important;
