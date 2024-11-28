@@ -94,6 +94,7 @@ body:not(.ios-safari-composer-hacks) #reply-control.open {
   --bg-svg-bluewave: url("data:image/svg+xml;charset=utf8,%3Csvg width='1705' height='701' viewBox='0 0 1705 701' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 29.3568C0 29.3568 158.465 95.4096 877.239 29.3568C1596.01 -36.696 1705 29.3568 1705 29.3568V701C1034.89 677.846 653.394 526.775 0 594.345V29.3568Z' fill='%23d1f0ff'/%3E%3C/svg%3E");
   --d-border-radius: 0.33rem;
   --topic-progress-height: 48px;
+  --shadow-header: 0 0 0 1px var(--primary-low);
 }
 label,
 input,
@@ -187,7 +188,8 @@ li p {
 }
 .sidebar-row,
 .sidebar-section-wrapper .sidebar-section-header-text {
-  font-size: var(--font-0);
+  font-size: var(--font-down-1);
+  font-weight: 500;
   padding-left: 0.25rem;
 }
 .category-boxes .description {
@@ -625,7 +627,7 @@ div.ac-wrap,
   border-radius: var(--d-border-radius);
 }
 .d-header {
-  box-shadow: none;
+  box-shadow: var(--shadow-header);
   width: inherit !important;
   font-size: var(--font-down-3);
 }
@@ -1369,8 +1371,7 @@ nav.post-controls .actions .extra-buttons {
 .popup-menu .btn:hover {
   color: var(--secondary) !important;
 }
-.discourse-no-touch .btn:hover,
-.discourse-no-touch .btn.btn-hover .d-icon {
+.discourse-no-touch .btn:hover {
   color: var(--primary);
 }
 .topic-category {
@@ -1554,8 +1555,7 @@ aside.onebox {
   display: none !important;
 }
 .toggle-password-mask,
-.search-container .search-bar input.search-query,
-.select-kit .select-kit-header {
+.search-container .search-bar input.search-query {
   font-size: var(--font-down-1);
   padding: 0.45rem 0.65rem;
 }
@@ -1746,7 +1746,10 @@ a.btn-flat {
   padding: 1.8rem 0;
 }
 .sidebar-wrapper .sidebar-container {
-  border: none;
+  border-right: 1px solid var(--primary-low);
+}
+.has-sidebar-page .sidebar-wrapper {
+  border-right: 1px solid var(--primary-low);
 }
 .sidebar-section-link-content-badge {
   margin-right: 0.5rem;
@@ -2053,12 +2056,6 @@ aside.quote .title {
   font-weight: 700 !important;
 }
 
-.sidebar-row,
-.sidebar-section-wrapper .sidebar-section-header-text {
-  font-size: var(--font-down-1);
-  font-weight: 500;
-}
-
 .category-boxes-with-topics {
   margin-bottom: 3rem;
 }
@@ -2132,8 +2129,7 @@ body.category-trading-at-padawan
   width: 73%;
   padding: 0 1rem;
 }
-.floating-search-input,
-.full-width .contents .topic-list .topic-list-header {
+.floating-search-input {
   font-size: var(--font-down-2);
 }
 .more-topics__container .nav li .btn d-button-label {
@@ -2210,4 +2206,17 @@ $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
 
 .user-content .top-section .badges-section {
   display: none;
+}
+
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
+  background-color: var(--primary-high);
+}
+
+.extra-info-wrapper .topic-header-extra .discourse-tags .discourse-tag {
+  margin: 0 0.15rem;
+}
+.topic-list-item,
+tr {
+  border-bottom: 1px solid var(--primary-low);
 }
