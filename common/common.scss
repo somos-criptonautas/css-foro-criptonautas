@@ -1371,9 +1371,6 @@ nav.post-controls .actions .extra-buttons {
 .popup-menu .btn:hover {
   color: var(--secondary) !important;
 }
-.discourse-no-touch .btn:hover {
-  color: var(--primary);
-}
 .topic-category {
   margin-top: 0.35rem;
   gap: 0.33rem;
@@ -2206,11 +2203,6 @@ $quaternary: dark-light-choose($light-theme-quaternary, $dark-theme-quaternary);
 
 .user-content .top-section .badges-section {
   display: none;
-}
-
-.discourse-no-touch .btn:hover,
-.discourse-no-touch .btn.btn-hover {
-  background-color: var(--primary-high);
 }
 
 .extra-info-wrapper .topic-header-extra .discourse-tags .discourse-tag {
