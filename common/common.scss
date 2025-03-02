@@ -1282,7 +1282,7 @@ nav.post-controls .show-replies {
   padding-top: 2rem;
 }
 .boxed .contents {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .admin-area .sidebar-wrapper .admin-panel {
   padding: 0.5rem 0.25rem;
@@ -1536,7 +1536,8 @@ a.topic-excerpt {
 }
 .d-user-card__bio-excerpt,
 .d-user-card__relative-time,
-.user-card-location-and-website-outlet {
+.user-card-location-and-website-outlet,
+.d-user-card__badges {
   display: none;
 }
 aside.onebox {
