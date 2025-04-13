@@ -27,34 +27,72 @@ html {
   h1 {
     font-size: 2.5em !important;
   }
+
   p {
     font-weight: normal;
     font-size: $font-0;
   }
 }
-h1 {
-  font-family: var(--heading-font-family);
-  font-weight: 800;
-}
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-family);
+
+html
+  body:not(.static-tos):not(.static-faq):not(.static-privacy):not(
+    .about-page
+  ):not(.static-faq):not(.badges-page):not(.tags-page):not(
+    .archetype-banner
+  ):not(.archetype-regular):not(.archetype-private_message):not(
+    .admin-interface
+  ):not(.edit-category):not(.user-summary-page):not(.user-activity-page):not(
+    .user-invites-page
+  ):not(.user-preferences-page):not(.user-messages-page):not(
+    .user-notifications-page
+  ):not(.user-badges-page)
+  #main-outlet {
+  width: calc(100% - 1em);
+  padding: 0em 0.5em 1em 0.5em;
+  box-shadow: none;
+  background-color: transparent;
 }
 
-.user-nav__admin {
-  background-color: var(--d-sidebar-highlight-background);
+#main-outlet {
+  margin-inline: auto;
 }
-.timeline-open-jump-to-post-prompt-btn {
-  display: none;
+
+html body #main-outlet .docs {
+  padding: 1em;
+  background-color: var(--secondary);
 }
-.topic-timeline .title {
-  opacity: 0.33;
+
+html body.static-tos #main-outlet,
+html body.no-ember #main-outlet,
+html body.static-privacy #main-outlet,
+html body.about-page #main-outlet,
+html body.static-faq #main-outlet,
+html body.tags-page #main-outlet,
+html body.badges-page #main-outlet,
+html body.archetype-banner #main-outlet,
+html body.archetype-regular #main-outlet,
+html body.archetype-private_message #main-outlet,
+html body.admin-interface #main-outlet,
+html body.user-summary-page #main-outlet,
+html body.user-activity-page #main-outlet,
+html body.user-invites-page #main-outlet,
+html body.user-preferences-page #main-outlet,
+html body.user-messages-page #main-outlet,
+html body.user-notifications-page #main-outlet,
+html body.user-badges-page #main-outlet,
+html body.staff:not(.navigation-topics) #main-outlet {
+  border-radius: 0px;
+  width: calc(100% - 3em);
+  background-color: var(--secondary);
+  margin-bottom: 0px;
+}
+
+.container.posts > .row {
+  max-width: calc(100vw - 1.5em);
 }
 .navigation-categories .navigation-container,
 .categories-list .navigation-container {
-  border-bottom: none !important;
+  border-bottom: 0px !important;
 }
 
 body.category .category-breadcrumb .select-kit-header,
@@ -109,27 +147,17 @@ ol.category-breadcrumb,
   li.navigation-toggle {
     border-radius: 8px;
     background-color: var(--secondary);
+
     a:hover,
     a:focus {
       color: var(--primary);
       background-color: var(--secondary);
     }
   }
-  #topic-progress {
-    width: 100vw;
-    color: var(--primary);
-    opacity: 0.87;
-    height: 2.5rem;
-    background-color: var(--tertiary-300);
-    cursor: pointer;
-  }
-  .topic-list .topic-list-data {
-    padding: 0.6rem !important;
-  }
   .drop {
     top: calc(100% + 0.5em);
     border-radius: 8px;
-    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
   }
 }
 
@@ -269,7 +297,7 @@ ol.category-breadcrumb,
   background: var(--secondary);
   padding: 1em;
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 0.5em;
 }
@@ -290,7 +318,7 @@ ol.category-breadcrumb,
 .full-width .contents .topic-list .topic-list-header tr {
   background-color: var(--secondary);
   border-radius: 8px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(var(--primary-rgb), 0.1);
   margin-bottom: 1em;
 }
@@ -299,14 +327,21 @@ ol.category-breadcrumb,
   flex-wrap: wrap;
 }
 
-.topic-list-item .discourse-tags {
-  order: 3;
-  width: 100%;
-  margin-top: 0.5em;
+.topic-list-item {
+  > .topic-list-data {
+    width: 100%;
+  }
+
+  .discourse-tags {
+    order: 3;
+    width: 100%;
+    margin-top: 0.5em;
+  }
 }
 
 .full-width .contents .topic-list .topic-list-item .posts-map {
   padding: 0;
+
   .number {
     margin: 0;
   }
@@ -327,19 +362,24 @@ ol.category-breadcrumb,
 }
 
 // default category list styles when the modern category boxes theme component isn't used
-
 .category-list-item.category {
   background: var(--secondary);
-  padding-left: 0.45rem;
+  border-radius: 1em;
   tbody {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   td {
     width: 100%;
   }
+
   .num.posts {
     padding-right: 0.25em;
   }
+}
+
+.list-controls .nav-pills .list-control-toggle-link-trigger {
+  color: var(--secondary);
 }

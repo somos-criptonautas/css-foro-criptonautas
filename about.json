@@ -21,22 +21,20 @@
       "highlight": "e6cb37",
       "danger": "d05454",
       "success": "71bd9f",
-      "love": "c16ad7",
-      "hover": "3c3f43"
+      "love": "c16ad7"
     },
-"dark-nauta": {
-  "primary": "f1f1f1",
-  "secondary": "1c2128",
-  "tertiary": "bf98ff",
-  "quaternary": "5107ed",
-  "header_background": "111",
-  "header_primary": "e0e0e0",
-  "highlight": "bc95fc",
-  "danger": "ff3c33",
-  "success": "71bd9f",
-  "love": "c16ad7",
-  "selected": "3c3f43",
-  "hover": "3c3f43"
-}
-  }
+    "air-dark": {
+      "primary": "e0e0e0",
+      "secondary": "2d2d2d",
+      "tertiary": "9a5cfd",
+      "quaternary": "71bd9f",
+      "header_background": "202020",
+      "header_primary": "e0e0e0",
+      "highlight": "9a5cfd",
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "c16ad7"
+    }
+  },
+  "screenshots": ["screenshots/light.png", "screenshots/dark.png"]
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .showcased-categories-sidebar .two-topic-list-sidebar {
   .topic-excerpt {
     display: none;
@@ -14,16 +15,10 @@
 .full-width .contents .topic-list {
   border-spacing: 0 0.125em;
 }
+=======
+>>>>>>> 03fc59b9814897ab39aa6a6963381b6bd09bf83e
 .showcased-categories-sidebar {
-  .full-width .contents .topic-list {
-    display: unset;
-  }
-
   .two-topic-list-sidebar {
-    .topic-excerpt {
-      display: none;
-    }
-
     .btn-link.posts-map.badge-posts {
       display: block;
     }
@@ -31,5 +26,13 @@
     .topic-list .topic-list-item {
       height: unset;
     }
+
+    .topic-excerpt {
+      display: none;
+    }
+  }
+
+  .full-width .contents .topic-list {
+    display: unset;
   }
 }
