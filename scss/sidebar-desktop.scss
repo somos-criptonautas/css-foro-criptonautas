@@ -4,7 +4,6 @@
 }
 
 // sidebar
-<<<<<<< HEAD
 
 @mixin box-shadow($value: 0px) {
   box-shadow: 0 24px 40px rgba(0, 0, 0, 0.07),
@@ -18,44 +17,21 @@
 .d-header .title {
   overflow: inherit !important;
 }
-=======
->>>>>>> 03fc59b9814897ab39aa6a6963381b6bd09bf83e
 #main-outlet-wrapper {
   .sidebar-wrapper {
     margin: 30px 0 50px;
     background-color: var(--secondary);
     border-radius: 1em;
     top: calc(var(--header-offset) + 30px);
-<<<<<<< HEAD
     height: calc(100vh - (var(--header-offset) + 3rem));
     @include box-shadow;
   }
-=======
-    height: calc(100vh - (var(--header-offset) + 80px));
-    box-shadow:
-      0 24px 40px rgba(0, 0, 0, 0.07),
-      0 10.8529px 24.1177px rgba(0, 0, 0, 0.0456112),
-      0 4.50776px 10.0172px rgba(0, 0, 0, 0.035),
-      0 1.63037px 3.62304px rgba(0, 0, 0, 0.0243888);
-  }
-
-  .sidebar-footer-wrapper {
-    background: var(--secondary);
-  }
->>>>>>> 03fc59b9814897ab39aa6a6963381b6bd09bf83e
 }
 
 body.has-sidebar-page {
   #main-outlet-wrapper {
     padding-left: 8px;
   }
-<<<<<<< HEAD
-=======
-
-  #main-outlet {
-    max-width: unset;
-  }
->>>>>>> 03fc59b9814897ab39aa6a6963381b6bd09bf83e
 }
 
 .desktop-view .sidebar-footer-wrapper .sidebar-footer-container::before {
